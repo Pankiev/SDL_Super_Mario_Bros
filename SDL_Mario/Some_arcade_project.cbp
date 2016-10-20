@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Some_arcade_project" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Some_arcade_project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Some_arcade_project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++0x" />
+			<Add directory="i686-w64-mingw32/include/SDL2" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="i686-w64-mingw32/bin" />
+		</ResourceCompiler>
+		<Linker>
+			<Add option="-l mingw32 -l SDL2main -l SDL2" />
+			<Add option="-l SDL2_ttf -l SDL2_mixer -l SDL2_image" />
+			<Add directory="i686-w64-mingw32/lib" />
+		</Linker>
+		<Unit filename="Controller/Controller.cpp" />
+		<Unit filename="Controller/Controller.h" />
+		<Unit filename="Controller/HardwareController.cpp" />
+		<Unit filename="Controller/HardwareController.h" />
+		<Unit filename="Controller/Timer.cpp" />
+		<Unit filename="Controller/Timer.h" />
+		<Unit filename="Mario/Controller/AnimationSet.cpp" />
+		<Unit filename="Mario/Controller/AnimationSet.h" />
+		<Unit filename="Mario/Controller/BrowserAnimation.cpp" />
+		<Unit filename="Mario/Controller/BrowserAnimation.h" />
+		<Unit filename="Mario/Controller/GoombasAnimation.cpp" />
+		<Unit filename="Mario/Controller/GoombasAnimation.h" />
+		<Unit filename="Mario/Controller/GoombasBlueAnimation.cpp" />
+		<Unit filename="Mario/Controller/GoombasBlueAnimation.h" />
+		<Unit filename="Mario/Controller/GoombasBrownAnimation.cpp" />
+		<Unit filename="Mario/Controller/GoombasBrownAnimation.h" />
+		<Unit filename="Mario/Controller/KoopaAnimation.cpp" />
+		<Unit filename="Mario/Controller/KoopaAnimation.h" />
+		<Unit filename="Mario/Controller/KoopaBlueAnimation.cpp" />
+		<Unit filename="Mario/Controller/KoopaBlueAnimation.h" />
+		<Unit filename="Mario/Controller/KoopaGreenAnimation.cpp" />
+		<Unit filename="Mario/Controller/KoopaGreenAnimation.h" />
+		<Unit filename="Mario/Controller/KoopaRedAnimation.cpp" />
+		<Unit filename="Mario/Controller/KoopaRedAnimation.h" />
+		<Unit filename="Mario/Controller/Level1Factory.cpp" />
+		<Unit filename="Mario/Controller/Level1Factory.h" />
+		<Unit filename="Mario/Controller/MarioAnimation.cpp" />
+		<Unit filename="Mario/Controller/MarioAnimation.h" />
+		<Unit filename="Mario/Controller/MarioGame.cpp" />
+		<Unit filename="Mario/Controller/MarioGame.h" />
+		<Unit filename="Mario/Controller/SpecalObjectsFactory.cpp" />
+		<Unit filename="Mario/Controller/SpecalObjectsFactory.h" />
+		<Unit filename="Mario/Controller/loadConstants.h" />
+		<Unit filename="Mario/Model/AbstractMob.cpp" />
+		<Unit filename="Mario/Model/AbstractMob.h" />
+		<Unit filename="Mario/Model/ActiveBlock.cpp" />
+		<Unit filename="Mario/Model/ActiveBlock.h" />
+		<Unit filename="Mario/Model/AnimatingUnknownBlock.cpp" />
+		<Unit filename="Mario/Model/AnimatingUnknownBlock.h" />
+		<Unit filename="Mario/Model/Block.cpp" />
+		<Unit filename="Mario/Model/Block.h" />
+		<Unit filename="Mario/Model/BlockCoin.cpp" />
+		<Unit filename="Mario/Model/BlockCoin.h" />
+		<Unit filename="Mario/Model/BlockItem.cpp" />
+		<Unit filename="Mario/Model/BlockItem.h" />
+		<Unit filename="Mario/Model/Browser.cpp" />
+		<Unit filename="Mario/Model/Browser.h" />
+		<Unit filename="Mario/Model/BrowserFireShot.cpp" />
+		<Unit filename="Mario/Model/BrowserFireShot.h" />
+		<Unit filename="Mario/Model/Coin.cpp" />
+		<Unit filename="Mario/Model/Coin.h" />
+		<Unit filename="Mario/Model/Debris.cpp" />
+		<Unit filename="Mario/Model/Debris.h" />
+		<Unit filename="Mario/Model/DebrisBlue.cpp" />
+		<Unit filename="Mario/Model/DebrisBlue.h" />
+		<Unit filename="Mario/Model/DebrisRed.cpp" />
+		<Unit filename="Mario/Model/DebrisRed.h" />
+		<Unit filename="Mario/Model/EmptyBlock.cpp" />
+		<Unit filename="Mario/Model/EmptyBlock.h" />
+		<Unit filename="Mario/Model/EndFlagController.cpp" />
+		<Unit filename="Mario/Model/EndFlagController.h" />
+		<Unit filename="Mario/Model/FireBall.cpp" />
+		<Unit filename="Mario/Model/FireBall.h" />
+		<Unit filename="Mario/Model/FireWork.cpp" />
+		<Unit filename="Mario/Model/FireWork.h" />
+		<Unit filename="Mario/Model/GameBase.cpp" />
+		<Unit filename="Mario/Model/GameBase.h" />
+		<Unit filename="Mario/Model/Goombas.cpp" />
+		<Unit filename="Mario/Model/Goombas.h" />
+		<Unit filename="Mario/Model/GoombasBlue.cpp" />
+		<Unit filename="Mario/Model/GoombasBlue.h" />
+		<Unit filename="Mario/Model/GoombasBrown.cpp" />
+		<Unit filename="Mario/Model/GoombasBrown.h" />
+		<Unit filename="Mario/Model/HiddenUnkownBlock.cpp" />
+		<Unit filename="Mario/Model/HiddenUnkownBlock.h" />
+		<Unit filename="Mario/Model/Koopa.cpp" />
+		<Unit filename="Mario/Model/Koopa.h" />
+		<Unit filename="Mario/Model/KoopaBlue.cpp" />
+		<Unit filename="Mario/Model/KoopaBlue.h" />
+		<Unit filename="Mario/Model/KoopaGreen.cpp" />
+		<Unit filename="Mario/Model/KoopaGreen.h" />
+		<Unit filename="Mario/Model/KoopaRed.cpp" />
+		<Unit filename="Mario/Model/KoopaRed.h" />
+		<Unit filename="Mario/Model/LevelUpFlower.cpp" />
+		<Unit filename="Mario/Model/LevelUpFlower.h" />
+		<Unit filename="Mario/Model/ManyElementsObject.cpp" />
+		<Unit filename="Mario/Model/ManyElementsObject.h" />
+		<Unit filename="Mario/Model/Mario.cpp" />
+		<Unit filename="Mario/Model/Mario.h" />
+		<Unit filename="Mario/Model/Mob.cpp" />
+		<Unit filename="Mario/Model/Mob.h" />
+		<Unit filename="Mario/Model/MoneyBlock.cpp" />
+		<Unit filename="Mario/Model/MoneyBlock.h" />
+		<Unit filename="Mario/Model/MovingPlatform.cpp" />
+		<Unit filename="Mario/Model/MovingPlatform.h" />
+		<Unit filename="Mario/Model/MovingPlatformElement.cpp" />
+		<Unit filename="Mario/Model/MovingPlatformElement.h" />
+		<Unit filename="Mario/Model/Mushroom.cpp" />
+		<Unit filename="Mario/Model/Mushroom.h" />
+		<Unit filename="Mario/Model/Mushroom1UP.cpp" />
+		<Unit filename="Mario/Model/Mushroom1UP.h" />
+		<Unit filename="Mario/Model/PipeEnterController.cpp" />
+		<Unit filename="Mario/Model/PipeEnterController.h" />
+		<Unit filename="Mario/Model/PiranhaPlant.cpp" />
+		<Unit filename="Mario/Model/PiranhaPlant.h" />
+		<Unit filename="Mario/Model/PiranhaPlantBlue.cpp" />
+		<Unit filename="Mario/Model/PiranhaPlantBlue.h" />
+		<Unit filename="Mario/Model/PiranhaPlantGreen.cpp" />
+		<Unit filename="Mario/Model/PiranhaPlantGreen.h" />
+		<Unit filename="Mario/Model/PointsString.cpp" />
+		<Unit filename="Mario/Model/PointsString.h" />
+		<Unit filename="Mario/Model/Star.cpp" />
+		<Unit filename="Mario/Model/Star.h" />
+		<Unit filename="Mario/Model/String.cpp" />
+		<Unit filename="Mario/Model/String.h" />
+		<Unit filename="Mario/Model/UnknownBlock.cpp" />
+		<Unit filename="Mario/Model/UnknownBlock.h" />
+		<Unit filename="Mario/View/Interface.cpp" />
+		<Unit filename="Mario/View/Interface.h" />
+		<Unit filename="Mario/View/InterfaceCoin.cpp" />
+		<Unit filename="Mario/View/InterfaceCoin.h" />
+		<Unit filename="Model/AbstractAnimation.cpp" />
+		<Unit filename="Model/AbstractAnimation.h" />
+		<Unit filename="Model/CollisionMap.cpp" />
+		<Unit filename="Model/CollisionMap.h" />
+		<Unit filename="Model/ManyPicAnimation.cpp" />
+		<Unit filename="Model/ManyPicAnimation.h" />
+		<Unit filename="Model/MobileObject.cpp" />
+		<Unit filename="Model/MobileObject.h" />
+		<Unit filename="Model/NewString.cpp" />
+		<Unit filename="Model/NewString.h" />
+		<Unit filename="Model/Object.cpp" />
+		<Unit filename="Model/Object.h" />
+		<Unit filename="Model/SpriteSheetAnimation.cpp" />
+		<Unit filename="Model/SpriteSheetAnimation.h" />
+		<Unit filename="View/Audio.cpp" />
+		<Unit filename="View/Audio.h" />
+		<Unit filename="View/Renderer.cpp" />
+		<Unit filename="View/Renderer.h" />
+		<Unit filename="View/SdlString.cpp" />
+		<Unit filename="View/SdlString.h" />
+		<Unit filename="View/StringFactory.cpp" />
+		<Unit filename="View/StringFactory.h" />
+		<Unit filename="View/TextureHolder.cpp" />
+		<Unit filename="View/TextureHolder.h" />
+		<Unit filename="View/Window.cpp" />
+		<Unit filename="View/Window.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

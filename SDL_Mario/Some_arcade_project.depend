@@ -1,0 +1,3629 @@
+# depslib dependency file v1.0
+1465495203 source:c:\users\pankiev\desktop\some_arcade_project\main.cpp
+	"Controller/SpaceInvaders.h"
+
+1394940796 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1429192560 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1394940797 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\close_code.h
+
+1394940796 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1394940797 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1394940796 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1394940796 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376156425 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376156543 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1465489219 source:c:\users\pankiev\desktop\some_arcade_project\view\window.cpp
+	"Window.h"
+
+1465490020 c:\users\pankiev\desktop\some_arcade_project\view\window.h
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	"Renderer.h"
+
+1465737811 c:\users\pankiev\desktop\some_arcade_project\model\object.h
+	<SDL.h>
+	<iostream>
+
+1465737802 source:c:\users\pankiev\desktop\some_arcade_project\model\object.cpp
+	"Object.h"
+
+1465576571 source:c:\users\pankiev\desktop\some_arcade_project\model\mobileobject.cpp
+	<cmath>
+	"MobileObject.h"
+	"CollisionMap.h"
+
+1465576267 c:\users\pankiev\desktop\some_arcade_project\model\mobileobject.h
+	"Object.h"
+
+1465742773 source:c:\users\pankiev\desktop\some_arcade_project\controller\controller.cpp
+	"Controller.h"
+
+1465731029 c:\users\pankiev\desktop\some_arcade_project\controller\controller.h
+	<SDL.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<iostream>
+	<list>
+	"../Model/MobileObject.h"
+	"../View/Window.h"
+	"../View/TextureHolder.h"
+	"../Model/CollisionMap.h"
+	"../View/SdlString.h"
+	"../View/StringFactory.h"
+	"../View/Audio.h"
+	"Timer.h"
+	"HardwareController.h"
+
+1465738270 source:c:\users\pankiev\desktop\some_arcade_project\view\textureholder.cpp
+	"TextureHolder.h"
+
+1465738239 c:\users\pankiev\desktop\some_arcade_project\view\textureholder.h
+	<SDL.h>
+	<SDL_image.h>
+	<iostream>
+
+1376156342 c:\users\pankiev\desktop\some_arcade_project\i686-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1465737852 source:c:\users\pankiev\desktop\some_arcade_project\view\renderer.cpp
+	"Renderer.h"
+
+1465377134 c:\users\pankiev\desktop\some_arcade_project\view\renderer.h
+	<SDL.h>
+	<iostream>
+	<list>
+	"../Model/Object.h"
+	"SdlString.h"
+
+1465672361 c:\users\pankiev\desktop\some_arcade_project\model\collisionmap.h
+	"Object.h"
+
+1465674016 source:c:\users\pankiev\desktop\some_arcade_project\model\collisionmap.cpp
+	"CollisionMap.h"
+
+1465391684 source:c:\users\pankiev\desktop\some_arcade_project\controller\keyboardcontroller.cpp
+	"KeyboardController.h"
+	"Controller.h"
+
+1465389453 c:\users\pankiev\desktop\some_arcade_project\controller\keyboardcontroller.h
+	"ControllerBase.h"
+
+1465391453 source:c:\users\pankiev\desktop\some_arcade_project\controller\mousecontroller.cpp
+	"MouseController.h"
+	"Controller.h"
+
+1465389480 c:\users\pankiev\desktop\some_arcade_project\controller\mousecontroller.h
+	"ControllerBase.h"
+
+1465575121 source:c:\users\pankiev\desktop\some_arcade_project\view\audio.cpp
+	"Audio.h"
+
+1465575086 c:\users\pankiev\desktop\some_arcade_project\view\audio.h
+	<SDL_mixer.h>
+	<iostream>
+
+1465498720 c:\users\pankiev\desktop\some_arcade_project\view\sdlstring.h
+	<SDL.h>
+	<SDL_ttf.h>
+	<iostream>
+	"StringFactory.h"
+
+1465727596 source:c:\users\pankiev\desktop\some_arcade_project\view\sdlstring.cpp
+	"SdlString.h"
+
+1465727883 source:c:\users\pankiev\desktop\some_arcade_project\view\stringfactory.cpp
+	"StringFactory.h"
+
+1465498698 c:\users\pankiev\desktop\some_arcade_project\view\stringfactory.h
+	<SDL_ttf.h>
+	<iostream>
+
+1465391359 source:c:\users\pankiev\desktop\some_arcade_project\controller\controllerbase.cpp
+	"ControllerBase.h"
+
+1465389501 c:\users\pankiev\desktop\some_arcade_project\controller\controllerbase.h
+	<SDL.h>
+
+1465925414 source:c:\users\pankiev\desktop\some_arcade_project\controller\hardwarecontroller.cpp
+	"HardwareController.h"
+	"Controller.h"
+	"SpaceInvaders.h"
+	"../Model/MobileObject.h"
+	"../Model/MainShip.h"
+
+1465393210 c:\users\pankiev\desktop\some_arcade_project\controller\hardwarecontroller.h
+	<SDL.h>
+
+1465723398 source:c:\users\pankiev\desktop\some_arcade_project\controller\timer.cpp
+	"Timer.h"
+
+1465723374 c:\users\pankiev\desktop\some_arcade_project\controller\timer.h
+	<SDL.h>
+
+1466180472 source:c:\users\pankiev\desktop\some_arcade_project\controller\spaceinvaders.cpp
+	<ctime>
+	<windows.h>
+	<conio.h>
+	"SpaceInvaders.h"
+	"../Model/MobFirst.h"
+	"../Model/MobSecond.h"
+	"../Model/Explosion.h"
+	"../Model/Animation.h"
+
+1465741088 c:\users\pankiev\desktop\some_arcade_project\controller\spaceinvaders.h
+	<list>
+	"Controller.h"
+	"Menu.h"
+	"../Model/MainShip.h"
+	"../Model/NewString.h"
+	"../Model/AbstractAmmo.h"
+
+1465742177 source:c:\users\pankiev\desktop\some_arcade_project\model\spaceship.cpp
+	"SpaceShip.h"
+	"../Controller/SpaceInvaders.h"
+	"AbstractAmmo.h"
+	"Explosion.h"
+
+1465728249 c:\users\pankiev\desktop\some_arcade_project\model\spaceship.h
+	"MobileObject.h"
+	"../Controller/Timer.h"
+
+1465925364 c:\users\pankiev\desktop\some_arcade_project\model\mainship.h
+	"SpaceShip.h"
+
+1465754061 source:c:\users\pankiev\desktop\some_arcade_project\model\mainship.cpp
+	"MainShip.h"
+	"../Controller/SpaceInvaders.h"
+	"Bullet.h"
+
+1465729633 source:c:\users\pankiev\desktop\some_arcade_project\model\mobfirst.cpp
+	<ctime>
+	"MobFirst.h"
+	"../Controller/SpaceInvaders.h"
+	"Bullet.h"
+
+1465728822 c:\users\pankiev\desktop\some_arcade_project\model\mobfirst.h
+	"AbstractMob.h"
+
+1465729630 source:c:\users\pankiev\desktop\some_arcade_project\model\mobsecond.cpp
+	<ctime>
+	"MobSecond.h"
+	"../Controller/SpaceInvaders.h"
+	"Bullet2.h"
+
+1465729126 c:\users\pankiev\desktop\some_arcade_project\model\mobsecond.h
+	"AbstractMob.h"
+
+1465725418 source:c:\users\pankiev\desktop\some_arcade_project\model\bullet.cpp
+	"Bullet.h"
+	"../Controller/SpaceInvaders.h"
+
+1465725412 c:\users\pankiev\desktop\some_arcade_project\model\bullet.h
+	"AbstractAmmo.h"
+
+1465637256 source:c:\users\pankiev\desktop\some_arcade_project\model\newstring.cpp
+	<sstream>
+	"NewString.h"
+
+1465637298 c:\users\pankiev\desktop\some_arcade_project\model\newstring.h
+	"../View/SdlString.h"
+
+1465754010 source:c:\users\pankiev\desktop\some_arcade_project\model\bullet2.cpp
+	<cmath>
+	"Bullet2.h"
+	"../Controller/SpaceInvaders.h"
+
+1465725217 c:\users\pankiev\desktop\some_arcade_project\model\bullet2.h
+	"AbstractAmmo.h"
+
+1465724961 c:\users\pankiev\desktop\some_arcade_project\model\abstractammo.h
+	"SpaceShip.h"
+
+1465725380 source:c:\users\pankiev\desktop\some_arcade_project\model\abstractammo.cpp
+	"AbstractAmmo.h"
+	"../Controller/SpaceInvaders.h"
+
+1465728962 c:\users\pankiev\desktop\some_arcade_project\model\abstractmob.h
+	"SpaceShip.h"
+
+1465753941 source:c:\users\pankiev\desktop\some_arcade_project\model\abstractmob.cpp
+	<cmath>
+	"AbstractMob.h"
+	"SpaceShip.h"
+	"../Controller/SpaceInvaders.h"
+
+1465730978 source:c:\users\pankiev\desktop\some_arcade_project\controller\manu.cpp
+	"Menu.h"
+	"SpaceInvaders.h"
+	"../Model/Object.h"
+	"../View/SdlString.h"
+	"../View/StringFactory.h"
+
+1465730430 c:\users\pankiev\desktop\some_arcade_project\controller\menu.h
+
+1465740746 c:\users\pankiev\desktop\some_arcade_project\model\explosion.h
+	"Animation.h"
+
+1465742219 c:\users\pankiev\desktop\some_arcade_project\model\animation.h
+	"SpaceShip.h"
+
+1465742721 source:c:\users\pankiev\desktop\some_arcade_project\model\animation.cpp
+	"Animation.h"
+	"../Controller/SpaceInvaders.h"
+
+1465743220 source:c:\users\pankiev\desktop\some_arcade_project\model\explosion.cpp
+	"Explosion.h"
+	"../Controller/SpaceInvaders.h"
+
+1466255233 source:c:\users\pankiev\desktop\making changes to framework\controller\controller.cpp
+	"Controller.h"
+
+1466254679 c:\users\pankiev\desktop\making changes to framework\controller\controller.h
+	<SDL.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<iostream>
+	"../Model/AnimatingMobileObject.h"
+	"../View/Window.h"
+	"../View/TextureHolder.h"
+	"../Model/CollisionMap.h"
+	"../View/SdlString.h"
+	"../View/StringFactory.h"
+	"../View/Audio.h"
+	"Timer.h"
+	"HardwareController.h"
+
+1394940796 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1429192560 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1394940797 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\close_code.h
+
+1394940796 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1394940797 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1394940796 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1394940796 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376156425 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376156543 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376156342 c:\users\pankiev\desktop\making changes to framework\i686-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1466196256 c:\users\pankiev\desktop\making changes to framework\model\mobileobject.h
+	"Object.h"
+
+1466191767 c:\users\pankiev\desktop\making changes to framework\model\object.h
+	<SDL.h>
+	<iostream>
+
+1466239633 c:\users\pankiev\desktop\making changes to framework\view\window.h
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	"Renderer.h"
+
+1466254624 c:\users\pankiev\desktop\making changes to framework\view\renderer.h
+	<SDL.h>
+	<iostream>
+	<list>
+	"../Model/Object.h"
+	"SdlString.h"
+
+1465498720 c:\users\pankiev\desktop\making changes to framework\view\sdlstring.h
+	<SDL.h>
+	<SDL_ttf.h>
+	<iostream>
+	"StringFactory.h"
+
+1465498698 c:\users\pankiev\desktop\making changes to framework\view\stringfactory.h
+	<SDL_ttf.h>
+	<iostream>
+
+1466255802 c:\users\pankiev\desktop\making changes to framework\view\textureholder.h
+	<SDL.h>
+	<SDL_image.h>
+	<iostream>
+
+1465672361 c:\users\pankiev\desktop\making changes to framework\model\collisionmap.h
+	"Object.h"
+
+1466195212 c:\users\pankiev\desktop\making changes to framework\view\audio.h
+	<SDL_mixer.h>
+	<iostream>
+
+1465723374 c:\users\pankiev\desktop\making changes to framework\controller\timer.h
+	<SDL.h>
+
+1466195520 c:\users\pankiev\desktop\making changes to framework\controller\hardwarecontroller.h
+	<SDL.h>
+
+1465391359 source:c:\users\pankiev\desktop\making changes to framework\controller\controllerbase.cpp
+	"ControllerBase.h"
+
+1465389501 c:\users\pankiev\desktop\making changes to framework\controller\controllerbase.h
+	<SDL.h>
+
+1466196815 source:c:\users\pankiev\desktop\making changes to framework\controller\hardwarecontroller.cpp
+	"HardwareController.h"
+	"Controller.h"
+	"../Model/MobileObject.h"
+
+1465741088 c:\users\pankiev\desktop\making changes to framework\controller\spaceinvaders.h
+	<list>
+	"Controller.h"
+	"Menu.h"
+	"../Model/MainShip.h"
+	"../Model/NewString.h"
+	"../Model/AbstractAmmo.h"
+
+1465730430 c:\users\pankiev\desktop\making changes to framework\controller\menu.h
+
+1465925364 c:\users\pankiev\desktop\making changes to framework\model\mainship.h
+	"SpaceShip.h"
+
+1465728249 c:\users\pankiev\desktop\making changes to framework\model\spaceship.h
+	"MobileObject.h"
+	"../Controller/Timer.h"
+
+1465637298 c:\users\pankiev\desktop\making changes to framework\model\newstring.h
+	"../View/SdlString.h"
+
+1465724961 c:\users\pankiev\desktop\making changes to framework\model\abstractammo.h
+	"SpaceShip.h"
+
+1465730978 source:c:\users\pankiev\desktop\making changes to framework\controller\manu.cpp
+	"Menu.h"
+	"SpaceInvaders.h"
+	"../Model/Object.h"
+	"../View/SdlString.h"
+	"../View/StringFactory.h"
+
+1466180472 source:c:\users\pankiev\desktop\making changes to framework\controller\spaceinvaders.cpp
+	<ctime>
+	<windows.h>
+	<conio.h>
+	"SpaceInvaders.h"
+	"../Model/MobFirst.h"
+	"../Model/MobSecond.h"
+	"../Model/Explosion.h"
+	"../Model/Animation.h"
+
+1465728822 c:\users\pankiev\desktop\making changes to framework\model\mobfirst.h
+	"AbstractMob.h"
+
+1465728962 c:\users\pankiev\desktop\making changes to framework\model\abstractmob.h
+	"SpaceShip.h"
+
+1465729126 c:\users\pankiev\desktop\making changes to framework\model\mobsecond.h
+	"AbstractMob.h"
+
+1465740746 c:\users\pankiev\desktop\making changes to framework\model\explosion.h
+	"Animation.h"
+
+1466194549 c:\users\pankiev\desktop\making changes to framework\model\animation.h
+	"SpaceShip.h"
+
+1465723398 source:c:\users\pankiev\desktop\making changes to framework\controller\timer.cpp
+	"Timer.h"
+
+1466195034 source:c:\users\pankiev\desktop\making changes to framework\main.cpp
+	"Controller/Controller.h"
+
+1465725380 source:c:\users\pankiev\desktop\making changes to framework\model\abstractammo.cpp
+	"AbstractAmmo.h"
+	"../Controller/SpaceInvaders.h"
+
+1465753941 source:c:\users\pankiev\desktop\making changes to framework\model\abstractmob.cpp
+	<cmath>
+	"AbstractMob.h"
+	"SpaceShip.h"
+	"../Controller/SpaceInvaders.h"
+
+1465742721 source:c:\users\pankiev\desktop\making changes to framework\model\animation.cpp
+	"Animation.h"
+	"../Controller/SpaceInvaders.h"
+
+1465725418 source:c:\users\pankiev\desktop\making changes to framework\model\bullet.cpp
+	"Bullet.h"
+	"../Controller/SpaceInvaders.h"
+
+1465725412 c:\users\pankiev\desktop\making changes to framework\model\bullet.h
+	"AbstractAmmo.h"
+
+1465754010 source:c:\users\pankiev\desktop\making changes to framework\model\bullet2.cpp
+	<cmath>
+	"Bullet2.h"
+	"../Controller/SpaceInvaders.h"
+
+1465725217 c:\users\pankiev\desktop\making changes to framework\model\bullet2.h
+	"AbstractAmmo.h"
+
+1465674016 source:c:\users\pankiev\desktop\making changes to framework\model\collisionmap.cpp
+	"CollisionMap.h"
+
+1465743220 source:c:\users\pankiev\desktop\making changes to framework\model\explosion.cpp
+	"Explosion.h"
+	"../Controller/SpaceInvaders.h"
+
+1465754061 source:c:\users\pankiev\desktop\making changes to framework\model\mainship.cpp
+	"MainShip.h"
+	"../Controller/SpaceInvaders.h"
+	"Bullet.h"
+
+1465729633 source:c:\users\pankiev\desktop\making changes to framework\model\mobfirst.cpp
+	<ctime>
+	"MobFirst.h"
+	"../Controller/SpaceInvaders.h"
+	"Bullet.h"
+
+1466196222 source:c:\users\pankiev\desktop\making changes to framework\model\mobileobject.cpp
+	<cmath>
+	"MobileObject.h"
+	"CollisionMap.h"
+
+1465729630 source:c:\users\pankiev\desktop\making changes to framework\model\mobsecond.cpp
+	<ctime>
+	"MobSecond.h"
+	"../Controller/SpaceInvaders.h"
+	"Bullet2.h"
+
+1466194845 source:c:\users\pankiev\desktop\making changes to framework\model\newstring.cpp
+	<sstream>
+	"NewString.h"
+
+1466191799 source:c:\users\pankiev\desktop\making changes to framework\model\object.cpp
+	"Object.h"
+
+1465742177 source:c:\users\pankiev\desktop\making changes to framework\model\spaceship.cpp
+	"SpaceShip.h"
+	"../Controller/SpaceInvaders.h"
+	"AbstractAmmo.h"
+	"Explosion.h"
+
+1466195200 source:c:\users\pankiev\desktop\making changes to framework\view\audio.cpp
+	"Audio.h"
+
+1466255120 source:c:\users\pankiev\desktop\making changes to framework\view\renderer.cpp
+	"Renderer.h"
+
+1465727596 source:c:\users\pankiev\desktop\making changes to framework\view\sdlstring.cpp
+	"SdlString.h"
+
+1465727883 source:c:\users\pankiev\desktop\making changes to framework\view\stringfactory.cpp
+	"StringFactory.h"
+
+1466255731 source:c:\users\pankiev\desktop\making changes to framework\view\textureholder.cpp
+	"TextureHolder.h"
+
+1466239672 source:c:\users\pankiev\desktop\making changes to framework\view\window.cpp
+	"Window.h"
+
+1466242511 c:\users\pankiev\desktop\making changes to framework\model\animatingmobileobject.h
+	"MobileObject.h"
+	"../Controller/Timer.h"
+
+1466242557 source:c:\users\pankiev\desktop\making changes to framework\model\animatingmobileobject.cpp
+	"AnimatingMobileObject.h"
+
+1466511589 source:c:\users\pankiev\desktop\trying some platform\controller\hardwarecontroller.cpp
+	"HardwareController.h"
+	"Controller.h"
+	"../Model/MobileObject.h"
+	"../Platform/PlatformContr.h"
+	"../Platform/AbstractMob.h"
+
+1466195520 c:\users\pankiev\desktop\trying some platform\controller\hardwarecontroller.h
+	<SDL.h>
+
+1394940796 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1429192560 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1394940797 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\close_code.h
+
+1394940796 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1394940797 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1394940796 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1394940796 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1466534023 c:\users\pankiev\desktop\trying some platform\controller\controller.h
+	<SDL.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<iostream>
+	"../Model/AnimatingMobileObject.h"
+	"../View/Window.h"
+	"../View/TextureHolder.h"
+	"../Model/CollisionMap.h"
+	"../View/SdlString.h"
+	"../View/StringFactory.h"
+	"../View/Audio.h"
+	"Timer.h"
+	"HardwareController.h"
+
+1376156425 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376156543 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376156342 c:\users\pankiev\desktop\trying some platform\i686-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1466460488 c:\users\pankiev\desktop\trying some platform\model\animatingmobileobject.h
+	"MobileObject.h"
+	"../Controller/Timer.h"
+
+1466277304 c:\users\pankiev\desktop\trying some platform\model\mobileobject.h
+	"Object.h"
+
+1466460265 c:\users\pankiev\desktop\trying some platform\model\object.h
+	<SDL.h>
+	<iostream>
+
+1465723374 c:\users\pankiev\desktop\trying some platform\controller\timer.h
+	<SDL.h>
+
+1466511327 c:\users\pankiev\desktop\trying some platform\view\window.h
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	"Renderer.h"
+
+1466521703 c:\users\pankiev\desktop\trying some platform\view\renderer.h
+	<SDL.h>
+	<iostream>
+	<list>
+	"../Model/Object.h"
+	"SdlString.h"
+
+1466459357 c:\users\pankiev\desktop\trying some platform\view\sdlstring.h
+	<SDL.h>
+	<SDL_ttf.h>
+	<iostream>
+	"StringFactory.h"
+	"../Model/Object.h"
+
+1465498698 c:\users\pankiev\desktop\trying some platform\view\stringfactory.h
+	<SDL_ttf.h>
+	<iostream>
+
+1466528708 c:\users\pankiev\desktop\trying some platform\view\textureholder.h
+	<SDL.h>
+	<SDL_image.h>
+	<iostream>
+
+1465672361 c:\users\pankiev\desktop\trying some platform\model\collisionmap.h
+	"Object.h"
+
+1466533970 c:\users\pankiev\desktop\trying some platform\view\audio.h
+	<SDL_mixer.h>
+	<iostream>
+
+1466454097 source:c:\users\pankiev\desktop\trying some platform\controller\timer.cpp
+	"Timer.h"
+
+1466256171 source:c:\users\pankiev\desktop\trying some platform\main.cpp
+	"Platform/PlatformContr.h"
+
+1466460748 source:c:\users\pankiev\desktop\trying some platform\model\animatingmobileobject.cpp
+	"AnimatingMobileObject.h"
+
+1465674016 source:c:\users\pankiev\desktop\trying some platform\model\collisionmap.cpp
+	"CollisionMap.h"
+
+1466360163 source:c:\users\pankiev\desktop\trying some platform\model\mobileobject.cpp
+	<cmath>
+	"MobileObject.h"
+	"CollisionMap.h"
+
+1466459175 source:c:\users\pankiev\desktop\trying some platform\model\newstring.cpp
+	<sstream>
+	"NewString.h"
+
+1465637298 c:\users\pankiev\desktop\trying some platform\model\newstring.h
+	"../View/SdlString.h"
+
+1466458542 source:c:\users\pankiev\desktop\trying some platform\model\object.cpp
+	"Object.h"
+
+1466195200 source:c:\users\pankiev\desktop\trying some platform\view\audio.cpp
+	"Audio.h"
+
+1466527456 source:c:\users\pankiev\desktop\trying some platform\view\renderer.cpp
+	"Renderer.h"
+
+1466459372 source:c:\users\pankiev\desktop\trying some platform\view\sdlstring.cpp
+	"SdlString.h"
+
+1465727883 source:c:\users\pankiev\desktop\trying some platform\view\stringfactory.cpp
+	"StringFactory.h"
+
+1466528715 source:c:\users\pankiev\desktop\trying some platform\view\textureholder.cpp
+	"TextureHolder.h"
+
+1466523283 source:c:\users\pankiev\desktop\trying some platform\view\window.cpp
+	"Window.h"
+
+1466258788 source:c:\users\pankiev\desktop\trying some platform\controller\controller.cpp
+	"Controller.h"
+
+1466277519 c:\users\pankiev\desktop\trying some platform\platform\platformcontr.h
+	<list>
+	"../Controller/Controller.h"
+	"AbstractMob.h"
+
+1466527473 source:c:\users\pankiev\desktop\trying some platform\platform\platformcontr.cpp
+	<cmath>
+	"PlatformContr.h"
+
+1466523165 source:c:\users\pankiev\desktop\trying some platform\platform\abstractmob.cpp
+	<cstdio>
+	"AbstractMob.h"
+	"PlatformContr.h"
+
+1466523199 c:\users\pankiev\desktop\trying some platform\platform\abstractmob.h
+	"../Model/AnimatingMobileObject.h"
+
+1469393078 source:c:\users\pankiev\desktop\animation changes\controller\controller.cpp
+	"Controller.h"
+
+1469208171 c:\users\pankiev\desktop\animation changes\controller\controller.h
+	<SDL.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<iostream>
+	"../View/Window.h"
+	"../View/TextureHolder.h"
+	"../Model/CollisionMap.h"
+	"../View/SdlString.h"
+	"../View/StringFactory.h"
+	"../View/Audio.h"
+	"../Model/MobileObject.h"
+	"Timer.h"
+	"HardwareController.h"
+
+1394940796 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1429192560 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1394940797 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\close_code.h
+
+1394940796 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1394940797 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1394940796 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1394940796 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376156425 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376156543 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376156342 c:\users\pankiev\desktop\animation changes\i686-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1466460488 c:\users\pankiev\desktop\animation changes\model\animatingmobileobject.h
+	"MobileObject.h"
+	"../Controller/Timer.h"
+
+1470938077 c:\users\pankiev\desktop\animation changes\model\mobileobject.h
+	"Object.h"
+
+1469359389 c:\users\pankiev\desktop\animation changes\model\object.h
+	<SDL.h>
+	<iostream>
+
+1466775992 c:\users\pankiev\desktop\animation changes\controller\timer.h
+	<SDL.h>
+
+1469207883 c:\users\pankiev\desktop\animation changes\view\window.h
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	"Renderer.h"
+
+1469207905 c:\users\pankiev\desktop\animation changes\view\renderer.h
+	<SDL.h>
+	<iostream>
+	<list>
+	"../Model/Object.h"
+	"SdlString.h"
+
+1466459357 c:\users\pankiev\desktop\animation changes\view\sdlstring.h
+	<SDL.h>
+	<SDL_ttf.h>
+	<iostream>
+	"StringFactory.h"
+	"../Model/Object.h"
+
+1466612544 c:\users\pankiev\desktop\animation changes\view\stringfactory.h
+	<SDL_ttf.h>
+	<iostream>
+
+1470845750 c:\users\pankiev\desktop\animation changes\view\textureholder.h
+	<SDL.h>
+	<SDL_image.h>
+	<iostream>
+
+1470080732 c:\users\pankiev\desktop\animation changes\model\collisionmap.h
+	"Object.h"
+
+1470842538 c:\users\pankiev\desktop\animation changes\view\audio.h
+	<SDL_mixer.h>
+	<iostream>
+
+1466195520 c:\users\pankiev\desktop\animation changes\controller\hardwarecontroller.h
+	<SDL.h>
+
+1471078242 source:c:\users\pankiev\desktop\animation changes\controller\hardwarecontroller.cpp
+	"../Mario/Controller/MarioGame.h"
+	"../Mario/Model/ActiveBlock.h"
+	"../Mario/Model/HiddenUnkownBlock.h"
+	"../Mario/Model/AnimatingUnknownBlock.h"
+	"../Mario/Model/BlockCoin.h"
+	"../Mario/Model/Mushroom1UP.h"
+	"../Mario/Model/GoombasBrown.h"
+	"../Mario/Model/GoombasBlue.h"
+	"../Mario/Model/KoopaGreen.h"
+	"../Mario/Model/KoopaBlue.h"
+	"../Mario/Model/KoopaRed.h"
+	"../Mario/Model/PiranhaPlantGreen.h"
+	"../Mario/Model/PiranhaPlantBlue.h"
+	"../Mario/Model/Browser.h"
+	"../Mario/Model/BrowserFireShot.h"
+	"../Mario/Controller/MarioAnimation.h"
+	"../Mario/Model/MoneyBlock.h"
+	"../Mario/Model/Star.h"
+	"../Mario/Model/MovingPlatformElement.h"
+	"../Mario/Controller/SpecalObjectsFactory.h"
+	"../Mario/Model/PipeEnterController.h"
+	"../Mario/Model/EndFlagController.h"
+
+1466538064 c:\users\pankiev\desktop\animation changes\platform\platformcontr.h
+	<list>
+	"../Controller/Controller.h"
+	"AbstractMob.h"
+
+1466539048 c:\users\pankiev\desktop\animation changes\platform\abstractmob.h
+	"../Model/MobileObject.h"
+	"../Model/SpriteSheetAnimation.h"
+
+1466930845 source:c:\users\pankiev\desktop\animation changes\controller\timer.cpp
+	"Timer.h"
+
+1466617800 source:c:\users\pankiev\desktop\animation changes\main.cpp
+	"Mario/Controller/MarioGame.h"
+
+1466460748 source:c:\users\pankiev\desktop\animation changes\model\animatingmobileobject.cpp
+	"AnimatingMobileObject.h"
+
+1470848818 source:c:\users\pankiev\desktop\animation changes\model\collisionmap.cpp
+	<cmath>
+	"CollisionMap.h"
+
+1470938206 source:c:\users\pankiev\desktop\animation changes\model\mobileobject.cpp
+	<cmath>
+	"MobileObject.h"
+	"CollisionMap.h"
+
+1466865099 source:c:\users\pankiev\desktop\animation changes\model\newstring.cpp
+	<sstream>
+	"NewString.h"
+
+1466865077 c:\users\pankiev\desktop\animation changes\model\newstring.h
+	"../View/SdlString.h"
+
+1469359381 source:c:\users\pankiev\desktop\animation changes\model\object.cpp
+	"Object.h"
+
+1466538412 source:c:\users\pankiev\desktop\animation changes\platform\abstractmob.cpp
+	<cstdio>
+	"AbstractMob.h"
+	"PlatformContr.h"
+
+1470842545 source:c:\users\pankiev\desktop\animation changes\view\audio.cpp
+	"Audio.h"
+
+1469207919 source:c:\users\pankiev\desktop\animation changes\view\renderer.cpp
+	"Renderer.h"
+
+1466612131 source:c:\users\pankiev\desktop\animation changes\view\sdlstring.cpp
+	"SdlString.h"
+
+1466612469 source:c:\users\pankiev\desktop\animation changes\view\stringfactory.cpp
+	"StringFactory.h"
+
+1470845762 source:c:\users\pankiev\desktop\animation changes\view\textureholder.cpp
+	"TextureHolder.h"
+
+1469817629 source:c:\users\pankiev\desktop\animation changes\view\window.cpp
+	"Window.h"
+
+1466538953 source:c:\users\pankiev\desktop\animation changes\platform\platformcontr.cpp
+	<cmath>
+	"PlatformContr.h"
+
+1467924788 source:c:\users\pankiev\desktop\animation changes\model\abstractanimation.cpp
+	"AbstractAnimation.h"
+
+1467924767 c:\users\pankiev\desktop\animation changes\model\abstractanimation.h
+	"Object.h"
+	"../Controller/Timer.h"
+
+1466537556 source:c:\users\pankiev\desktop\animation changes\model\spritesheetanimation.cpp
+	"SpriteSheetAnimation.h"
+
+1466537377 c:\users\pankiev\desktop\animation changes\model\spritesheetanimation.h
+	"AbstractAnimation.h"
+
+1466694361 source:c:\users\pankiev\desktop\animation changes\model\manypicanimation.cpp
+	"ManyPicAnimation.h"
+
+1466540018 c:\users\pankiev\desktop\animation changes\model\manypicanimation.h
+	<vector>
+	"AbstractAnimation.h"
+
+1474920838 source:c:\users\pankiev\desktop\animation changes\mario\controller\mariogame.cpp
+	<fstream>
+	<cstdlib>
+	<ctime>
+	"MarioGame.h"
+	"MarioAnimation.h"
+	"../Model/GoombasBrown.h"
+	"../Model/GoombasBlue.h"
+	"../Model/KoopaGreen.h"
+	"../Model/KoopaBlue.h"
+	"../Model/KoopaRed.h"
+	"../Model/PiranhaPlantGreen.h"
+	"../Model/PiranhaPlantBlue.h"
+	"../Model/AnimatingUnknownBlock.h"
+	"../Model/HiddenUnkownBlock.h"
+	"../Model/BlockCoin.h"
+	"../Model/MoneyBlock.h"
+	"../Model/LevelUpFlower.h"
+	"../Model/Star.h"
+	"../Model/EmptyBlock.h"
+	"../Model/Mushroom1UP.h"
+	"../Model/Coin.h"
+	"../Model/PipeEnterController.h"
+	"../Model/EndFlagController.h"
+	"../Model/MovingPlatformElement.h"
+	"../Model/Browser.h"
+	"loadConstants.h"
+
+1470916006 c:\users\pankiev\desktop\animation changes\mario\controller\mariogame.h
+	<list>
+	"../../Controller/Controller.h"
+	"../Model/Mario.h"
+	"Level1Factory.h"
+	"../View/Interface.h"
+
+1470936939 source:c:\users\pankiev\desktop\animation changes\mario\model\gamebase.cpp
+	<cstdlib>
+	"../Controller/loadConstants.h"
+	"GameBase.h"
+	"../Controller/MarioGame.h"
+
+1470937616 c:\users\pankiev\desktop\animation changes\mario\model\gamebase.h
+	"../../Model/MobileObject.h"
+	<fstream>
+
+1469457835 source:c:\users\pankiev\desktop\animation changes\mario\model\abstractmob.cpp
+	"AbstractMob.h"
+	"../Controller/MarioGame.h"
+	"PointsString.h"
+
+1469377829 c:\users\pankiev\desktop\animation changes\mario\model\abstractmob.h
+	"GameBase.h"
+	"../Controller/AnimationSet.h"
+
+1469455095 c:\users\pankiev\desktop\animation changes\mario\controller\animationset.h
+	<SDL.h>
+
+1469477394 c:\users\pankiev\desktop\animation changes\mario\model\mario.h
+	"Mob.h"
+	"../../Controller/Timer.h"
+
+1470936881 source:c:\users\pankiev\desktop\animation changes\mario\model\mario.cpp
+	"Mario.h"
+	"../Controller/MarioGame.h"
+	"../Controller/MarioAnimation.h"
+	"ActiveBlock.h"
+	"FireBall.h"
+
+1469356647 c:\users\pankiev\desktop\animation changes\mario\model\block.h
+	"GameBase.h"
+	"Debris.h"
+	"../../Controller/Timer.h"
+
+1469984737 source:c:\users\pankiev\desktop\animation changes\mario\model\block.cpp
+	"Block.h"
+	"../Controller/MarioGame.h"
+
+1466609062 source:c:\users\pankiev\desktop\animation changes\mario\controller\animationset.cpp
+	"AnimationSet.h"
+
+1469455171 source:c:\users\pankiev\desktop\animation changes\mario\controller\marioanimation.cpp
+	<cmath>
+	"MarioAnimation.h"
+	"MarioGame.h"
+
+1469455310 c:\users\pankiev\desktop\animation changes\mario\controller\marioanimation.h
+	"AnimationSet.h"
+	"../../Model/ManyPicAnimation.h"
+
+1467631618 c:\users\pankiev\desktop\animation changes\mario\controller\level1factory.h
+
+1467631666 source:c:\users\pankiev\desktop\animation changes\mario\controller\level1factory.cpp
+	"Level1Factory.h"
+	"MarioGame.h"
+	"../Model/ActiveBlock.h"
+
+1470063906 source:c:\users\pankiev\desktop\animation changes\mario\controller\goombasanimation.cpp
+	"GoombasAnimation.h"
+	"MarioGame.h"
+
+1470063797 c:\users\pankiev\desktop\animation changes\mario\controller\goombasanimation.h
+	"AnimationSet.h"
+	"../../Model/ManyPicAnimation.h"
+
+1470063356 source:c:\users\pankiev\desktop\animation changes\mario\model\goombas.cpp
+	"Goombas.h"
+	"../Controller/GoombasAnimation.h"
+	"../Controller/MarioGame.h"
+
+1470745790 c:\users\pankiev\desktop\animation changes\mario\model\goombas.h
+	"Mob.h"
+	"../Controller/GoombasAnimation.h"
+
+1470847490 c:\users\pankiev\desktop\animation changes\mario\model\mob.h
+	"AbstractMob.h"
+	"../../Controller/Timer.h"
+
+1471078168 source:c:\users\pankiev\desktop\animation changes\mario\model\mob.cpp
+	"Mob.h"
+	"../Controller/MarioGame.h"
+
+1470066158 source:c:\users\pankiev\desktop\animation changes\mario\model\debris.cpp
+	"Debris.h"
+	"../Controller/MarioGame.h"
+
+1470065804 c:\users\pankiev\desktop\animation changes\mario\model\debris.h
+	"AbstractMob.h"
+	"../../Model/AbstractAnimation.h"
+
+1469225437 source:c:\users\pankiev\desktop\animation changes\mario\model\mushroom.cpp
+	"Mushroom.h"
+	"../Controller/MarioGame.h"
+
+1469225347 c:\users\pankiev\desktop\animation changes\mario\model\mushroom.h
+	"BlockItem.h"
+	"../../Controller/Timer.h"
+
+1470083832 source:c:\users\pankiev\desktop\animation changes\mario\view\interface.cpp
+	"Interface.h"
+	"../Controller/MarioGame.h"
+	<sstream>
+
+1469480385 c:\users\pankiev\desktop\animation changes\mario\view\interface.h
+	"../../View/SdlString.h"
+	"../../Model/NewString.h"
+	"InterfaceCoin.h"
+	"../../Controller/Timer.h"
+
+1467624897 c:\users\pankiev\desktop\animation changes\mario\controller\loadconstants.h
+
+1470068357 source:c:\users\pankiev\desktop\animation changes\mario\model\activeblock.cpp
+	"ActiveBlock.h"
+	"../Controller/MarioGame.h"
+	"DebrisRed.h"
+	"DebrisBlue.h"
+
+1469225277 c:\users\pankiev\desktop\animation changes\mario\model\activeblock.h
+	"Block.h"
+
+1467719770 source:c:\users\pankiev\desktop\animation changes\mario\controller\unknownblockanimation.cpp
+	"UnknownBlockAnimation.h"
+
+1467657287 c:\users\pankiev\desktop\animation changes\mario\controller\unknownblockanimation.h
+	"AnimationSet.h"
+	"../../Model/ManyPicAnimation.h"
+
+1467726730 source:c:\users\pankiev\desktop\animation changes\mario\model\emptyblock.cpp
+	"EmptyBlock.h"
+	"../Controller/MarioGame.h"
+
+1469225401 c:\users\pankiev\desktop\animation changes\mario\model\emptyblock.h
+	"ActiveBlock.h"
+
+1468184000 source:c:\users\pankiev\desktop\animation changes\mario\model\unknownblock.cpp
+	"UnknownBlock.h"
+	"EmptyBlock.h"
+	"BlockCoin.h"
+	"Star.h"
+	"Mushroom1UP.h"
+	"../Controller/MarioGame.h"
+
+1469225294 c:\users\pankiev\desktop\animation changes\mario\model\unknownblock.h
+	"ActiveBlock.h"
+	"../../Model/ManyPicAnimation.h"
+	"LevelUpFlower.h"
+
+1469225416 source:c:\users\pankiev\desktop\animation changes\mario\model\blockcoin.cpp
+	"BlockCoin.h"
+	"../Controller/MarioGame.h"
+
+1469225372 c:\users\pankiev\desktop\animation changes\mario\model\blockcoin.h
+	"AbstractMob.h"
+	"../../Model/ManyPicAnimation.h"
+	"../../Controller/Timer.h"
+	"Coin.h"
+
+1467730713 source:c:\users\pankiev\desktop\animation changes\mario\view\interfacecoin.cpp
+	"InterfaceCoin.h"
+	"../Controller/MarioGame.h"
+
+1467729680 c:\users\pankiev\desktop\animation changes\mario\view\interfacecoin.h
+	"../Model/GameBase.h"
+	"../../Model/ManyPicAnimation.h"
+
+1469825829 source:c:\users\pankiev\desktop\animation changes\mario\model\moneyblock.cpp
+	"MoneyBlock.h"
+	"../Controller/MarioGame.h"
+	"BlockCoin.h"
+	"EmptyBlock.h"
+
+1469825721 c:\users\pankiev\desktop\animation changes\mario\model\moneyblock.h
+	"ActiveBlock.h"
+	"../../Model/ManyPicAnimation.h"
+
+1468250939 c:\users\pankiev\desktop\animation changes\mario\model\pointsstring.h
+	"../../Controller/Timer.h"
+	"../../View/StringFactory.h"
+	"String.h"
+
+1468251038 source:c:\users\pankiev\desktop\animation changes\mario\model\pointsstring.cpp
+	<sstream>
+	"PointsString.h"
+
+1469225282 c:\users\pankiev\desktop\animation changes\mario\model\blockitem.h
+	"Mob.h"
+
+1468069677 source:c:\users\pankiev\desktop\animation changes\mario\model\blockitem.cpp
+	"BlockItem.h"
+	"../Controller/MarioGame.h"
+
+1467882956 source:c:\users\pankiev\desktop\animation changes\mario\model\levelupflower.cpp
+	"LevelUpFlower.h"
+	"../Controller/MarioGame.h"
+
+1467882225 c:\users\pankiev\desktop\animation changes\mario\model\levelupflower.h
+	"Mushroom.h"
+	"../../Model/ManyPicAnimation.h"
+
+1469225440 source:c:\users\pankiev\desktop\animation changes\mario\model\star.cpp
+	"Star.h"
+	"../Controller/MarioGame.h"
+
+1469225639 c:\users\pankiev\desktop\animation changes\mario\model\star.h
+	"BlockItem.h"
+	"../../Model/ManyPicAnimation.h"
+
+1470849312 source:c:\users\pankiev\desktop\animation changes\mario\model\fireball.cpp
+	"FireBall.h"
+	"FireWork.h"
+	"../Controller/MarioGame.h"
+
+1470843827 c:\users\pankiev\desktop\animation changes\mario\model\fireball.h
+	"Mob.h"
+	"../../Model/ManyPicAnimation.h"
+
+1468147234 source:c:\users\pankiev\desktop\animation changes\mario\model\firework.cpp
+	"FireWork.h"
+	"../Controller/MarioGame.h"
+
+1469225426 c:\users\pankiev\desktop\animation changes\mario\model\firework.h
+	"../../Model/ManyPicAnimation.h"
+	"GameBase.h"
+
+1470084682 source:c:\users\pankiev\desktop\animation changes\mario\controller\koopaanimation.cpp
+	"KoopaAnimation.h"
+
+1470084694 c:\users\pankiev\desktop\animation changes\mario\controller\koopaanimation.h
+	"AnimationSet.h"
+	"../../Model/ManyPicAnimation.h"
+
+1470087642 source:c:\users\pankiev\desktop\animation changes\mario\model\koopa.cpp
+	"../Controller/MarioGame.h"
+	"../Controller/KoopaAnimation.h"
+	"Koopa.h"
+	"Mario.h"
+
+1470745550 c:\users\pankiev\desktop\animation changes\mario\model\koopa.h
+	"Mob.h"
+	"../../Model/ManyPicAnimation.h"
+	"../../Controller/Timer.h"
+
+1468178060 source:c:\users\pankiev\desktop\animation changes\mario\model\animatingunknownblock.cpp
+	"AnimatingUnknownBlock.h"
+	"../Controller/MarioGame.h"
+
+1469225351 c:\users\pankiev\desktop\animation changes\mario\model\animatingunknownblock.h
+	"UnknownBlock.h"
+
+1469225324 c:\users\pankiev\desktop\animation changes\mario\model\hiddenunkownblock.h
+	"UnknownBlock.h"
+
+1470914820 source:c:\users\pankiev\desktop\animation changes\mario\model\hiddenunkownblock.cpp
+	"HiddenUnkownBlock.h"
+	"../Controller/MarioGame.h"
+
+1468671381 source:c:\users\pankiev\desktop\animation changes\mario\model\mushroom1up.cpp
+	"Mushroom1UP.h"
+	"../Controller/MarioGame.h"
+	"String.h"
+
+1469225376 c:\users\pankiev\desktop\animation changes\mario\model\mushroom1up.h
+	"Mushroom.h"
+
+1469225404 c:\users\pankiev\desktop\animation changes\mario\model\string.h
+	"GameBase.h"
+	"../Controller/MarioGame.h"
+
+1468251088 source:c:\users\pankiev\desktop\animation changes\mario\model\string.cpp
+	"String.h"
+
+1469355394 source:c:\users\pankiev\desktop\animation changes\mario\model\coin.cpp
+	"Coin.h"
+	"../Controller/MarioGame.h"
+
+1469355393 c:\users\pankiev\desktop\animation changes\mario\model\coin.h
+	"GameBase.h"
+	"../../Model/ManyPicAnimation.h"
+
+1470136100 source:c:\users\pankiev\desktop\animation changes\mario\model\pipeentercontroller.cpp
+	"PipeEnterController.h"
+	<cstdlib>
+
+1469367149 c:\users\pankiev\desktop\animation changes\mario\model\pipeentercontroller.h
+	"GameBase.h"
+	"../Controller/MarioGame.h"
+	"../../Controller/Timer.h"
+
+1469459226 source:c:\users\pankiev\desktop\animation changes\mario\model\endflagcontroller.cpp
+	<cstdlib>
+	"EndFlagController.h"
+	"../Controller/MarioGame.h"
+
+1469459184 c:\users\pankiev\desktop\animation changes\mario\model\endflagcontroller.h
+	"GameBase.h"
+
+1469914267 source:c:\users\pankiev\desktop\animation changes\mario\model\movingplatform.cpp
+	"MovingPlatform.h"
+
+1469914382 c:\users\pankiev\desktop\animation changes\mario\model\movingplatform.h
+	"GameBase.h"
+	"MovingPlatformElement.h"
+
+1470937642 c:\users\pankiev\desktop\animation changes\mario\model\movingplatformelement.h
+	"GameBase.h"
+
+1470938411 source:c:\users\pankiev\desktop\animation changes\mario\model\movingplatformelement.cpp
+	<cstdlib>
+	"MovingPlatformElement.h"
+	"../Controller/MarioGame.h"
+
+1470938326 source:c:\users\pankiev\desktop\animation changes\mario\controller\specalobjectsfactory.cpp
+	"SpecalObjectsFactory.h"
+	"../Model/MovingPlatformElement.h"
+
+1469917344 c:\users\pankiev\desktop\animation changes\mario\controller\specalobjectsfactory.h
+	"MarioGame.h"
+
+1469967412 source:c:\users\pankiev\desktop\animation changes\mario\model\manyelementsobject.cpp
+
+1470063963 source:c:\users\pankiev\desktop\animation changes\mario\controller\goombasbrownanimation.cpp
+	"GoombasBrownAnimation.h"
+	"MarioGame.h"
+
+1470063952 c:\users\pankiev\desktop\animation changes\mario\controller\goombasbrownanimation.h
+	"GoombasAnimation.h"
+
+1470745749 c:\users\pankiev\desktop\animation changes\mario\model\goombasbrown.h
+	"Goombas.h"
+
+1470064048 source:c:\users\pankiev\desktop\animation changes\mario\model\goombasbrown.cpp
+	"GoombasBrown.h"
+	"../Controller/GoombasBrownAnimation.h"
+
+1470064742 source:c:\users\pankiev\desktop\animation changes\mario\controller\goombasblueanimation.cpp
+	"GoombasBlueAnimation.h"
+	"MarioGame.h"
+
+1470064977 c:\users\pankiev\desktop\animation changes\mario\controller\goombasblueanimation.h
+	"GoombasAnimation.h"
+
+1470746601 source:c:\users\pankiev\desktop\animation changes\mario\model\goombasblue.cpp
+	"GoombasBlue.h"
+	"../Controller/GoombasBlueAnimation.h"
+	"../Controller/MarioGame.h"
+
+1470745789 c:\users\pankiev\desktop\animation changes\mario\model\goombasblue.h
+	"Goombas.h"
+
+1470065852 c:\users\pankiev\desktop\animation changes\mario\model\debrisred.h
+	"Debris.h"
+
+1470066178 source:c:\users\pankiev\desktop\animation changes\mario\model\debrisred.cpp
+	"DebrisRed.h"
+	"../Controller/MarioGame.h"
+
+1470066389 source:c:\users\pankiev\desktop\animation changes\mario\model\debrisblue.cpp
+	"DebrisBlue.h"
+	"../Controller/MarioGame.h"
+
+1470066346 c:\users\pankiev\desktop\animation changes\mario\model\debrisblue.h
+	"Debris.h"
+
+1470088555 source:c:\users\pankiev\desktop\animation changes\mario\model\piranhaplant.cpp
+	"PiranhaPlant.h"
+	"../Controller/MarioGame.h"
+
+1470088450 c:\users\pankiev\desktop\animation changes\mario\model\piranhaplant.h
+	"Mob.h"
+	"../../Model/ManyPicAnimation.h"
+
+1470077871 source:c:\users\pankiev\desktop\animation changes\mario\model\piranhaplantgreen.cpp
+	"PiranhaPlantGreen.h"
+	"../Controller/MarioGame.h"
+
+1470076251 c:\users\pankiev\desktop\animation changes\mario\model\piranhaplantgreen.h
+	"PiranhaPlant.h"
+
+1470084116 source:c:\users\pankiev\desktop\animation changes\mario\model\piranhaplantblue.cpp
+	"PiranhaPlantBlue.h"
+	"../Controller/MarioGame.h"
+
+1470084373 c:\users\pankiev\desktop\animation changes\mario\model\piranhaplantblue.h
+	"PiranhaPlant.h"
+
+1470084681 source:c:\users\pankiev\desktop\animation changes\mario\controller\koopagreenanimation.cpp
+	"KoopaGreenAnimation.h"
+	"MarioGame.h"
+
+1470084661 c:\users\pankiev\desktop\animation changes\mario\controller\koopagreenanimation.h
+	"KoopaAnimation.h"
+
+1470745428 c:\users\pankiev\desktop\animation changes\mario\model\koopagreen.h
+	"Koopa.h"
+
+1470085002 source:c:\users\pankiev\desktop\animation changes\mario\model\koopagreen.cpp
+	"KoopaGreen.h"
+	"../Controller/KoopaGreenAnimation.h"
+
+1470086275 source:c:\users\pankiev\desktop\animation changes\mario\controller\koopablueanimation.cpp
+	"KoopaBlueAnimation.h"
+	"MarioGame.h"
+
+1470085271 c:\users\pankiev\desktop\animation changes\mario\controller\koopablueanimation.h
+	"KoopaAnimation.h"
+
+1470745460 c:\users\pankiev\desktop\animation changes\mario\model\koopablue.h
+	"Koopa.h"
+
+1470086471 source:c:\users\pankiev\desktop\animation changes\mario\model\koopablue.cpp
+	"KoopaBlue.h"
+	"../Controller/KoopaBlueAnimation.h"
+	"../Controller/MarioGame.h"
+
+1470086611 source:c:\users\pankiev\desktop\animation changes\mario\controller\kooparedanimation.cpp
+	"KoopaRedAnimation.h"
+	"MarioGame.h"
+
+1470086573 c:\users\pankiev\desktop\animation changes\mario\controller\kooparedanimation.h
+	"KoopaAnimation.h"
+
+1470745358 c:\users\pankiev\desktop\animation changes\mario\model\koopared.h
+	"Koopa.h"
+
+1470087654 source:c:\users\pankiev\desktop\animation changes\mario\model\koopared.cpp
+	"KoopaRed.h"
+	"../Controller/KoopaRedAnimation.h"
+	"../Controller/MarioGame.h"
+
+1470847984 c:\users\pankiev\desktop\animation changes\mario\model\browser.h
+	"Mob.h"
+
+1470849312 source:c:\users\pankiev\desktop\animation changes\mario\model\browser.cpp
+	<cstdlib>
+	"Browser.h"
+	"BrowserFireShot.h"
+	"../Controller/MarioGame.h"
+	"../Controller/BrowserAnimation.h"
+
+1470840336 source:c:\users\pankiev\desktop\animation changes\mario\controller\browseranimation.cpp
+	"BrowserAnimation.h"
+	"MarioGame.h"
+
+1470840299 c:\users\pankiev\desktop\animation changes\mario\controller\browseranimation.h
+	"AnimationSet.h"
+	"../../Model/ManyPicAnimation.h"
+
+1470842951 source:c:\users\pankiev\desktop\animation changes\mario\model\bullet.cpp
+	"Bullet.h"
+
+1470842970 c:\users\pankiev\desktop\animation changes\mario\model\bullet.h
+	"Mob.h"
+
+1470847104 source:c:\users\pankiev\desktop\animation changes\mario\model\browserfireshot.cpp
+	"BrowserFireShot.h"
+	"../Controller/MarioGame.h"
+
+1470848053 c:\users\pankiev\desktop\animation changes\mario\model\browserfireshot.h
+	"Mob.h"
+	"../../Model/ManyPicAnimation.h"
+
+1469393078 source:c:\users\pankiev\desktop\sdl_mario\controller\controller.cpp
+	"Controller.h"
+
+1469208171 c:\users\pankiev\desktop\sdl_mario\controller\controller.h
+	<SDL.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<iostream>
+	"../View/Window.h"
+	"../View/TextureHolder.h"
+	"../Model/CollisionMap.h"
+	"../View/SdlString.h"
+	"../View/StringFactory.h"
+	"../View/Audio.h"
+	"../Model/MobileObject.h"
+	"Timer.h"
+	"HardwareController.h"
+
+1394940796 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1429192560 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1394940797 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\close_code.h
+
+1394940796 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1394940797 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1394940796 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1394940796 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940796 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394940797 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376156425 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376156543 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376156342 c:\users\pankiev\desktop\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1469207883 c:\users\pankiev\desktop\sdl_mario\view\window.h
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	"Renderer.h"
+
+1469207905 c:\users\pankiev\desktop\sdl_mario\view\renderer.h
+	<SDL.h>
+	<iostream>
+	<list>
+	"../Model/Object.h"
+	"SdlString.h"
+
+1469359389 c:\users\pankiev\desktop\sdl_mario\model\object.h
+	<SDL.h>
+	<iostream>
+
+1466459357 c:\users\pankiev\desktop\sdl_mario\view\sdlstring.h
+	<SDL.h>
+	<SDL_ttf.h>
+	<iostream>
+	"StringFactory.h"
+	"../Model/Object.h"
+
+1466612544 c:\users\pankiev\desktop\sdl_mario\view\stringfactory.h
+	<SDL_ttf.h>
+	<iostream>
+
+1470845750 c:\users\pankiev\desktop\sdl_mario\view\textureholder.h
+	<SDL.h>
+	<SDL_image.h>
+	<iostream>
+
+1470080732 c:\users\pankiev\desktop\sdl_mario\model\collisionmap.h
+	"Object.h"
+
+1470842538 c:\users\pankiev\desktop\sdl_mario\view\audio.h
+	<SDL_mixer.h>
+	<iostream>
+
+1470938077 c:\users\pankiev\desktop\sdl_mario\model\mobileobject.h
+	"Object.h"
+
+1466775992 c:\users\pankiev\desktop\sdl_mario\controller\timer.h
+	<SDL.h>
+
+1466195520 c:\users\pankiev\desktop\sdl_mario\controller\hardwarecontroller.h
+	<SDL.h>
+
+1471078242 source:c:\users\pankiev\desktop\sdl_mario\controller\hardwarecontroller.cpp
+	"../Mario/Controller/MarioGame.h"
+	"../Mario/Model/ActiveBlock.h"
+	"../Mario/Model/HiddenUnkownBlock.h"
+	"../Mario/Model/AnimatingUnknownBlock.h"
+	"../Mario/Model/BlockCoin.h"
+	"../Mario/Model/Mushroom1UP.h"
+	"../Mario/Model/GoombasBrown.h"
+	"../Mario/Model/GoombasBlue.h"
+	"../Mario/Model/KoopaGreen.h"
+	"../Mario/Model/KoopaBlue.h"
+	"../Mario/Model/KoopaRed.h"
+	"../Mario/Model/PiranhaPlantGreen.h"
+	"../Mario/Model/PiranhaPlantBlue.h"
+	"../Mario/Model/Browser.h"
+	"../Mario/Model/BrowserFireShot.h"
+	"../Mario/Controller/MarioAnimation.h"
+	"../Mario/Model/MoneyBlock.h"
+	"../Mario/Model/Star.h"
+	"../Mario/Model/MovingPlatformElement.h"
+	"../Mario/Controller/SpecalObjectsFactory.h"
+	"../Mario/Model/PipeEnterController.h"
+	"../Mario/Model/EndFlagController.h"
+
+1470916006 c:\users\pankiev\desktop\sdl_mario\mario\controller\mariogame.h
+	<list>
+	"../../Controller/Controller.h"
+	"../Model/Mario.h"
+	"Level1Factory.h"
+	"../View/Interface.h"
+
+1469477394 c:\users\pankiev\desktop\sdl_mario\mario\model\mario.h
+	"Mob.h"
+	"../../Controller/Timer.h"
+
+1470847490 c:\users\pankiev\desktop\sdl_mario\mario\model\mob.h
+	"AbstractMob.h"
+	"../../Controller/Timer.h"
+
+1469377829 c:\users\pankiev\desktop\sdl_mario\mario\model\abstractmob.h
+	"GameBase.h"
+	"../Controller/AnimationSet.h"
+
+1470937616 c:\users\pankiev\desktop\sdl_mario\mario\model\gamebase.h
+	"../../Model/MobileObject.h"
+	<fstream>
+
+1469455095 c:\users\pankiev\desktop\sdl_mario\mario\controller\animationset.h
+	<SDL.h>
+
+1467631618 c:\users\pankiev\desktop\sdl_mario\mario\controller\level1factory.h
+
+1469480385 c:\users\pankiev\desktop\sdl_mario\mario\view\interface.h
+	"../../View/SdlString.h"
+	"../../Model/NewString.h"
+	"InterfaceCoin.h"
+	"../../Controller/Timer.h"
+
+1466865077 c:\users\pankiev\desktop\sdl_mario\model\newstring.h
+	"../View/SdlString.h"
+
+1467729680 c:\users\pankiev\desktop\sdl_mario\mario\view\interfacecoin.h
+	"../Model/GameBase.h"
+	"../../Model/ManyPicAnimation.h"
+
+1466540018 c:\users\pankiev\desktop\sdl_mario\model\manypicanimation.h
+	<vector>
+	"AbstractAnimation.h"
+
+1467924767 c:\users\pankiev\desktop\sdl_mario\model\abstractanimation.h
+	"Object.h"
+	"../Controller/Timer.h"
+
+1469225277 c:\users\pankiev\desktop\sdl_mario\mario\model\activeblock.h
+	"Block.h"
+
+1469356647 c:\users\pankiev\desktop\sdl_mario\mario\model\block.h
+	"GameBase.h"
+	"Debris.h"
+	"../../Controller/Timer.h"
+
+1470065804 c:\users\pankiev\desktop\sdl_mario\mario\model\debris.h
+	"AbstractMob.h"
+	"../../Model/AbstractAnimation.h"
+
+1469225324 c:\users\pankiev\desktop\sdl_mario\mario\model\hiddenunkownblock.h
+	"UnknownBlock.h"
+
+1469225294 c:\users\pankiev\desktop\sdl_mario\mario\model\unknownblock.h
+	"ActiveBlock.h"
+	"../../Model/ManyPicAnimation.h"
+	"LevelUpFlower.h"
+
+1467882225 c:\users\pankiev\desktop\sdl_mario\mario\model\levelupflower.h
+	"Mushroom.h"
+	"../../Model/ManyPicAnimation.h"
+
+1469225347 c:\users\pankiev\desktop\sdl_mario\mario\model\mushroom.h
+	"BlockItem.h"
+	"../../Controller/Timer.h"
+
+1469225282 c:\users\pankiev\desktop\sdl_mario\mario\model\blockitem.h
+	"Mob.h"
+
+1469225351 c:\users\pankiev\desktop\sdl_mario\mario\model\animatingunknownblock.h
+	"UnknownBlock.h"
+
+1469225372 c:\users\pankiev\desktop\sdl_mario\mario\model\blockcoin.h
+	"AbstractMob.h"
+	"../../Model/ManyPicAnimation.h"
+	"../../Controller/Timer.h"
+	"Coin.h"
+
+1469355393 c:\users\pankiev\desktop\sdl_mario\mario\model\coin.h
+	"GameBase.h"
+	"../../Model/ManyPicAnimation.h"
+
+1469225376 c:\users\pankiev\desktop\sdl_mario\mario\model\mushroom1up.h
+	"Mushroom.h"
+
+1470745749 c:\users\pankiev\desktop\sdl_mario\mario\model\goombasbrown.h
+	"Goombas.h"
+
+1470745790 c:\users\pankiev\desktop\sdl_mario\mario\model\goombas.h
+	"Mob.h"
+	"../Controller/GoombasAnimation.h"
+
+1470063797 c:\users\pankiev\desktop\sdl_mario\mario\controller\goombasanimation.h
+	"AnimationSet.h"
+	"../../Model/ManyPicAnimation.h"
+
+1470745789 c:\users\pankiev\desktop\sdl_mario\mario\model\goombasblue.h
+	"Goombas.h"
+
+1470745428 c:\users\pankiev\desktop\sdl_mario\mario\model\koopagreen.h
+	"Koopa.h"
+
+1470745550 c:\users\pankiev\desktop\sdl_mario\mario\model\koopa.h
+	"Mob.h"
+	"../../Model/ManyPicAnimation.h"
+	"../../Controller/Timer.h"
+
+1470745460 c:\users\pankiev\desktop\sdl_mario\mario\model\koopablue.h
+	"Koopa.h"
+
+1470745358 c:\users\pankiev\desktop\sdl_mario\mario\model\koopared.h
+	"Koopa.h"
+
+1470076251 c:\users\pankiev\desktop\sdl_mario\mario\model\piranhaplantgreen.h
+	"PiranhaPlant.h"
+
+1470088450 c:\users\pankiev\desktop\sdl_mario\mario\model\piranhaplant.h
+	"Mob.h"
+	"../../Model/ManyPicAnimation.h"
+
+1470084373 c:\users\pankiev\desktop\sdl_mario\mario\model\piranhaplantblue.h
+	"PiranhaPlant.h"
+
+1470847984 c:\users\pankiev\desktop\sdl_mario\mario\model\browser.h
+	"Mob.h"
+
+1470848053 c:\users\pankiev\desktop\sdl_mario\mario\model\browserfireshot.h
+	"Mob.h"
+	"../../Model/ManyPicAnimation.h"
+
+1469455310 c:\users\pankiev\desktop\sdl_mario\mario\controller\marioanimation.h
+	"AnimationSet.h"
+	"../../Model/ManyPicAnimation.h"
+
+1469825721 c:\users\pankiev\desktop\sdl_mario\mario\model\moneyblock.h
+	"ActiveBlock.h"
+	"../../Model/ManyPicAnimation.h"
+
+1469225639 c:\users\pankiev\desktop\sdl_mario\mario\model\star.h
+	"BlockItem.h"
+	"../../Model/ManyPicAnimation.h"
+
+1470937642 c:\users\pankiev\desktop\sdl_mario\mario\model\movingplatformelement.h
+	"GameBase.h"
+
+1469917344 c:\users\pankiev\desktop\sdl_mario\mario\controller\specalobjectsfactory.h
+	"MarioGame.h"
+
+1469367149 c:\users\pankiev\desktop\sdl_mario\mario\model\pipeentercontroller.h
+	"GameBase.h"
+	"../Controller/MarioGame.h"
+	"../../Controller/Timer.h"
+
+1469459184 c:\users\pankiev\desktop\sdl_mario\mario\model\endflagcontroller.h
+	"GameBase.h"
+
+1466930845 source:c:\users\pankiev\desktop\sdl_mario\controller\timer.cpp
+	"Timer.h"
+
+1466617800 source:c:\users\pankiev\desktop\sdl_mario\main.cpp
+	"Mario/Controller/MarioGame.h"
+
+1466609062 source:c:\users\pankiev\desktop\sdl_mario\mario\controller\animationset.cpp
+	"AnimationSet.h"
+
+1470840336 source:c:\users\pankiev\desktop\sdl_mario\mario\controller\browseranimation.cpp
+	"BrowserAnimation.h"
+	"MarioGame.h"
+
+1470840299 c:\users\pankiev\desktop\sdl_mario\mario\controller\browseranimation.h
+	"AnimationSet.h"
+	"../../Model/ManyPicAnimation.h"
+
+1470063906 source:c:\users\pankiev\desktop\sdl_mario\mario\controller\goombasanimation.cpp
+	"GoombasAnimation.h"
+	"MarioGame.h"
+
+1470064742 source:c:\users\pankiev\desktop\sdl_mario\mario\controller\goombasblueanimation.cpp
+	"GoombasBlueAnimation.h"
+	"MarioGame.h"
+
+1470064977 c:\users\pankiev\desktop\sdl_mario\mario\controller\goombasblueanimation.h
+	"GoombasAnimation.h"
+
+1470063963 source:c:\users\pankiev\desktop\sdl_mario\mario\controller\goombasbrownanimation.cpp
+	"GoombasBrownAnimation.h"
+	"MarioGame.h"
+
+1470063952 c:\users\pankiev\desktop\sdl_mario\mario\controller\goombasbrownanimation.h
+	"GoombasAnimation.h"
+
+1470084682 source:c:\users\pankiev\desktop\sdl_mario\mario\controller\koopaanimation.cpp
+	"KoopaAnimation.h"
+
+1470084694 c:\users\pankiev\desktop\sdl_mario\mario\controller\koopaanimation.h
+	"AnimationSet.h"
+	"../../Model/ManyPicAnimation.h"
+
+1470086275 source:c:\users\pankiev\desktop\sdl_mario\mario\controller\koopablueanimation.cpp
+	"KoopaBlueAnimation.h"
+	"MarioGame.h"
+
+1470085271 c:\users\pankiev\desktop\sdl_mario\mario\controller\koopablueanimation.h
+	"KoopaAnimation.h"
+
+1470084681 source:c:\users\pankiev\desktop\sdl_mario\mario\controller\koopagreenanimation.cpp
+	"KoopaGreenAnimation.h"
+	"MarioGame.h"
+
+1470084661 c:\users\pankiev\desktop\sdl_mario\mario\controller\koopagreenanimation.h
+	"KoopaAnimation.h"
+
+1470086611 source:c:\users\pankiev\desktop\sdl_mario\mario\controller\kooparedanimation.cpp
+	"KoopaRedAnimation.h"
+	"MarioGame.h"
+
+1470086573 c:\users\pankiev\desktop\sdl_mario\mario\controller\kooparedanimation.h
+	"KoopaAnimation.h"
+
+1467631666 source:c:\users\pankiev\desktop\sdl_mario\mario\controller\level1factory.cpp
+	"Level1Factory.h"
+	"MarioGame.h"
+	"../Model/ActiveBlock.h"
+
+1475789807 source:c:\users\pankiev\desktop\sdl_mario\mario\controller\marioanimation.cpp
+	<cmath>
+	"MarioAnimation.h"
+	"MarioGame.h"
+
+1474920838 source:c:\users\pankiev\desktop\sdl_mario\mario\controller\mariogame.cpp
+	<fstream>
+	<cstdlib>
+	<ctime>
+	"MarioGame.h"
+	"MarioAnimation.h"
+	"../Model/GoombasBrown.h"
+	"../Model/GoombasBlue.h"
+	"../Model/KoopaGreen.h"
+	"../Model/KoopaBlue.h"
+	"../Model/KoopaRed.h"
+	"../Model/PiranhaPlantGreen.h"
+	"../Model/PiranhaPlantBlue.h"
+	"../Model/AnimatingUnknownBlock.h"
+	"../Model/HiddenUnkownBlock.h"
+	"../Model/BlockCoin.h"
+	"../Model/MoneyBlock.h"
+	"../Model/LevelUpFlower.h"
+	"../Model/Star.h"
+	"../Model/EmptyBlock.h"
+	"../Model/Mushroom1UP.h"
+	"../Model/Coin.h"
+	"../Model/PipeEnterController.h"
+	"../Model/EndFlagController.h"
+	"../Model/MovingPlatformElement.h"
+	"../Model/Browser.h"
+	"loadConstants.h"
+
+1469225401 c:\users\pankiev\desktop\sdl_mario\mario\model\emptyblock.h
+	"ActiveBlock.h"
+
+1467624897 c:\users\pankiev\desktop\sdl_mario\mario\controller\loadconstants.h
+
+1470938326 source:c:\users\pankiev\desktop\sdl_mario\mario\controller\specalobjectsfactory.cpp
+	"SpecalObjectsFactory.h"
+	"../Model/MovingPlatformElement.h"
+
+1469457835 source:c:\users\pankiev\desktop\sdl_mario\mario\model\abstractmob.cpp
+	"AbstractMob.h"
+	"../Controller/MarioGame.h"
+	"PointsString.h"
+
+1468250939 c:\users\pankiev\desktop\sdl_mario\mario\model\pointsstring.h
+	"../../Controller/Timer.h"
+	"../../View/StringFactory.h"
+	"String.h"
+
+1469225404 c:\users\pankiev\desktop\sdl_mario\mario\model\string.h
+	"GameBase.h"
+	"../Controller/MarioGame.h"
+
+1470068357 source:c:\users\pankiev\desktop\sdl_mario\mario\model\activeblock.cpp
+	"ActiveBlock.h"
+	"../Controller/MarioGame.h"
+	"DebrisRed.h"
+	"DebrisBlue.h"
+
+1470065852 c:\users\pankiev\desktop\sdl_mario\mario\model\debrisred.h
+	"Debris.h"
+
+1470066346 c:\users\pankiev\desktop\sdl_mario\mario\model\debrisblue.h
+	"Debris.h"
+
+1468178060 source:c:\users\pankiev\desktop\sdl_mario\mario\model\animatingunknownblock.cpp
+	"AnimatingUnknownBlock.h"
+	"../Controller/MarioGame.h"
+
+1469984737 source:c:\users\pankiev\desktop\sdl_mario\mario\model\block.cpp
+	"Block.h"
+	"../Controller/MarioGame.h"
+
+1469225416 source:c:\users\pankiev\desktop\sdl_mario\mario\model\blockcoin.cpp
+	"BlockCoin.h"
+	"../Controller/MarioGame.h"
+
+1468069677 source:c:\users\pankiev\desktop\sdl_mario\mario\model\blockitem.cpp
+	"BlockItem.h"
+	"../Controller/MarioGame.h"
+
+1470849312 source:c:\users\pankiev\desktop\sdl_mario\mario\model\browser.cpp
+	<cstdlib>
+	"Browser.h"
+	"BrowserFireShot.h"
+	"../Controller/MarioGame.h"
+	"../Controller/BrowserAnimation.h"
+
+1470847104 source:c:\users\pankiev\desktop\sdl_mario\mario\model\browserfireshot.cpp
+	"BrowserFireShot.h"
+	"../Controller/MarioGame.h"
+
+1469355394 source:c:\users\pankiev\desktop\sdl_mario\mario\model\coin.cpp
+	"Coin.h"
+	"../Controller/MarioGame.h"
+
+1470066158 source:c:\users\pankiev\desktop\sdl_mario\mario\model\debris.cpp
+	"Debris.h"
+	"../Controller/MarioGame.h"
+
+1470066389 source:c:\users\pankiev\desktop\sdl_mario\mario\model\debrisblue.cpp
+	"DebrisBlue.h"
+	"../Controller/MarioGame.h"
+
+1470066178 source:c:\users\pankiev\desktop\sdl_mario\mario\model\debrisred.cpp
+	"DebrisRed.h"
+	"../Controller/MarioGame.h"
+
+1467726730 source:c:\users\pankiev\desktop\sdl_mario\mario\model\emptyblock.cpp
+	"EmptyBlock.h"
+	"../Controller/MarioGame.h"
+
+1469459226 source:c:\users\pankiev\desktop\sdl_mario\mario\model\endflagcontroller.cpp
+	<cstdlib>
+	"EndFlagController.h"
+	"../Controller/MarioGame.h"
+
+1470849312 source:c:\users\pankiev\desktop\sdl_mario\mario\model\fireball.cpp
+	"FireBall.h"
+	"FireWork.h"
+	"../Controller/MarioGame.h"
+
+1470843827 c:\users\pankiev\desktop\sdl_mario\mario\model\fireball.h
+	"Mob.h"
+	"../../Model/ManyPicAnimation.h"
+
+1469225426 c:\users\pankiev\desktop\sdl_mario\mario\model\firework.h
+	"../../Model/ManyPicAnimation.h"
+	"GameBase.h"
+
+1468147234 source:c:\users\pankiev\desktop\sdl_mario\mario\model\firework.cpp
+	"FireWork.h"
+	"../Controller/MarioGame.h"
+
+1470936939 source:c:\users\pankiev\desktop\sdl_mario\mario\model\gamebase.cpp
+	<cstdlib>
+	"../Controller/loadConstants.h"
+	"GameBase.h"
+	"../Controller/MarioGame.h"
+
+1470063356 source:c:\users\pankiev\desktop\sdl_mario\mario\model\goombas.cpp
+	"Goombas.h"
+	"../Controller/GoombasAnimation.h"
+	"../Controller/MarioGame.h"
+
+1470746601 source:c:\users\pankiev\desktop\sdl_mario\mario\model\goombasblue.cpp
+	"GoombasBlue.h"
+	"../Controller/GoombasBlueAnimation.h"
+	"../Controller/MarioGame.h"
+
+1470064048 source:c:\users\pankiev\desktop\sdl_mario\mario\model\goombasbrown.cpp
+	"GoombasBrown.h"
+	"../Controller/GoombasBrownAnimation.h"
+
+1470914820 source:c:\users\pankiev\desktop\sdl_mario\mario\model\hiddenunkownblock.cpp
+	"HiddenUnkownBlock.h"
+	"../Controller/MarioGame.h"
+
+1470087642 source:c:\users\pankiev\desktop\sdl_mario\mario\model\koopa.cpp
+	"../Controller/MarioGame.h"
+	"../Controller/KoopaAnimation.h"
+	"Koopa.h"
+	"Mario.h"
+
+1470086471 source:c:\users\pankiev\desktop\sdl_mario\mario\model\koopablue.cpp
+	"KoopaBlue.h"
+	"../Controller/KoopaBlueAnimation.h"
+	"../Controller/MarioGame.h"
+
+1470085002 source:c:\users\pankiev\desktop\sdl_mario\mario\model\koopagreen.cpp
+	"KoopaGreen.h"
+	"../Controller/KoopaGreenAnimation.h"
+
+1470087654 source:c:\users\pankiev\desktop\sdl_mario\mario\model\koopared.cpp
+	"KoopaRed.h"
+	"../Controller/KoopaRedAnimation.h"
+	"../Controller/MarioGame.h"
+
+1467882956 source:c:\users\pankiev\desktop\sdl_mario\mario\model\levelupflower.cpp
+	"LevelUpFlower.h"
+	"../Controller/MarioGame.h"
+
+1469967412 source:c:\users\pankiev\desktop\sdl_mario\mario\model\manyelementsobject.cpp
+
+1470936881 source:c:\users\pankiev\desktop\sdl_mario\mario\model\mario.cpp
+	"Mario.h"
+	"../Controller/MarioGame.h"
+	"../Controller/MarioAnimation.h"
+	"ActiveBlock.h"
+	"FireBall.h"
+
+1471078168 source:c:\users\pankiev\desktop\sdl_mario\mario\model\mob.cpp
+	"Mob.h"
+	"../Controller/MarioGame.h"
+
+1469825829 source:c:\users\pankiev\desktop\sdl_mario\mario\model\moneyblock.cpp
+	"MoneyBlock.h"
+	"../Controller/MarioGame.h"
+	"BlockCoin.h"
+	"EmptyBlock.h"
+
+1469914267 source:c:\users\pankiev\desktop\sdl_mario\mario\model\movingplatform.cpp
+	"MovingPlatform.h"
+
+1469914382 c:\users\pankiev\desktop\sdl_mario\mario\model\movingplatform.h
+	"GameBase.h"
+	"MovingPlatformElement.h"
+
+1470938411 source:c:\users\pankiev\desktop\sdl_mario\mario\model\movingplatformelement.cpp
+	<cstdlib>
+	"MovingPlatformElement.h"
+	"../Controller/MarioGame.h"
+
+1469225437 source:c:\users\pankiev\desktop\sdl_mario\mario\model\mushroom.cpp
+	"Mushroom.h"
+	"../Controller/MarioGame.h"
+
+1468671381 source:c:\users\pankiev\desktop\sdl_mario\mario\model\mushroom1up.cpp
+	"Mushroom1UP.h"
+	"../Controller/MarioGame.h"
+	"String.h"
+
+1470136100 source:c:\users\pankiev\desktop\sdl_mario\mario\model\pipeentercontroller.cpp
+	"PipeEnterController.h"
+	<cstdlib>
+
+1470088555 source:c:\users\pankiev\desktop\sdl_mario\mario\model\piranhaplant.cpp
+	"PiranhaPlant.h"
+	"../Controller/MarioGame.h"
+
+1470084116 source:c:\users\pankiev\desktop\sdl_mario\mario\model\piranhaplantblue.cpp
+	"PiranhaPlantBlue.h"
+	"../Controller/MarioGame.h"
+
+1470077871 source:c:\users\pankiev\desktop\sdl_mario\mario\model\piranhaplantgreen.cpp
+	"PiranhaPlantGreen.h"
+	"../Controller/MarioGame.h"
+
+1468251038 source:c:\users\pankiev\desktop\sdl_mario\mario\model\pointsstring.cpp
+	<sstream>
+	"PointsString.h"
+
+1469225440 source:c:\users\pankiev\desktop\sdl_mario\mario\model\star.cpp
+	"Star.h"
+	"../Controller/MarioGame.h"
+
+1468251088 source:c:\users\pankiev\desktop\sdl_mario\mario\model\string.cpp
+	"String.h"
+
+1468184000 source:c:\users\pankiev\desktop\sdl_mario\mario\model\unknownblock.cpp
+	"UnknownBlock.h"
+	"EmptyBlock.h"
+	"BlockCoin.h"
+	"Star.h"
+	"Mushroom1UP.h"
+	"../Controller/MarioGame.h"
+
+1470083832 source:c:\users\pankiev\desktop\sdl_mario\mario\view\interface.cpp
+	"Interface.h"
+	"../Controller/MarioGame.h"
+	<sstream>
+
+1467730713 source:c:\users\pankiev\desktop\sdl_mario\mario\view\interfacecoin.cpp
+	"InterfaceCoin.h"
+	"../Controller/MarioGame.h"
+
+1467924788 source:c:\users\pankiev\desktop\sdl_mario\model\abstractanimation.cpp
+	"AbstractAnimation.h"
+
+1470848818 source:c:\users\pankiev\desktop\sdl_mario\model\collisionmap.cpp
+	<cmath>
+	"CollisionMap.h"
+
+1466694361 source:c:\users\pankiev\desktop\sdl_mario\model\manypicanimation.cpp
+	"ManyPicAnimation.h"
+
+1470938206 source:c:\users\pankiev\desktop\sdl_mario\model\mobileobject.cpp
+	<cmath>
+	"MobileObject.h"
+	"CollisionMap.h"
+
+1466865099 source:c:\users\pankiev\desktop\sdl_mario\model\newstring.cpp
+	<sstream>
+	"NewString.h"
+
+1469359381 source:c:\users\pankiev\desktop\sdl_mario\model\object.cpp
+	"Object.h"
+
+1466537556 source:c:\users\pankiev\desktop\sdl_mario\model\spritesheetanimation.cpp
+	"SpriteSheetAnimation.h"
+
+1466537377 c:\users\pankiev\desktop\sdl_mario\model\spritesheetanimation.h
+	"AbstractAnimation.h"
+
+1470842545 source:c:\users\pankiev\desktop\sdl_mario\view\audio.cpp
+	"Audio.h"
+
+1469207919 source:c:\users\pankiev\desktop\sdl_mario\view\renderer.cpp
+	"Renderer.h"
+
+1466612131 source:c:\users\pankiev\desktop\sdl_mario\view\sdlstring.cpp
+	"SdlString.h"
+
+1466612469 source:c:\users\pankiev\desktop\sdl_mario\view\stringfactory.cpp
+	"StringFactory.h"
+
+1470845762 source:c:\users\pankiev\desktop\sdl_mario\view\textureholder.cpp
+	"TextureHolder.h"
+
+1469817629 source:c:\users\pankiev\desktop\sdl_mario\view\window.cpp
+	"Window.h"
+
