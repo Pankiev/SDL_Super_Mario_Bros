@@ -1,6 +1,7 @@
 #pragma once
 
-#include <list>
+#include "../../List/List.h"
+#include "../../List/List.hpp"
 
 #include "../../Controller/Controller.h"
 #include "../Model/Mario.h"
@@ -37,81 +38,81 @@ class MarioGame : public Controller
 {
 public:
 
-    MarioGame();
+	MarioGame();
 
-    void run() override;
-    Mario* getMainChar();
-    void addToGame(GameBase* object);
-    void action();
-    void clearGarbage();
-    void addToGarbage(Object* trash);
-    void timeUpdate();
-    void addPoints(int points);
-    void addCoin();
+	void run() override;
+	Mario* getMainChar();
+	void addToGame(GameBase* object);
+	void action();
+	void clearGarbage();
+	void addToGarbage(Object* trash);
+	void timeUpdate();
+	void addPoints(int points);
+	void addCoin();
+	
+	void moveToGarbageAll();
+	void moveToGarbage(List<GameBase*>& list);
+	void saveGame(std::string filePath);
+	void loadGame(std::string filePath);
+	void addLife();
+	void timeHandle();
+	void timesUpHandle();
 
-    void moveToGarbageAll();
-    void moveToGarbage(std::list<GameBase*>& list);
-    void saveGame(std::string filePath);
-    void loadGame(std::string filePath);
-    void addLife();
-    void timeHandle();
-    void timesUpHandle();
+	void produceGameObject(GameBase* gameObject, int posX, int posY);
+	void freezeGameTimer();
+	void activateGameTimer();
 
-    void produceGameObject(GameBase* gameObject, int posX, int posY);
-    void freezeGameTimer();
-    void activateGameTimer();
+	void changeTimeToScore();
+	void loadNextLevel();
+	void nextLevel();
+	void sameLevel();
+	void onMarioDeath();
 
-    void changeTimeToScore();
-    void loadNextLevel();
-    void nextLevel();
-    void sameLevel();
-    void onMarioDeath();
+	void loadCurrentStageType();
 
-    void loadCurrentStageType();
+	StringFactory* getStringFactory();
 
-    StringFactory* getStringFactory();
+	int getGameWidth();
+	int getGameHeight();
 
-    int getGameWidth();
-    int getGameHeight();
+	int* getCurrentStage();
 
-    int* getCurrentStage();
+	SDL_Rect getMarioCamera();
+	bool isObjectInCamera(Object* object);
+	bool isChangingTimeToScore();
+	std::string createStageString();
 
-    SDL_Rect getMarioCamera();
-    bool isObjectInCamera(Object* object);
-    bool isChangingTimeToScore();
-    std::string createStageString();
+	GameBase* createObjectByIdentify(char identificator);
 
-    GameBase* createObjectByIdentify(char identificator);
+	void clearActionInactives();//For debbuging
+	Mario* copyMario();
 
-    void clearActionInactives();//Hardware controller debugger
-    Mario* copyMario();
-
-    int getLives();
+	int getLives();
 
 private:
 
-    void loadGameFromObjectField();
-    std::string createCurrentLevelPath();
+	void loadGameFromObjectField();
+	std::string createCurrentLevelPath();
 
-    void changeTimeToScoreHandle();
-    void loadCollMap(std::ifstream& file);
-    void loadStageType(std::ifstream& file);
+	void changeTimeToScoreHandle();
+	void loadCollMap(std::ifstream& file);
+	void loadStageType(std::ifstream& file);
 
-    bool changingTimeToScore_;
-    bool gameTimerActive_;
-    int points_;
-    int coins_;
-    int lives_;
-    Interface* text_;
-    Mario* marioChar_;
-    std::list<GameBase*> actionActives_;
-    std::list<GameBase*> otherObjects_;
-    std::list<Object*> garbage_;
-    StringFactory* stringFactory_;
-    int gameWidth_;
-    int gameHeight_;
-    int time_;
-    int currentStage_[2];
-    int currentStageType_;
-    bool gameLoad_;
+	bool changingTimeToScore_;
+	bool gameTimerActive_;
+	int points_;
+	int coins_;
+	int lives_;
+	Interface* text_;
+	Mario* marioChar_;
+	List<GameBase*> actionActives_;
+	List<GameBase*> otherObjects_;
+	List<Object*> garbage_;
+	StringFactory* stringFactory_;
+	int gameWidth_;
+	int gameHeight_;
+	int time_;
+	int currentStage_[2];
+	int currentStageType_;
+	bool gameLoad_;
 };

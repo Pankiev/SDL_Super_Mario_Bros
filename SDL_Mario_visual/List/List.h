@@ -1,5 +1,7 @@
 ﻿#pragma once
 #include "ListElement.h"
+#include "../Model/Object.h"
+#include "List.h"
 
 template <class T>
 class ListIterator;
@@ -12,15 +14,16 @@ public:
 	List();
 	~List();
 	bool empty();
+	int size();
 	void push_back(T newItem);
 	void push_front(T newItem);
 	ListIterator<T> begin();
 	ListIterator<T> end();
 	ListIterator<T> rbegin();
 	ListIterator<T> rend();
-	void erase(ListIterator<T>& fromWhere);
+	ListIterator<T> erase(ListIterator<T>& fromWhere);
+	void insert(ListIterator<T>& position, T toInsert);
 
-	
 private:
 	ListIterator<T> createIterator(ListElement<T>* elementToPut);
 	void deleteAllListPieces();
@@ -28,5 +31,6 @@ private:
 
 	ListElement<T>* frontGuard;
 	ListElement<T>* backGuard;
+	int size_;
 };
 

@@ -4,6 +4,7 @@
 #include "../Controller/loadConstants.h"
 #include "GameBase.h"
 #include "../Controller/MarioGame.h"
+#include "../../ApplicationError.h"
 
 GameBase::GameBase(MarioGame& game, int BLOCK_TYPE):GameBase(game)
 {
@@ -102,8 +103,8 @@ void GameBase::applyLoadValue(int LOAD_CONSTANT, int value)
         setCollisionHeight(value);
         break;
     default:
-        std::cout << "Bad Load constant, throwing exception." << std::endl;
-        throw *(new std::exception);
+        printf("Bad Load constant, throwing exception.\n");
+        throw *(new ApplicationError);
     }
 }
 

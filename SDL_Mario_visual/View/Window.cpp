@@ -1,5 +1,6 @@
 
 #include "Window.h"
+#include "../ApplicationError.h"
 
 Window::Window()
 {
@@ -59,8 +60,8 @@ void Window::setIcon(std::string iconPath)
     SDL_SetColorKey(icon_, SDL_TRUE, 0xFF00FF);
     if(icon_ == NULL)
     {
-        std::cout << "Icon loading error: " << IMG_GetError() << std::endl;
-        throw *(new std::exception);
+        printf("Icon loading error: %s\n", IMG_GetError());
+        throw *(new ApplicationError);
     }
     SDL_SetWindowIcon(window_, icon_);
     SDL_FreeSurface(icon_);

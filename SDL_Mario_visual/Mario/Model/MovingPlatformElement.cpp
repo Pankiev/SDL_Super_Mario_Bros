@@ -3,6 +3,7 @@
 
 #include "MovingPlatformElement.h"
 #include "../Controller/MarioGame.h"
+#include "../../ApplicationError.h"
 
 MovingPlatformElement::MovingPlatformElement(MarioGame& game):GameBase(game, TEXTURE_MOVING_PLATFORM)
 {
@@ -78,7 +79,7 @@ bool MovingPlatformElement::isOutOfVerticalPosition()
     else if(currentMoveDirection_ == UP)
         return outOfUpperBoundary();
     else
-        throw *(new std::exception);
+        throw *(new ApplicationError);
 }
 
 bool MovingPlatformElement::outOfUpperBoundary()
@@ -100,7 +101,7 @@ void MovingPlatformElement::repositionPlatform()
     else if(currentMoveDirection_ == DOWN)
         repositionPlatform(rectShow_.x, 300);
     else
-        throw *(new std::exception);
+        throw *(new ApplicationError);
 }
 
 void MovingPlatformElement::repositionPlatform(int x, int y)

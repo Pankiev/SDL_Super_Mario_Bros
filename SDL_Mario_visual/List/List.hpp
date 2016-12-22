@@ -5,6 +5,7 @@
 template <class T>
 List<T>::List()
 {
+	size_ = 0;
 	frontGuard = new ListElement<T>;
 	backGuard = new ListElement<T>;
 	frontGuard->next = backGuard;
@@ -33,13 +34,19 @@ void List<T>::deleteAllListPieces()
 template <class T>
 bool List<T>::empty()
 {
-	return frontGuard->next = backGuard;
+	return size_ == 0;
 }
 
+template <class T>
+int List<T>::size()
+{
+	return size_;
+}
 
 template <class T>
 void List<T>::push_front(T newItem)
 {
+	size_++;
 	ListElement<T>* newElement = new ListElement<T>;
 	newElement->content = newItem;
 	newElement->previous = frontGuard;
@@ -52,6 +59,7 @@ void List<T>::push_front(T newItem)
 template <class T>
 void List<T>::push_back(T newItem)
 {
+	size_++;
 	ListElement<T>* newElement = new ListElement<T>;
 	newElement->content = newItem;
 	newElement->next = backGuard;
@@ -93,8 +101,24 @@ ListIterator<T> List<T>::rend()
 }
 
 template <class T>
-void List<T>::erase(ListIterator<T>& fromWhere)
+ListIterator<T> List<T>::erase(ListIterator<T>& fromWhere)
 {
-	fromWhere.pointingTo->previous->next = fromWhere.pointingTo->next;
-	fromWhere.pointingTo->next->previous = fromWhere.pointingTo->previous;
+	size_--;
+	ListIterator<T> iteratorCopy = fromWhere;
+	++fromWhere;
+	iteratorCopy.pointingTo->previous->next = iteratorCopy.pointingTo->next;
+	iteratorCopy.pointingTo->next->previous = iteratorCopy.pointingTo->previous;
+	return fromWhere;
+}
+
+template <class T>
+void List<T>::insert(ListIterator<T>& position, T toInsert)
+{
+	size_++;
+	ListElement<T>* newElement = new ListElement<T>;
+	newElement->content = toInsert;
+	newElement->next = position.pointingTo;
+	newElement->previous = position.pointingTo->previous;
+	position.pointingTo->previous->next = newElement;
+	position.pointingTo->previous = newElement;
 }

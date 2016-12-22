@@ -4,6 +4,7 @@
 #include "../Controller/MarioAnimation.h"
 #include "ActiveBlock.h"
 #include "FireBall.h"
+#include "../../ApplicationError.h"
 
 Mario::Mario(MarioGame& game):Mob(game)
 {
@@ -270,8 +271,8 @@ void Mario::slideMove(int direction, float acceleration)
         slideFactor_ += acceleration*game_.getTimeFactor();
     else
     {
-        std::cout << "Something went wrong! " << std::endl;
-        throw *(new std::exception);
+        printf("Something went wrong!\n");
+        throw *(new ApplicationError);
     }
 }
 

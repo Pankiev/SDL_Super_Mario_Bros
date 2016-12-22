@@ -2,6 +2,7 @@
 #include <cmath>
 
 #include "CollisionMap.h"
+#include "../ApplicationError.h"
 
 CollisionMap::CollisionMap(int width, int height):borderObject("BorderObject", BORDER_ID, -1)
 {
@@ -113,8 +114,8 @@ Object* CollisionMap::checkForSpace(int moveValue, int direction, const SDL_Rect
             }
             break;
         default:
-            std::cout << "Bad direction choosen(checkForSpace method)!" << std::endl;
-            throw *(new std::exception);
+            printf("Bad direction choosen(checkForSpace method)!\n");
+            throw *(new ApplicationError);
         }*/
         switch(direction)
         {
@@ -146,8 +147,8 @@ Object* CollisionMap::checkForSpace(int moveValue, int direction, const SDL_Rect
         case DIRECTION_NONE:
             return map_[top][left];
         default:
-            std::cout << "Bad direction choosen(checkForSpace method)!" << std::endl;
-            throw *(new std::exception);
+            printf("Bad direction choosen(checkForSpace method)!\n");
+            throw *(new ApplicationError);
         }
         return nullptr;
     }
@@ -202,8 +203,8 @@ void CollisionMap::repositionCollision(int moveValue, int direction, const Objec
     case DIRECTION_NONE:
         break;
     default:
-        std::cout << "Bad direction choosen(repositionCollision method)!" << std::endl;
-        throw *(new std::exception);
+        printf("Bad direction choosen(repositionCollision method)!\n");
+        throw *(new ApplicationError);
     }
 }
 
@@ -222,8 +223,8 @@ bool CollisionMap::inBorder(int direction, int moveValue, const SDL_Rect& rect) 
     case DIRECTION_NONE:
         return inBorder(rect.x, rect.y);
     default:
-        std::cout << "Bad direction choosen(inBorder method)!" << std::endl;
-        throw *(new std::exception);
+        printf("Bad direction choosen(inBorder method)!\n");
+        throw *(new ApplicationError);
     }
 }
 

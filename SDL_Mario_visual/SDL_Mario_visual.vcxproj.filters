@@ -533,5 +533,8 @@
     <ClInclude Include="List\ListElement.h">
       <Filter>Header Files\List</Filter>
     </ClInclude>
+    <ClInclude Include="ApplicationError.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

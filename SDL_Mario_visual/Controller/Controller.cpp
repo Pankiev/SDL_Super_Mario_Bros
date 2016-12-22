@@ -1,5 +1,6 @@
 
 #include "Controller.h"
+#include "../ApplicationError.h"
 
 Controller::Controller():hardwareController(*this)
 {
@@ -70,26 +71,26 @@ void Controller::SDL_init()
 {
     if(SDL_Init(SDL_INIT_VIDEO) < 0)
     {
-        std::cout << "Video or Audio Init Error" << SDL_GetError() << std::endl;
-        throw *(new std::exception);
+        printf("Video or Audio Init Error %s\n", SDL_GetError());
+        throw *(new ApplicationError);
     }
 
     if(IMG_InitFlags(IMG_INIT_PNG) != IMG_INIT_PNG)
     {
-        std::cout << "Images init error: " << IMG_GetError() << std::endl;
-        throw *(new std::exception);
+        printf("Images init error: %s\n", IMG_GetError());
+        throw *(new ApplicationError);
     }
 
     if(TTF_Init() < 0)
     {
-        std::cout << "TTF Init Error: " << TTF_GetError() << std::endl;
-        throw *(new std::exception);
+        printf("TTF Init Error: %s\n", TTF_GetError());
+        throw *(new ApplicationError);
     }
 
     if(Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 2, 2048) < 0)
     {
-        std::cout << "Audio opening error: " << Mix_GetError() << std::endl;
-        throw *(new std::exception);
+        printf("Audio opening error: %s\n", Mix_GetError());
+        throw *(new ApplicationError);
     }
 }
 

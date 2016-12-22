@@ -207,6 +207,7 @@
     <ClCompile Include="View\Window.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ApplicationError.h" />
     <ClInclude Include="Controller\Controller.h" />
     <ClInclude Include="Controller\HardwareController.h" />
     <ClInclude Include="Controller\Timer.h" />

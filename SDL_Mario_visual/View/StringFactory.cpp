@@ -1,5 +1,6 @@
 
 #include "StringFactory.h"
+#include "../ApplicationError.h"
 
 StringFactory::StringFactory(SDL_Renderer* renderer)
 {
@@ -44,8 +45,8 @@ void StringFactory::loadFont(int FONT_CONSTANT, int fontSize)
     font_ = TTF_OpenFont(fontpath.c_str(), fontSize);
     if(font_ == NULL)
     {
-        std::cout << "Font opening error: " << TTF_GetError() << std::endl;
-        throw *(new std::exception);
+        printf("Font opening error: %s\n", TTF_GetError());
+        throw *(new ApplicationError);
     }
 }
 
@@ -58,8 +59,8 @@ std::string StringFactory::getFontPath(int FONT_CONSTANT)
     case FONT_MARIO :
         return FONT_MARIO_PATH;
     default:
-        std::cout << "Make more font constants!" << std::endl;
-        throw *(new std::exception);
+        printf("Make more font constants!");
+        throw *(new ApplicationError);
     }
 }
 
@@ -68,15 +69,15 @@ SDL_Texture* StringFactory::createTextTexture(std::string text)
     SDL_Surface* textSurface = TTF_RenderText_Solid(font_, text.c_str(), color_);
     if(textSurface == NULL)
     {
-        std::cout << "TTF_RenderText error: " << TTF_GetError() << std::endl;
-        throw *(new std::exception);
+        printf("TTF_RenderText error: %s\n", TTF_GetError());
+        throw *(new ApplicationError);
     }
 
     SDL_Texture* textTexture = SDL_CreateTextureFromSurface(renderer_, textSurface);
     if(textTexture == NULL)
     {
-        std::cout << "CreateTextureFromSurface Error: " << SDL_GetError() << std::endl;
-        throw *(new std::exception);
+        printf("CreateTextureFromSurface Error: %s\n", SDL_GetError());
+        throw *(new ApplicationError);
     }
     SDL_FreeSurface(textSurface);
     textSurface=nullptr;

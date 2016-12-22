@@ -5,6 +5,7 @@
 #include "Star.h"
 #include "Mushroom1UP.h"
 #include "../Controller/MarioGame.h"
+#include "../../ApplicationError.h"
 
 UnknownBlock::UnknownBlock(MarioGame& game, int TEXTURE_TYPE, AbstractMob* content):
     ActiveBlock(game, TEXTURE_TYPE)
@@ -68,7 +69,7 @@ AbstractMob* UnknownBlock::createContentByIdentify(char identification)
         case IDENTIFY_STAR: return new Star(game_);
         case IDENTIFY_MUSHROOM_1UP: return new Mushroom1UP(game_);
     default:
-        throw *(new std::exception);
+        throw *(new ApplicationError);
     }
 }
 
