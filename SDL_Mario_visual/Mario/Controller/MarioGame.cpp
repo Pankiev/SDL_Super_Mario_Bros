@@ -1,4 +1,4 @@
-
+#define _CRT_SECURE_NO_WARNINGS
 #include <fstream>
 #include <cstdlib>
 #include <ctime>
@@ -32,6 +32,7 @@
 
 #include "loadConstants.h"
 #include "../../ApplicationError.h"
+#include "../../StringUtilities.h"
 
 MarioGame::MarioGame()
 {
@@ -204,7 +205,7 @@ void MarioGame::clearGarbage()
 	}
 }
 
-void MarioGame::saveGame(std::string filePath)
+void MarioGame::saveGame(const char* filePath)
 {
 	std::ofstream file(filePath);
 	if(file.good())
@@ -220,7 +221,7 @@ void MarioGame::saveGame(std::string filePath)
 	}
 }
 
-void MarioGame::loadGame(std::string filePath)
+void MarioGame::loadGame(const char* filePath)
 {
 	gameLoad_ = true;
 	if(marioChar_ != nullptr)
@@ -235,30 +236,34 @@ void MarioGame::loadGame(std::string filePath)
 	moveToGarbageAll();
 	addToGame(marioChar_);
 
-	std::ifstream file(filePath);
-	if(file.good())
+	FILE* file = fopen(filePath, "r");
+
+	if(file != NULL)
 	{
 		loadCollMap(file);
 		map_->update(marioChar_);
 		loadStageType(file);
 
-		std::string line;
-		while(std::getline(file, line))
+		char line[100] = { '\0' };
+		readLine(line, file);
+		while(size(line) > 0)
 		{
 			GameBase* loadedObject = createObjectByIdentify(line[0]);
 
-			line.erase(0, 2);
+			erase((char*)line, 0, 2);
 			loadedObject->loadObject(line);
 
 			if(loadedObject->isCollisionActive())
 				map_->update(loadedObject);
 
 			addToGame(loadedObject);
+			readLine(line, file);
 		}
+		fclose(file);
 	}
 	else
 	{
-		printf("Bad load: %s\n", filePath.c_str());
+		printf("Bad load: %s\n", filePath);
 		throw *(new ApplicationError);
 	}
 }
@@ -351,21 +356,21 @@ void MarioGame::addLife()
 	playSoundEfx(CHUNKSOUND_LIVES_UP);
 }
 
-void MarioGame::loadCollMap(std::ifstream& file)
+void MarioGame::loadCollMap(FILE* file)
 {
-	std::string line;
-	std::getline(file, line);
-	gameWidth_ = atoi(line.c_str());
+	char line[100] = { NULL };
+	readLine(line, file);
+	gameWidth_ = atoi(line);
 
 	delete map_;
 	map_ = new CollisionMap(gameWidth_, gameHeight_);
 }
 
-void MarioGame::loadStageType(std::ifstream& file)
+void MarioGame::loadStageType(FILE* file)
 {
-	std::string line;
-	std::getline(file, line);
-	currentStageType_ = atoi(line.c_str());
+	char line[100] = { NULL };
+	readLine(line, file);
+	currentStageType_ = atoi(line);
 
 	loadCurrentStageType();
 }
@@ -534,22 +539,27 @@ int MarioGame::getLives()
 
 void MarioGame::loadGameFromObjectField()
 {
+	const char* currentLevelPath = createCurrentLevelPath();
 	loadGame(createCurrentLevelPath());
+	delete[] currentLevelPath;
 }
 
-std::string MarioGame::createCurrentLevelPath()
+const char* MarioGame::createCurrentLevelPath()
 {
-	std::string currentLevelPath = "Levels/level";
-	currentLevelPath += createStageString();
-	currentLevelPath += ".txt";
+	char* currentLevelPath = new char[200];
+	currentLevelPath[0] = NULL;
+	strcat(currentLevelPath, "Levels/level");
+	strcat(currentLevelPath, createStageString());
+	strcat(currentLevelPath, ".txt");
 	return currentLevelPath;
 }
 
-std::string MarioGame::createStageString()
+const char* MarioGame::createStageString()
 {
-	std::string stageString = "";
-	stageString += currentStage_[0] + 48;
-	stageString += '-';
-	stageString += currentStage_[1] + 48;
+	char* stageString = new char[4];
+	stageString[0] = currentStage_[0] + 48;
+	stageString[1] = '-';
+	stageString[2] = currentStage_[1] + 48;
+	stageString[3] = '\0';
 	return stageString;
 }

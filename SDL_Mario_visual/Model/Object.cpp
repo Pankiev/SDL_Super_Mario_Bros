@@ -1,7 +1,7 @@
 
 #include "Object.h"
 
-Object::Object(std::string name, int id, int layer)
+Object::Object(const char* name, int id, int layer)
 {
     rectCollision_ = {0,0,0,0};
     rectShow_ = {0,0,100,100};
@@ -61,12 +61,12 @@ void Object::setCollisionRect(int x, int y, int width, int height)
     rectCollision_.h = height;
 }
 
-std::string Object::getName() const
+const char* Object::getName() const
 {
     return name_;
 }
 
-void Object::setName(std::string name)
+void Object::setName(const char* name)
 {
     name_ = name;
 }

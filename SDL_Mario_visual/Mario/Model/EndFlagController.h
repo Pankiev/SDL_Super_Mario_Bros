@@ -17,7 +17,7 @@ public:
 
     void setFlagXPosition(int flagXPosition);
 
-    std::string loadObject(std::string objectLine) override;
+    const char* loadObject(const char* objectLine) override;
     void saveObject(std::ofstream& file);
 
 private:

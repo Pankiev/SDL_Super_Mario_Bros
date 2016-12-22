@@ -7,9 +7,9 @@ Window::Window()
     window_ = nullptr;
 }
 
-void Window::createWindow(std::string title, int width, int height)
+void Window::createWindow(const char* title, int width, int height)
 {
-    window_ = SDL_CreateWindow(title.c_str(), SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
+    window_ = SDL_CreateWindow(title, SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
                      width, height, SDL_WINDOW_SHOWN);
     renderer_.createRenderer(window_);
 }
@@ -54,9 +54,9 @@ void Window::showImage()
     renderer_.renderShow();
 }
 
-void Window::setIcon(std::string iconPath)
+void Window::setIcon(const char* iconPath)
 {
-    SDL_Surface* icon_ = IMG_Load(iconPath.c_str());
+    SDL_Surface* icon_ = IMG_Load(iconPath);
     SDL_SetColorKey(icon_, SDL_TRUE, 0xFF00FF);
     if(icon_ == NULL)
     {

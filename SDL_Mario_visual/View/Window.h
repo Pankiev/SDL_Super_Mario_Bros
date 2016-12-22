@@ -10,7 +10,7 @@ class Window
 public:
 
     Window();
-    void createWindow(std::string title, int width, int height);
+    void createWindow(const char* title, int width, int height);
     SDL_Renderer* getRenderer();
     void freeMemory();
     void add(Object* object);
@@ -18,7 +18,7 @@ public:
     void renderAll();
     void renderClear();
     void showImage();
-    void setIcon(std::string iconPath);
+    void setIcon(const char* iconPath);
     void scaleImage(int gameWidth, int gameHeight);
     SDL_Window* getWindow();
     void renderPart(const SDL_Rect& cameraRect);

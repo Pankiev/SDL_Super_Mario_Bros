@@ -20,14 +20,14 @@ public:
     StringFactory(SDL_Renderer* renderer);
     ~StringFactory();
 
-    SDL_Texture* createText(std::string text, int FONT_CONSTANT=FONT_BATMFA,
+    SDL_Texture* createText(const char* text, int FONT_CONSTANT=FONT_BATMFA,
                             int fontSize=15, SDL_Color color={255,255,255,255});
 
 private:
 
     void loadFont(int FONT_CONSTANT, int size);
-    std::string getFontPath(int FONT_CONSTANT);
-    SDL_Texture* createTextTexture(std::string text);
+    const char* getFontPath(int FONT_CONSTANT);
+    SDL_Texture* createTextTexture(const char* text);
 
     SDL_Renderer* renderer_;
     TTF_Font* font_;

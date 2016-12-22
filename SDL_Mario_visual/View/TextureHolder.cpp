@@ -186,9 +186,9 @@ void TextureHolder::malloc()
 }
 
 
-void TextureHolder::loadTexture(std::string filepath, int i, SDL_Renderer* renderer)
+void TextureHolder::loadTexture(const char* filepath, int i, SDL_Renderer* renderer)
 {
-	SDL_Surface *surface = IMG_Load(filepath.c_str());
+	SDL_Surface *surface = IMG_Load(filepath);
 	if(surface == NULL)
 	{
 		printf("Image load error: %s\n", IMG_GetError());

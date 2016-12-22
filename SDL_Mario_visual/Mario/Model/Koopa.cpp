@@ -3,6 +3,7 @@
 #include "../Controller/KoopaAnimation.h"
 #include "Koopa.h"
 #include "Mario.h"
+#include "../../StringUtilities.h"
 
 Koopa::Koopa(MarioGame& game, KoopaAnimation* animation):Mob(game)
 {
@@ -175,12 +176,12 @@ void Koopa::addWings()
     wings_ = true;
 }
 
-std::string Koopa::loadObject(std::string objectLine)
+const char* Koopa::loadObject(const char* objectLine)
 {
     objectLine = GameBase::loadObject(objectLine);
     if(objectLine[0] == '1')
         addWings();
-    objectLine.erase(0, 2);
+	erase((char*)objectLine, 0, 2);
     return objectLine;
 }
 

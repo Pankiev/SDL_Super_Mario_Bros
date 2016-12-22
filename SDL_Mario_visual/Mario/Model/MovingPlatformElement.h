@@ -24,7 +24,7 @@ public:
 
     void setCurrentMoveDirection(int newDirection);
 
-    std::string loadObject(std::string objectLine);
+    const char* loadObject(const char* objectLine);
 
 private:
 

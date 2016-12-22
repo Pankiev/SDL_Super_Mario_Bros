@@ -346,7 +346,7 @@ public:
 private:
 
     void malloc();
-    void loadTexture(std::string filepath, int i, SDL_Renderer* renderer);
+    void loadTexture(const char* filepath, int i, SDL_Renderer* renderer);
 
     SDL_Texture** textures_;
     int texturesNo;

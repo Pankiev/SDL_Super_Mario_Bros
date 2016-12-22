@@ -5,7 +5,7 @@
 #include "CollisionMap.h"
 #include "../ApplicationError.h"
 
-MobileObject::MobileObject(std::string name, int id, int layer):Object(name, id, layer)
+MobileObject::MobileObject(const char* name, int id, int layer):Object(name, id, layer)
 {
 	moveSpeed_ = DEFAULT_MOVE_SPEED;
 	horizontalMove_ = 0;

@@ -25,7 +25,7 @@ public:
     virtual void action(){};
     void setTexture(int TEXTURE_CONSTANT);
     virtual void saveObject(std::ofstream& file);
-    virtual std::string loadObject(std::string objectLine);
+    virtual const char* loadObject(const char* objectLine);
     void addPoints();
     void actionActivate();
     bool isActionActive();

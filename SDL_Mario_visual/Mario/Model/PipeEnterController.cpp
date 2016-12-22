@@ -1,11 +1,12 @@
 
 #include "PipeEnterController.h"
 #include <cstdlib>
+#include "../../StringUtilities.h"
 
 PipeEnterController::PipeEnterController(MarioGame& game,   const SDL_Point& enterPoint,
                                                             const SDL_Point& stopPoint,
                                                             const SDL_Point& loadMarioPos,
-                                                std::string levelLoadPath):GameBase(game)
+                                                const char* levelLoadPath):GameBase(game)
 {
     enterPoint_ = enterPoint;
     stopPoint_ = stopPoint;
@@ -78,32 +79,31 @@ void PipeEnterController::setLevelLoadMarioPosition(const SDL_Point& point)
     levelLoadMarioPosition_ = point;
 }
 
-std::string PipeEnterController::loadObject(std::string objectLine)
+const char* PipeEnterController::loadObject(const char* objectLine)
 {
     int i = 0, counter = 0;
     for(; counter < 7; i++,counter++)
     {
-        std::string value;
-        value.clear();
+        char value[100] = {'\0'};
         for(; objectLine[i] != ' '; i++)
-            value += objectLine[i];
-
+            value[i] = objectLine[i];
+		value[i + 1] = '\0';
         if(counter == 0)
-            enterPoint_.x = atoi(value.c_str());
+            enterPoint_.x = atoi(value);
         else if(counter == 1)
-            enterPoint_.y = atoi(value.c_str());
+            enterPoint_.y = atoi(value);
         else if(counter == 2)
-            stopPoint_.x = atoi(value.c_str());
+            stopPoint_.x = atoi(value);
         else if(counter == 3)
-            stopPoint_.y = atoi(value.c_str());
+            stopPoint_.y = atoi(value);
         else if(counter == 4)
-            levelLoadMarioPosition_.x = atoi(value.c_str());
+            levelLoadMarioPosition_.x = atoi(value);
         else if(counter == 5)
-            levelLoadMarioPosition_.y = atoi(value.c_str());
+            levelLoadMarioPosition_.y = atoi(value);
         else
             levelLoadPath_ = value;
     }
-    objectLine.erase(0, i);
+	erase((char*)objectLine, 0, i);
 
     rectShow_.x = enterPoint_.x;
     rectShow_.y = enterPoint_.y;
@@ -116,6 +116,6 @@ void PipeEnterController::saveObject(std::ofstream& file)
     file << identify() << ' ' << enterPoint_.x << ' ' << enterPoint_.y << ' ';
     file << stopPoint_.x << ' ' << stopPoint_.y << ' ';
     file << levelLoadMarioPosition_.x << ' ' << levelLoadMarioPosition_.y << ' ';
-    file << levelLoadPath_.c_str() << ' ';
+    file << levelLoadPath_ << ' ';
     file << '\n';
 }

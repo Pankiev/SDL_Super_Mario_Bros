@@ -52,8 +52,8 @@ public:
 	
 	void moveToGarbageAll();
 	void moveToGarbage(List<GameBase*>& list);
-	void saveGame(std::string filePath);
-	void loadGame(std::string filePath);
+	void saveGame(const char* filePath);
+	void loadGame(const char* filePath);
 	void addLife();
 	void timeHandle();
 	void timesUpHandle();
@@ -80,7 +80,7 @@ public:
 	SDL_Rect getMarioCamera();
 	bool isObjectInCamera(Object* object);
 	bool isChangingTimeToScore();
-	std::string createStageString();
+	const char* createStageString();
 
 	GameBase* createObjectByIdentify(char identificator);
 
@@ -92,11 +92,11 @@ public:
 private:
 
 	void loadGameFromObjectField();
-	std::string createCurrentLevelPath();
+	const char* createCurrentLevelPath();
 
 	void changeTimeToScoreHandle();
-	void loadCollMap(std::ifstream& file);
-	void loadStageType(std::ifstream& file);
+	void loadCollMap(FILE* file);
+	void loadStageType(FILE* file);
 
 	bool changingTimeToScore_;
 	bool gameTimerActive_;

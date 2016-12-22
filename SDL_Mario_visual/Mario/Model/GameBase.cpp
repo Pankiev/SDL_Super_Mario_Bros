@@ -5,6 +5,7 @@
 #include "GameBase.h"
 #include "../Controller/MarioGame.h"
 #include "../../ApplicationError.h"
+#include "../../StringUtilities.h"
 
 GameBase::GameBase(MarioGame& game, int BLOCK_TYPE):GameBase(game)
 {
@@ -55,19 +56,19 @@ void GameBase::saveObject(std::ofstream& file)
     file << '\n';
 }
 
-std::string GameBase::loadObject(std::string objectLine)
+const char* GameBase::loadObject(const char* objectLine)
 {
     int i = 0, counter = 0;
     for(; counter < 9; i++,counter++)
     {
-        std::string value;
-        value.clear();
-        for(; objectLine[i] != ' '; i++)
-            value += objectLine[i];
+        char value[100] = {'\0'};
+        for(int valueIndex = 0; objectLine[i] != ' '; i++, valueIndex++)
+            value[valueIndex] += objectLine[i];
 
-        applyLoadValue(counter, atoi(value.c_str()));
+		value[i + 1] = '\0';
+        applyLoadValue(counter, atoi(value));
     }
-    objectLine.erase(0, i);
+	erase((char*)objectLine, 0, i);
     return objectLine;
 }
 

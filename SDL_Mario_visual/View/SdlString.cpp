@@ -1,7 +1,8 @@
 
 #include "SdlString.h"
+#include "../StringUtilities.h"
 
-SdlString::SdlString(StringFactory* strFac, std::string message,
+SdlString::SdlString(StringFactory* strFac, const char* message,
                      int FONT_CONSTANT, int fontSize, SDL_Color color)
 {
     rectShow_.x = 0;
@@ -23,10 +24,10 @@ void SdlString::setTexture(SDL_Texture* text)
 }
 
 
-void SdlString::reloadText(StringFactory* strFac, std::string message,
+void SdlString::reloadText(StringFactory* strFac, const char* message,
                      int FONT_CONSTANT, int fontSize, SDL_Color color)
 {
-    if(!(message.empty()) && strFac != nullptr)
+    if(!(size(message) == 0) && strFac != nullptr)
     {
         setTexture(strFac->createText(message, FONT_CONSTANT, fontSize, color));
         render_ = true;

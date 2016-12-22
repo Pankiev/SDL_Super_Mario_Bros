@@ -199,6 +199,7 @@
     <ClCompile Include="Model\NewString.cpp" />
     <ClCompile Include="Model\Object.cpp" />
     <ClCompile Include="Model\SpriteSheetAnimation.cpp" />
+    <ClCompile Include="StringUtilities.cpp" />
     <ClCompile Include="View\Audio.cpp" />
     <ClCompile Include="View\Renderer.cpp" />
     <ClCompile Include="View\SdlString.cpp" />
@@ -282,6 +283,7 @@
     <ClInclude Include="Model\NewString.h" />
     <ClInclude Include="Model\Object.h" />
     <ClInclude Include="Model\SpriteSheetAnimation.h" />
+    <ClInclude Include="StringUtilities.h" />
     <ClInclude Include="View\Audio.h" />
     <ClInclude Include="View\Renderer.h" />
     <ClInclude Include="View\SdlString.h" />

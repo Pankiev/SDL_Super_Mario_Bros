@@ -19,7 +19,7 @@ class Object
 {
 public:
 
-    Object(std::string name="Unnamed", int id=0, int layer=0);
+    Object(const char* name="Unnamed", int id=0, int layer=0);
     virtual ~Object();
 
     SDL_Rect        getCollisionRect() const;
@@ -31,7 +31,7 @@ public:
     int             getId() const;
     int             getLayer() const;
     double          getRotationAngle() const;
-    std::string     getName() const;
+    const char*     getName() const;
     bool isRendering() const;
 
     void setShowingRect(const SDL_Rect&);
@@ -40,7 +40,7 @@ public:
     void setCollisionRect(int x, int y, int width, int height);
     void setBothRects(const SDL_Rect& rect);
     void setImageSourceRect(const SDL_Rect& rect);
-    void setName(std::string name);
+    void setName(const char* name);
     void setId(int id);
     void setLayer(int layer);
     void setShowingPosition(int x, int y);
@@ -74,7 +74,7 @@ protected:
     SDL_Rect rectCollision_;
     SDL_Rect* rectImageSrc_;
     SDL_Point rotationPoint_;
-    std::string name_;
+    const char* name_;
     int id_;
     int layer_;
     bool render_;

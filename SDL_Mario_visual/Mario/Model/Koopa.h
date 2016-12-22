@@ -26,7 +26,7 @@ public:
     void revive();
     void jump() override;
     void addWings();
-    std::string loadObject(std::string objectLine) override;
+    const char* loadObject(const char* objectLine) override;
     void addAtEndSave(std::ofstream& file) override;
     bool isInShellMode();
 

@@ -20,7 +20,7 @@ StringFactory::~StringFactory()
     }
 }
 
-SDL_Texture* StringFactory::createText(std::string text, int FONT_CONSTANT, int fontSize, SDL_Color color)
+SDL_Texture* StringFactory::createText(const char* text, int FONT_CONSTANT, int fontSize, SDL_Color color)
 {
     color_ = color;
     if(currentFont_ != FONT_CONSTANT || currentFontSize_ != fontSize)
@@ -41,8 +41,8 @@ SDL_Texture* StringFactory::createText(std::string text, int FONT_CONSTANT, int 
 
 void StringFactory::loadFont(int FONT_CONSTANT, int fontSize)
 {
-    std::string fontpath = getFontPath(FONT_CONSTANT);
-    font_ = TTF_OpenFont(fontpath.c_str(), fontSize);
+    const char* fontpath = getFontPath(FONT_CONSTANT);
+    font_ = TTF_OpenFont(fontpath, fontSize);
     if(font_ == NULL)
     {
         printf("Font opening error: %s\n", TTF_GetError());
@@ -50,7 +50,7 @@ void StringFactory::loadFont(int FONT_CONSTANT, int fontSize)
     }
 }
 
-std::string StringFactory::getFontPath(int FONT_CONSTANT)
+const char* StringFactory::getFontPath(int FONT_CONSTANT)
 {
     switch(FONT_CONSTANT)
     {
@@ -64,9 +64,9 @@ std::string StringFactory::getFontPath(int FONT_CONSTANT)
     }
 }
 
-SDL_Texture* StringFactory::createTextTexture(std::string text)
+SDL_Texture* StringFactory::createTextTexture(const char* text)
 {
-    SDL_Surface* textSurface = TTF_RenderText_Solid(font_, text.c_str(), color_);
+    SDL_Surface* textSurface = TTF_RenderText_Solid(font_, text, color_);
     if(textSurface == NULL)
     {
         printf("TTF_RenderText error: %s\n", TTF_GetError());

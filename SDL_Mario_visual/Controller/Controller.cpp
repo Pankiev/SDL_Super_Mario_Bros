@@ -100,7 +100,7 @@ void Controller::init()
     loadTextures();
 }
 
-void Controller::createWindow(std::string title, int width, int height)
+void Controller::createWindow(const char* title, int width, int height)
 {
     window_.createWindow(title, width, height);
 }
@@ -245,7 +245,7 @@ void Controller::reRenderPart(const SDL_Rect& camera)
     window_.showImage();
 }
 
-void Controller::createScreenSizedWindow(std::string title)
+void Controller::createScreenSizedWindow(const char* title)
 {
     int screenWidth, screenHeight;
     Renderer::getDesktopResolution(screenWidth, screenHeight);

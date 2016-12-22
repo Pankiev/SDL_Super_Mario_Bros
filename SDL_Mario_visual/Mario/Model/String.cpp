@@ -1,7 +1,7 @@
 
 #include "String.h"
 
-String::String(MarioGame& game, std::string text):String(game)
+String::String(MarioGame& game, const char*text):String(game)
 {
     loadString(text);
 }
@@ -22,7 +22,7 @@ void String::action()
         die();
 }
 
-void String::loadString(std::string text)
+void String::loadString(const char* text)
 {
     StringFactory* strFac = game_.getStringFactory();
     Object::setTexture(strFac->createText(text, FONT_MARIO, 10));

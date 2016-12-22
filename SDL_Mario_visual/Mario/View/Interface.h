@@ -18,7 +18,7 @@ public:
     void addStrings();
     void pointsUpdate(int points);
     void timeUpdate(int points);
-    void stageUpdate(std::string newStage);
+    void stageUpdate(const char* newStage);
     void coinsUpdate(int coins);
     void livesUpdate(int lives);
 

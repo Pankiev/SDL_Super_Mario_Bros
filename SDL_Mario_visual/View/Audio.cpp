@@ -12,12 +12,12 @@ Audio::Audio()
 	}
 }
 
-void Audio::loadMusic(std::string musicFilePath)
+void Audio::loadMusic(const char* musicFilePath)
 {
 	if(bgMusic_ != nullptr)
 		Mix_FreeMusic(bgMusic_);
 
-	bgMusic_ = Mix_LoadMUS(musicFilePath.c_str());
+	bgMusic_ = Mix_LoadMUS(musicFilePath);
 	if(bgMusic_ == NULL)
 	{
 		printf("Music load error: %s\n", Mix_GetError());
@@ -89,9 +89,9 @@ void Audio::playChunkSound(int CHUNKSOUND_CONSTANT, int loops)
 	Mix_PlayChannel(CHUNKSOUND_CONSTANT, chunkSounds_[CHUNKSOUND_CONSTANT], loops);
 }
 
-void Audio::loadChunkSound(std::string chunkFilePath, int i)
+void Audio::loadChunkSound(const char* chunkFilePath, int i)
 {
-	chunkSounds_[i] = Mix_LoadWAV(chunkFilePath.c_str());
+	chunkSounds_[i] = Mix_LoadWAV(chunkFilePath);
 	if(chunkSounds_[i] == NULL)
 	{
 		printf("Sound chunk load error: %s\n", Mix_GetError());

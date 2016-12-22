@@ -66,7 +66,7 @@ public:
 
     Audio();
 
-    void loadMusic(std::string musicPath);
+    void loadMusic(const char*musicPath);
     void loadChunkSounds();
     void playMusic();
     void setMusicVolume(int volume);
@@ -81,7 +81,7 @@ public:
 
 private:
 
-    void loadChunkSound(std::string chunkFilePath, int i);
+    void loadChunkSound(const char* chunkFilePath, int i);
 
     Mix_Music *bgMusic_;
     Mix_Chunk *chunkSounds_[CHUNKSOUND_NO];

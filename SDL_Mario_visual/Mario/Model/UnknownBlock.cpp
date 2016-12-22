@@ -6,6 +6,7 @@
 #include "Mushroom1UP.h"
 #include "../Controller/MarioGame.h"
 #include "../../ApplicationError.h"
+#include "../../StringUtilities.h"
 
 UnknownBlock::UnknownBlock(MarioGame& game, int TEXTURE_TYPE, AbstractMob* content):
     ActiveBlock(game, TEXTURE_TYPE)
@@ -50,13 +51,13 @@ void UnknownBlock::addAtEndSave(std::ofstream& file)
         file << content_->identify() << ' ';
 }
 
-std::string UnknownBlock::loadObject(std::string objectLine)
+const char* UnknownBlock::loadObject(const char* objectLine)
 {
     objectLine = GameBase::loadObject(objectLine);
-    if(objectLine.size() > 1)
+    if(size(objectLine) > 1)
     {
         content_ = createContentByIdentify(objectLine[0]);
-        objectLine.erase(0, 2);
+        erase((char*)objectLine, 0, 2);
     }
     return objectLine;
 }

@@ -1,11 +1,10 @@
 
-#include <sstream>
 
 #include "PointsString.h"
 
 PointsString::PointsString(MarioGame& game, int points):String(game)
 {
-    std::ostringstream pointsString;
-    pointsString << points;
-    loadString(pointsString.str());
+	char pointsString[15];
+	_itoa_s(points, pointsString, 10);
+	loadString(pointsString);
 }

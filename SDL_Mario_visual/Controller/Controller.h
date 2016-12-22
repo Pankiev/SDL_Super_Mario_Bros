@@ -29,8 +29,8 @@ public:
     void SDL_init();
     void SDL_quit();
     void init();
-    void createWindow(std::string title="Unnamed", int width=900, int height=500);
-    void createScreenSizedWindow(std::string title="Unnamed");
+    void createWindow(const char* title="Unnamed", int width=900, int height=500);
+    void createScreenSizedWindow(const char* title="Unnamed");
     void loadTextures();
     void freeMemory();
     void gameOver();

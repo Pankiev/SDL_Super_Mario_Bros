@@ -3,6 +3,7 @@
 
 #include "EndFlagController.h"
 #include "../Controller/MarioGame.h"
+#include "../../StringUtilities.h"
 
 EndFlagController::EndFlagController(MarioGame& game, int flagXPosition):GameBase(game)
 {
@@ -47,17 +48,16 @@ void EndFlagController::saveObject(std::ofstream& file)
     file << '\n';
 }
 
-std::string EndFlagController::loadObject(std::string objectLine)
+const char* EndFlagController::loadObject(const char* objectLine)
 {
-    std::string value;
-    value.clear();
+	char value[100] = { '\0' };
     int i = 0;
     for(; objectLine[i] != ' '; i++)
-        value += objectLine[i];
+        value[i] = objectLine[i];
+	value[i + 1] = '\0';
+    flagXPosition_ = atoi(value);
 
-    flagXPosition_ = atoi(value.c_str());
-
-    objectLine.erase(0, i);
+	erase((char*)objectLine, 0, i);
 
     rectShow_.x = flagXPosition_;
     rectShow_.y = 600;

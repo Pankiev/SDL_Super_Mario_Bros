@@ -10,7 +10,7 @@ class MobileObject : public Object
 {
 public:
 
-    MobileObject(std::string name="Unnamed", int id=0, int layer=0);
+    MobileObject(const char* name="Unnamed", int id=0, int layer=0);
 
     void setMoveSpeed(float speed);
     float getMoveSpeed() const;

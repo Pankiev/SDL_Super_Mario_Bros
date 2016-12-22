@@ -9,11 +9,11 @@ class SdlString : public Object
 {
 public:
 
-    SdlString(StringFactory* strFac=nullptr, std::string message="", int FONT_CONSTANT=FONT_BATMFA,
+    SdlString(StringFactory* strFac=nullptr, const char* message="", int FONT_CONSTANT=FONT_BATMFA,
               int fontSize=15, SDL_Color color={255,255,255,255});
     ~SdlString();
 
-    void reloadText(StringFactory* strFac=nullptr, std::string message="", int FONT_CONSTANT=FONT_BATMFA,
+    void reloadText(StringFactory* strFac=nullptr, const char* message="", int FONT_CONSTANT=FONT_BATMFA,
               int fontSize=15, SDL_Color color={255,255,255,255});
     void setTexture(SDL_Texture* text) override;
     void freeTexture();

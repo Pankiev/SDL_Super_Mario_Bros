@@ -4,6 +4,7 @@
 #include "MovingPlatformElement.h"
 #include "../Controller/MarioGame.h"
 #include "../../ApplicationError.h"
+#include "../../StringUtilities.h"
 
 MovingPlatformElement::MovingPlatformElement(MarioGame& game):GameBase(game, TEXTURE_MOVING_PLATFORM)
 {
@@ -129,11 +130,11 @@ void MovingPlatformElement::addAtEndSave(std::ofstream& file)
     file << currentMoveDirection_ << ' ';
 }
 
-std::string MovingPlatformElement::loadObject(std::string objectLine)
+const char* MovingPlatformElement::loadObject(const char* objectLine)
 {
     objectLine = GameBase::loadObject(objectLine);
     setCurrentMoveDirection((int)(objectLine[0] - '0'));
-    objectLine.erase(0, 2);
+    erase((char*)objectLine, 0, 2);
     return objectLine;
 }
 

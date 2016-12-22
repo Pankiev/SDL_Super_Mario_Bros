@@ -13,7 +13,7 @@ public:
 
     PipeEnterController(MarioGame& game, const SDL_Point& enterPoint = {0,0},
                         const SDL_Point& stopPoint = {0,0}, const SDL_Point& loadMarioPos = {0,0},
-                        std::string levelLoadPath = LEVEL_1_1_PATH);
+                        const char* levelLoadPath = LEVEL_1_1_PATH);
 
     void action() override;
     char identify() const override {return IDENTIFY_PIPE_ENTER_CONTROLLER;}
@@ -21,10 +21,10 @@ public:
 
     void setEnterPoint(const SDL_Point& point);
     void setStopPoint(const SDL_Point& point);
-    void setLevelLoadPath(std::string loadPath);
+    void setLevelLoadPath(const char* loadPath);
     void setLevelLoadMarioPosition(const SDL_Point& point);
 
-    std::string loadObject(std::string objectLine) override;
+    const char* loadObject(const char* objectLine) override;
     void saveObject(std::ofstream& file) override;
 
 private:
@@ -33,7 +33,7 @@ private:
 
     bool pipeUsed_;
 
-    std::string levelLoadPath_;
+    const char* levelLoadPath_;
     SDL_Point levelLoadMarioPosition_;
     SDL_Point enterPoint_;
     SDL_Point stopPoint_;
