@@ -9,20 +9,20 @@ ManyPicAnimation::ManyPicAnimation()
 void ManyPicAnimation::addTexture(SDL_Texture* newTexture)
 {
 	textureSet_[texturesNumber_] = newTexture;
-	textureSet_.push_back(newTexture);
+	texturesNumber_++;
 }
 
 void ManyPicAnimation::addTextures(SDL_Texture** newTextures, int texturesNo)
 {
-	for(int i=0; i<texturesNo; i++)
-		textureSet_.push_back(newTextures[i]);
+	for (int i = 0; i < texturesNo; i++)
+		addTexture(newTextures[i]);
 }
 
 bool ManyPicAnimation::nextPicture()
 {
 	setTexture(textureSet_[currentTexture_]);
 
-	if(currentTexture_++ >= textureSet_.size()-1)
+	if(currentTexture_++ >= texturesNumber_-1)
 	{
 		currentTexture_ = 0;
 		return true;
