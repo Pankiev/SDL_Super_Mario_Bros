@@ -230,18 +230,8 @@ void MarioGame::saveGame(const char* filePath)
 
 void MarioGame::loadGame(const char* filePath)
 {
-	gameLoad_ = true;
-	if(marioChar_ != nullptr)
-	{
-		Mario* copiedMario = new Mario(*marioChar_);
-		copiedMario->setAnimations(new MarioAnimation(*copiedMario));
-		marioChar_ = copiedMario;
-	}
-	else
-		marioChar_ = new Mario(*this);
-
+	((GameBase*)marioChar_)->die();
 	moveToGarbageAll();
-	addToGame(marioChar_);
 
 	FILE* file = fopen(filePath, "r");
 
@@ -254,11 +244,11 @@ void MarioGame::loadGame(const char* filePath)
 		loadStageType(file);
 
 		readLine(line, file);
-		int debugCounter = 0;
 		while(size(line) > 0)
 		{
-			debugCounter++;
 			GameBase* loadedObject = createObjectByIdentify(line[0]);
+			if (loadedObject->identify() == IDENTIFY_MARIO)
+				marioChar_ = (Mario*)loadedObject;
 
 			erase((char*)line, 0, 2);
 			loadedObject->loadObject(line);
@@ -276,7 +266,6 @@ void MarioGame::loadGame(const char* filePath)
 		printf("Bad load: %s\n", filePath);
 		throw *(new ApplicationError);
 	}
-	//delete[] line;
 }
 
 void MarioGame::addPoints(int points)
@@ -354,7 +343,7 @@ GameBase* MarioGame::createObjectByIdentify(char identificator)
 	case IDENTIFY_END_FLAG_CONTROLLER:      return new EndFlagController(*this);
 	case IDENTIFY_BROWSER:                  return new Browser(*this);
 	case IDENTIFY_MOVING_PLATFORM_ELEMENT:  return new MovingPlatformElement(*this);
-	//case IDENTIFY_MARIO: return new Mario(*this);
+	case IDENTIFY_MARIO: return new Mario(*this);
 	default:
 		printf("CreateObjectByIdentify in MarioGame.cpp\n");
 		throw *(new ApplicationError);
@@ -458,6 +447,11 @@ void MarioGame::newGame()
 	sameLevel();
 }
 
+void MarioGame::moveToGarbageAllButMario()
+{
+
+}
+
 Mario* MarioGame::copyMario()
 {
 	Mario* copiedMario = new Mario(*marioChar_);
@@ -522,18 +516,17 @@ void MarioGame::nextLevel()
 void MarioGame::onMarioDeath()
 {
 	lives_--;
-	if(lives_ <= 0)
-		gameOver();
+	if (lives_ <= 0)
+	{
+		initFields();
+		text_->showFirstScreen();
+	}
 	else
 	{
+		marioChar_->setBothPosition(100, 650);
 		sameLevel();
-		Mario* newMarioChar = new Mario(*this);
-		delete marioChar_;
-		marioChar_ = newMarioChar;
-		newMarioChar->setBothPosition(100, 650);
 	}
-
-
+	marioChar_ = new Mario(*this);
 }
 
 void MarioGame::sameLevel()

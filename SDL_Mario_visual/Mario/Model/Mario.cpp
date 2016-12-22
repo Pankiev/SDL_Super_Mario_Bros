@@ -5,6 +5,7 @@
 #include "ActiveBlock.h"
 #include "FireBall.h"
 #include "../../ApplicationError.h"
+#include "../../StringUtilities.h"
 
 Mario::Mario(MarioGame& game):Mob(game)
 {
@@ -399,6 +400,33 @@ SDL_Point Mario::calcFireBallStartingPos()
 bool Mario::isInvincible()
 {
     return invincible_;
+}
+
+void Mario::addAtEndSave(FILE* file)
+{
+	fprintf(file, "%d %d %d %d %d", lastCamera_.x, lastCamera_.y, lastCamera_.w, lastCamera_.h, marioType_);
+}
+
+int Mario::getFirstNumberAndErase(const char* objectLine)
+{
+	char value[10] = { '\0' };
+	int i = 0;
+	for (; objectLine[i] != ' '; i++)
+		value[i] = objectLine[i];
+	value[i + 1] = '\0';
+	erase((char*)objectLine, 0, i+1);
+	return atoi(value);
+}
+
+const char* Mario::loadObject(const char* objectLine)
+{
+	objectLine = GameBase::loadObject(objectLine);
+	lastCamera_.x = getFirstNumberAndErase(objectLine);
+	lastCamera_.y = getFirstNumberAndErase(objectLine);
+	lastCamera_.w = getFirstNumberAndErase(objectLine);
+	lastCamera_.h = getFirstNumberAndErase(objectLine);
+	marioType_ = getFirstNumberAndErase(objectLine);
+	return objectLine;
 }
 
 void Mario::stopMoving()

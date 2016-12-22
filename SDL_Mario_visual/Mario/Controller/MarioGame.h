@@ -67,6 +67,7 @@ public:
 	void nextLevel();
 	void sameLevel();
 	void newGame();
+	void moveToGarbageAllButMario();
 	void onMarioDeath();
 
 	void loadCurrentStageType();
