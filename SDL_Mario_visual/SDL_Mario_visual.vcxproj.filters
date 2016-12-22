@@ -518,5 +518,20 @@
     <ClInclude Include="Model\Object.h">
       <Filter>Header Files\Model</Filter>
     </ClInclude>
+    <ClInclude Include="List\ListIterator.hpp">
+      <Filter>Source Files\List</Filter>
+    </ClInclude>
+    <ClInclude Include="List\List.hpp">
+      <Filter>Source Files\List</Filter>
+    </ClInclude>
+    <ClInclude Include="List\List.h">
+      <Filter>Header Files\List</Filter>
+    </ClInclude>
+    <ClInclude Include="List\ListIterator.h">
+      <Filter>Header Files\List</Filter>
+    </ClInclude>
+    <ClInclude Include="List\ListElement.h">
+      <Filter>Header Files\List</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

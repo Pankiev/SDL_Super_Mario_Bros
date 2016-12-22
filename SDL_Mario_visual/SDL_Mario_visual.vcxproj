@@ -210,6 +210,11 @@
     <ClInclude Include="Controller\Controller.h" />
     <ClInclude Include="Controller\HardwareController.h" />
     <ClInclude Include="Controller\Timer.h" />
+    <ClInclude Include="List\List.h" />
+    <ClInclude Include="List\List.hpp" />
+    <ClInclude Include="List\ListElement.h" />
+    <ClInclude Include="List\ListIterator.h" />
+    <ClInclude Include="List\ListIterator.hpp" />
     <ClInclude Include="Mario\Controller\AnimationSet.h" />
     <ClInclude Include="Mario\Controller\BrowserAnimation.h" />
     <ClInclude Include="Mario\Controller\GoombasAnimation.h" />
