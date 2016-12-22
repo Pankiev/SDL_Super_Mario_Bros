@@ -25,7 +25,7 @@ public:
     void setLevelLoadMarioPosition(const SDL_Point& point);
 
     const char* loadObject(const char* objectLine) override;
-    void saveObject(std::ofstream& file) override;
+    void saveObject(FILE* file) override;
 
 private:
 

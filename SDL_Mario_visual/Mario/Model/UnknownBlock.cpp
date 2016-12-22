@@ -45,10 +45,10 @@ BlockItem* UnknownBlock::defineContent()
         return new LevelUpFlower(game_);
 }
 
-void UnknownBlock::addAtEndSave(std::ofstream& file)
+void UnknownBlock::addAtEndSave(FILE* file)
 {
-    if(content_ != nullptr)
-        file << content_->identify() << ' ';
+	if (content_ != nullptr)
+		fprintf(file, "%c ", content_->identify());
 }
 
 const char* UnknownBlock::loadObject(const char* objectLine)

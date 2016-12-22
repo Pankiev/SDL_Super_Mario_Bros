@@ -44,16 +44,15 @@ void GameBase::setTexture(int TEXTURE_CONSTANT)
     Object::setTexture(game_.getTexture(TEXTURE_CONSTANT));
 }
 
-void GameBase::saveObject(std::ofstream& file)
+void GameBase::saveObject(FILE* file)
 {
-    file << identify() << ' ';
-    file << defaultTexture_ << ' ';
+	fprintf(file, "%c %d ", identify(), defaultTexture_);
     SDL_Rect rectShow = getShowingRect();
     SDL_Rect rectColl = getCollisionRect();
-    file << rectShow.x << ' ' << rectShow.y << ' ' << rectShow.w << ' ' << rectShow. h << ' ';
-    file << rectColl.x << ' ' << rectColl.y << ' ' << rectColl.w << ' ' << rectColl. h << ' ';
+	fprintf(file, "%d %d %d %d ", rectShow.x, rectShow.y, rectShow.w, rectShow.h);
+	fprintf(file, "%d %d %d %d ", rectColl.x, rectColl.y, rectColl.w, rectColl.h);
     addAtEndSave(file);
-    file << '\n';
+	fprintf(file, "\n");
 }
 
 const char* GameBase::loadObject(const char* objectLine)

@@ -49,7 +49,7 @@ public:
     void shoot();
     char identify() const override {return IDENTIFY_MARIO;}
     bool isInvincible();
-    void saveObject(std::ofstream& file) override {}
+    void saveObject(FILE* file) override {}
     void stopMoving();
     void squat();
     void standUp();

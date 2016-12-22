@@ -125,9 +125,9 @@ void MovingPlatformElement::revertMoveDirection()
     }
 }
 
-void MovingPlatformElement::addAtEndSave(std::ofstream& file)
+void MovingPlatformElement::addAtEndSave(FILE* file)
 {
-    file << currentMoveDirection_ << ' ';
+	fprintf(file, "%d ", currentMoveDirection_);
 }
 
 const char* MovingPlatformElement::loadObject(const char* objectLine)

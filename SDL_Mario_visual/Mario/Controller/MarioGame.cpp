@@ -207,18 +207,19 @@ void MarioGame::clearGarbage()
 
 void MarioGame::saveGame(const char* filePath)
 {
-	std::ofstream file(filePath);
-	if(file.good())
+	FILE* file = fopen(filePath, "w");
+	if(file != nullptr)
 	{
-		file << gameWidth_ << '\n';
-		file << currentStageType_ << '\n';
+		fprintf(file, "%d\n", gameWidth_);
+		fprintf(file, "%d\n", currentStageType_);
 
 		for(ListIterator<GameBase*> i = actionActives_.begin(); i != actionActives_.end(); ++i)
 			(*i)->saveObject(file);
 
 		for(ListIterator<GameBase*> i = otherObjects_.begin(); i != otherObjects_.end(); ++i)
 			(*i)->saveObject(file);
-	}
+		fclose(file);
+	}	
 }
 
 void MarioGame::loadGame(const char* filePath)

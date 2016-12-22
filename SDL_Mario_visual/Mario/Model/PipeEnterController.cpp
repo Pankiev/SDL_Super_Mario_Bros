@@ -111,11 +111,10 @@ const char* PipeEnterController::loadObject(const char* objectLine)
     return objectLine;
 }
 
-void PipeEnterController::saveObject(std::ofstream& file)
+void PipeEnterController::saveObject(FILE* file)
 {
-    file << identify() << ' ' << enterPoint_.x << ' ' << enterPoint_.y << ' ';
-    file << stopPoint_.x << ' ' << stopPoint_.y << ' ';
-    file << levelLoadMarioPosition_.x << ' ' << levelLoadMarioPosition_.y << ' ';
-    file << levelLoadPath_ << ' ';
-    file << '\n';
+	fprintf(file, "%c %d %d ", identify(), enterPoint_.x, enterPoint_.y);
+	fprintf(file, "%d %d ", stopPoint_.x, stopPoint_.y);
+	fprintf(file, "%d %d ", levelLoadMarioPosition_.x, levelLoadMarioPosition_.y);
+	fprintf(file, "%s \n", levelLoadPath_);
 }

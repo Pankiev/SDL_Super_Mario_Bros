@@ -39,7 +39,7 @@ private:
     bool outOfLowerBoundary();
     void revertMoveDirection();
 
-    void addAtEndSave(std::ofstream& file);
+    void addAtEndSave(FILE* file);
 
     int moveAxis_;
     int currentMoveDirection_;

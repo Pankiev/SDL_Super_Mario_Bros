@@ -27,7 +27,7 @@ public:
     void jump() override;
     void addWings();
     const char* loadObject(const char* objectLine) override;
-    void addAtEndSave(std::ofstream& file) override;
+    void addAtEndSave(FILE* file) override;
     bool isInShellMode();
 
 private:

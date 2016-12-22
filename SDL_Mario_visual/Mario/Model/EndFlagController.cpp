@@ -42,10 +42,9 @@ void EndFlagController::setFlagXPosition(int flagXPosition)
     flagXPosition_ = flagXPosition;
 }
 
-void EndFlagController::saveObject(std::ofstream& file)
+void EndFlagController::saveObject(FILE* file)
 {
-    file << identify() << ' ' << flagXPosition_ << ' ';
-    file << '\n';
+	fprintf(file, "%c %d \n", identify(), flagXPosition_);q
 }
 
 const char* EndFlagController::loadObject(const char* objectLine)

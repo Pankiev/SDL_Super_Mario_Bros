@@ -17,7 +17,7 @@ public:
     void marioHit() override;
     virtual char identify() const override {return IDENTIFY_UNKNOWN_BLOCK;}
     const char* loadObject(const char* objectLine) override;
-    void addAtEndSave(std::ofstream& file) override;
+    void addAtEndSave(FILE* file) override;
 
 protected:
 

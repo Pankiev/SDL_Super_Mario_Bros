@@ -185,9 +185,9 @@ const char* Koopa::loadObject(const char* objectLine)
     return objectLine;
 }
 
-void Koopa::addAtEndSave(std::ofstream& file)
+void Koopa::addAtEndSave(FILE*file)
 {
-    file << wings_ << ' ';
+	fprintf(file, "%d", wings_);
 }
 
 bool Koopa::isInShellMode()
