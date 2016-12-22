@@ -14,7 +14,6 @@ Mario::Mario(MarioGame& game):Mob(game)
     setLayer(11);
     setMoveSpeed(200.0f);
     setTexture(TEXTURE_MARIO_SMALL_MARIOSTAND);
-    //setBothPosition(84, 708);
     setBothPosition(84, 400);
     queryTexture();
     lastCamera_ = {0,0,0,0};
@@ -227,11 +226,7 @@ void Mario::dyingHandle()
         noCollGravityHandle();
         dieTimer_.calculateTime();
         if(dieTimer_.askForAction())
-        {
-            //AbstractMob::die();
-            //game_.gameOver();
             game_.onMarioDeath();
-        }
     }
 }
 

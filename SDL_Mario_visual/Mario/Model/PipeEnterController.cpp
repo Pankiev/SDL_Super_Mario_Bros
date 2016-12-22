@@ -14,9 +14,6 @@ PipeEnterController::PipeEnterController(MarioGame& game,   const SDL_Point& ent
     levelLoadMarioPosition_ = loadMarioPos;
     pipeUsed_ = false;
     goingIntoPipeTimer_.setActionsPerSec(0.5f);
-//    setTexture(TEXTURE_BRICK_3);
-//    game_.addImage(this);
-//    setLayer(10000);
     rectShow_.x = enterPoint_.x;
     rectShow_.y = enterPoint_.y;
 }

@@ -1,7 +1,6 @@
 
 #include <cstdlib>
 
-#include "MovingPlatformElement.h"
 #include "../Controller/MarioGame.h"
 #include "../../ApplicationError.h"
 #include "../../StringUtilities.h"

@@ -90,9 +90,6 @@
     <ClCompile Include="View\Window.cpp">
       <Filter>Source Files\View</Filter>
     </ClCompile>
-    <ClCompile Include="Mario\Controller\SpecalObjectsFactory.cpp">
-      <Filter>Source Files\Mario\Controller</Filter>
-    </ClCompile>
     <ClCompile Include="Mario\Controller\MarioGame.cpp">
       <Filter>Source Files\Mario\Controller</Filter>
     </ClCompile>
@@ -145,12 +142,6 @@
       <Filter>Source Files\Mario\Model</Filter>
     </ClCompile>
     <ClCompile Include="Mario\Model\BlockItem.cpp">
-      <Filter>Source Files\Mario\Model</Filter>
-    </ClCompile>
-    <ClCompile Include="Mario\Model\Browser.cpp">
-      <Filter>Source Files\Mario\Model</Filter>
-    </ClCompile>
-    <ClCompile Include="Mario\Model\BrowserFireShot.cpp">
       <Filter>Source Files\Mario\Model</Filter>
     </ClCompile>
     <ClCompile Include="Mario\Model\Bullet.cpp">
@@ -220,12 +211,6 @@
       <Filter>Source Files\Mario\Model</Filter>
     </ClCompile>
     <ClCompile Include="Mario\Model\MoneyBlock.cpp">
-      <Filter>Source Files\Mario\Model</Filter>
-    </ClCompile>
-    <ClCompile Include="Mario\Model\MovingPlatform.cpp">
-      <Filter>Source Files\Mario\Model</Filter>
-    </ClCompile>
-    <ClCompile Include="Mario\Model\MovingPlatformElement.cpp">
       <Filter>Source Files\Mario\Model</Filter>
     </ClCompile>
     <ClCompile Include="Mario\Model\Mushroom.cpp">
@@ -362,9 +347,6 @@
     <ClInclude Include="Mario\Controller\MarioGame.h">
       <Filter>Header Files\Mario\Controller</Filter>
     </ClInclude>
-    <ClInclude Include="Mario\Controller\SpecalObjectsFactory.h">
-      <Filter>Header Files\Mario\Controller</Filter>
-    </ClInclude>
     <ClInclude Include="Mario\Model\UnknownBlock.h">
       <Filter>Header Files\Mario\Model</Filter>
     </ClInclude>
@@ -393,12 +375,6 @@
       <Filter>Header Files\Mario\Model</Filter>
     </ClInclude>
     <ClInclude Include="Mario\Model\Mushroom.h">
-      <Filter>Header Files\Mario\Model</Filter>
-    </ClInclude>
-    <ClInclude Include="Mario\Model\MovingPlatformElement.h">
-      <Filter>Header Files\Mario\Model</Filter>
-    </ClInclude>
-    <ClInclude Include="Mario\Model\MovingPlatform.h">
       <Filter>Header Files\Mario\Model</Filter>
     </ClInclude>
     <ClInclude Include="Mario\Model\MoneyBlock.h">
@@ -465,15 +441,6 @@
       <Filter>Header Files\Mario\Model</Filter>
     </ClInclude>
     <ClInclude Include="Mario\Model\Coin.h">
-      <Filter>Header Files\Mario\Model</Filter>
-    </ClInclude>
-    <ClInclude Include="Mario\Model\Bullet.h">
-      <Filter>Header Files\Mario\Model</Filter>
-    </ClInclude>
-    <ClInclude Include="Mario\Model\BrowserFireShot.h">
-      <Filter>Header Files\Mario\Model</Filter>
-    </ClInclude>
-    <ClInclude Include="Mario\Model\Browser.h">
       <Filter>Header Files\Mario\Model</Filter>
     </ClInclude>
     <ClInclude Include="Mario\Model\BlockItem.h">

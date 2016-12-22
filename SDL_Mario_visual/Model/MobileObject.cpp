@@ -61,16 +61,8 @@ Object* MobileObject::moveAnyway(CollisionMap& map, int direction, float timeFac
 	int moveValue = calcMoveValue(moveSpeed_*timeFactor, direction);
 	calcOnce_ = false;
 	Object* ret = map.checkForSpace(moveValue, direction, rectCollision_);
-	//if(ret == nullptr || ret->getId() != BORDER_ID)
-	//{
-		map.repositionCollision(moveValue, direction, *this);
-		move(direction, timeFactor);
-	//}
-	//else
-	//{
-	//    horizontalMove_ -= (int)horizontalMove_;
-  //      verticalMove_ -= (int)verticalMove_;
-  //  }
+	map.repositionCollision(moveValue, direction, *this);
+	move(direction, timeFactor);
 	return ret;
 }
 
@@ -78,16 +70,8 @@ Object* MobileObject::moveAnyway(CollisionMap& map, int direction, int pixels)
 {
 	int moveValue = pixels;
 	Object* ret = map.checkForSpace(moveValue, direction, rectCollision_);
-	//if(ret == nullptr || ret->getId() != BORDER_ID)
-	//{
-		map.repositionCollision(moveValue, direction, *this);
-		applyMoveToRects(direction, pixels);
-	//}
-	//else
-	//{
-	//    horizontalMove_ -= (int)horizontalMove_;
-  //      verticalMove_ -= (int)verticalMove_;
-  //  }
+	map.repositionCollision(moveValue, direction, *this);
+	applyMoveToRects(direction, pixels);
 	return ret;
 }
 
@@ -105,7 +89,6 @@ int MobileObject::calcMoveValue(float floatMoveValue, int direction)
 		horizontalMove_ -= floatMoveValue;
 		break;
 	case RIGHT:
-		//horizontalMove_ -= floatMoveValue;
 		horizontalMove_ += floatMoveValue;
 		break;
 	case DIRECTION_NONE:

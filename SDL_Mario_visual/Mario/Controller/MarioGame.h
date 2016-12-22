@@ -1,11 +1,9 @@
 #pragma once
 
 #include "../../List/List.h"
-#include "../../List/List.hpp"
 
 #include "../../Controller/Controller.h"
 #include "../Model/Mario.h"
-#include "Level1Factory.h"
 #include "../View/Interface.h"
 
 #define TRANSPARENT_PIC_COLOR 0xFF00FF
@@ -86,7 +84,6 @@ public:
 
 	GameBase* createObjectByIdentify(char identificator);
 
-	void clearActionInactives();//For debbuging
 	Mario* copyMario();
 
 	int getLives();

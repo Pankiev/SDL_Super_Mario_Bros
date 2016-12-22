@@ -27,8 +27,6 @@
 #include "../Model/Coin.h"
 #include "../Model/PipeEnterController.h"
 #include "../Model/EndFlagController.h"
-#include "../Model/MovingPlatformElement.h"
-#include "../Model/Browser.h"
 
 #include "loadConstants.h"
 #include "../../ApplicationError.h"
@@ -74,13 +72,6 @@ void MarioGame::run()
 	loadTextures();
 	SDL_SetRenderDrawColor(getRenderer(), 92, 148, 252, 255);
 
-	/*Object bg;
-	bg.setTexture(textures_.getTexture(TEXTURE_UNDERGROUND_END_UP));
-	bg.setBothPosition(0,320);
-	bg.queryTexture();
-	addImage(&bg);*/
-
-
 	audio_.loadChunkSounds();
 	audio_.setMusicVolume(20);
 	audio_.setEfxVolume(50);
@@ -93,8 +84,6 @@ void MarioGame::run()
 	freezeGameTimer();
 	text_->showFirstScreen();
 
-	//produceGameObject(new PiranhaPlantGreen(*this), 100, 600);
-
 	gameTimer_.reset();
 	while(!(isGameOver()))
 	{
@@ -104,7 +93,6 @@ void MarioGame::run()
 		text_->action();
 		window_.renderClear();
 		window_.renderPart(getMarioCamera());
-		//debugRenderCollisionPoints(getMarioCamera());
 		window_.showImage();
 		clearGarbage();
 	}
@@ -341,8 +329,6 @@ GameBase* MarioGame::createObjectByIdentify(char identificator)
 	case IDENTIFY_COIN:                     return new Coin(*this);
 	case IDENTIFY_PIPE_ENTER_CONTROLLER:    return new PipeEnterController(*this);
 	case IDENTIFY_END_FLAG_CONTROLLER:      return new EndFlagController(*this);
-	case IDENTIFY_BROWSER:                  return new Browser(*this);
-	case IDENTIFY_MOVING_PLATFORM_ELEMENT:  return new MovingPlatformElement(*this);
 	case IDENTIFY_MARIO: return new Mario(*this);
 	default:
 		printf("CreateObjectByIdentify in MarioGame.cpp\n");
@@ -401,16 +387,7 @@ void MarioGame::loadCurrentStageType()
 	}
 }
 
-void MarioGame::clearActionInactives()//For debugging
-{
-	for(ListIterator<GameBase*> i = otherObjects_.begin(); i != otherObjects_.end();)
-	{
-		if(!((*i)->isAlive()))
-			i = otherObjects_.erase(i);
-		else
-			++i;
-	}
-}
+
 
 void MarioGame::timeUpdate()
 {
