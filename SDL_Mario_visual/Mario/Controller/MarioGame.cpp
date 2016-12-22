@@ -34,9 +34,17 @@
 #include "../../ApplicationError.h"
 #include "../../StringUtilities.h"
 
+
 MarioGame::MarioGame()
 {
 	srand(time(NULL));
+	initFields();
+	marioChar_ = nullptr;
+	stringFactory_ = nullptr;
+}
+
+void MarioGame::initFields()
+{
 	gameWidth_ = GAME_WIDTH;
 	gameHeight_ = GAME_HEIGHT;
 	points_ = STARTING_POINTS;
@@ -46,8 +54,6 @@ MarioGame::MarioGame()
 	currentStageType_ = STAGE_OVERWORLD;
 
 	gameTimer_.setActionsPerSec(2.5f);
-	marioChar_ = nullptr;
-	stringFactory_ = nullptr;
 	gameLoad_ = false;
 	changingTimeToScore_ = false;
 	currentStage_[0] = 1;
@@ -239,16 +245,19 @@ void MarioGame::loadGame(const char* filePath)
 
 	FILE* file = fopen(filePath, "r");
 
+	char* line = new char[100];
+	line[0] = NULL;
 	if(file != NULL)
 	{
 		loadCollMap(file);
 		map_->update(marioChar_);
 		loadStageType(file);
 
-		char line[100] = { '\0' };
 		readLine(line, file);
+		int debugCounter = 0;
 		while(size(line) > 0)
 		{
+			debugCounter++;
 			GameBase* loadedObject = createObjectByIdentify(line[0]);
 
 			erase((char*)line, 0, 2);
@@ -267,6 +276,7 @@ void MarioGame::loadGame(const char* filePath)
 		printf("Bad load: %s\n", filePath);
 		throw *(new ApplicationError);
 	}
+	//delete[] line;
 }
 
 void MarioGame::addPoints(int points)
@@ -440,6 +450,12 @@ void MarioGame::timesUpHandle()
 		if(!(marioChar_->isDying()))
 			marioChar_->die();
 	}
+}
+
+void MarioGame::newGame()
+{
+	initFields();
+	sameLevel();
 }
 
 Mario* MarioGame::copyMario()

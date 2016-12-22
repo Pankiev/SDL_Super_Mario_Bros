@@ -38,8 +38,9 @@ void Interface::loadStrings()
 	interface_[6].reloadText(&strFac_, "1-1", FONT_MARIO, 15);
 	interface_[7].reloadText(&strFac_, "x", FONT_MARIO, 15);
 
-	interface_[8].reloadText(&strFac_, "Remastered by Pankiev", FONT_MARIO, 15);
-	interface_[9].reloadText(&strFac_, "Press Enter", FONT_MARIO, 15);
+	interface_[8].reloadText(&strFac_, "Tak bardzo moj projekt :)", FONT_MARIO, 15);
+	interface_[9].reloadText(&strFac_, "Press n-play", FONT_MARIO, 15);
+	interface_[10].reloadText(&strFac_, "Lives", FONT_MARIO, 15);
 
 	interface_[5].setShowingPosition(190,500);
 	interface_[6].setShowingPosition(280,500);
@@ -47,6 +48,7 @@ void Interface::loadStrings()
 
 	interface_[8].setShowingPosition(100, 610);
 	interface_[9].setShowingPosition(175, 650);
+	interface_[10].setShowingPosition(150, 500);
 
 	livesString_.setShowingPosition(290, 560);
 
@@ -54,6 +56,7 @@ void Interface::loadStrings()
 	timeString_.reloadText(&strFac_, "400", FONT_MARIO, 15);
 	coinsString_.reloadText(&strFac_, "00", FONT_MARIO, 15);
 	livesString_.reloadText(&strFac_,"3", FONT_MARIO, 15);
+	livesStringCopy_.reloadText(&strFac_, "3", FONT_MARIO, 15);
 }
 
 void Interface::action()
@@ -94,6 +97,8 @@ void Interface::repostionWithMarioCamera()
 	interface_[2].setShowingPosition(camera.x + 400, 360);
 	interface_[3].setShowingPosition(camera.x + 295, 385);
 	interface_[4].setShowingPosition(camera.x + 195, 385);
+	interface_[10].setShowingPosition(camera.x + 400, 420);
+	livesStringCopy_.setShowingPosition(camera.x + 455, 445);
 	pointsString_.setShowingPosition(camera.x + 40, 385);
 	timeString_.setShowingPosition(camera.x + 415, 385);
 	coinsString_.setShowingPosition(camera.x + 210, 385);
@@ -110,6 +115,8 @@ void Interface::addStrings()
 	game_.addImage(&timeString_);
 	game_.addImage(&coin_);
 	game_.addImage(&coinsString_);
+	game_.addImage(&livesStringCopy_);
+	game_.addImage(&interface_[10]);
 }
 
 void Interface::pointsUpdate(int points)
@@ -206,6 +213,7 @@ void Interface::livesUpdate(int lives)
 	char livesStr[4];
 	_itoa_s(lives, livesStr, 10);
 	livesString_.reloadText(&strFac_, livesStr, FONT_MARIO, 15);
+	livesStringCopy_.reloadText(&strFac_, livesStr, FONT_MARIO, 15);
 }
 
 void Interface::showFirstScreen()

@@ -32,11 +32,12 @@ private:
     void showFirstScreenHandle();
 
     StringFactory& strFac_;
-    SdlString interface_[10];
+    SdlString interface_[11];
     NewString pointsString_;
     NewString timeString_;
     NewString coinsString_;
     NewString livesString_;
+	NewString livesStringCopy_;
     InterfaceCoin coin_;
     MarioGame& game_;
     Timer infoScreenTimer_;

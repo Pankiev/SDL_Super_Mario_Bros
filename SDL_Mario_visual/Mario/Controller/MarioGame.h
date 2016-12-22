@@ -66,6 +66,7 @@ public:
 	void loadNextLevel();
 	void nextLevel();
 	void sameLevel();
+	void newGame();
 	void onMarioDeath();
 
 	void loadCurrentStageType();
@@ -91,6 +92,7 @@ public:
 
 private:
 
+	void initFields();
 	void loadGameFromObjectField();
 	const char* createCurrentLevelPath();
 
