@@ -44,7 +44,7 @@ void EndFlagController::setFlagXPosition(int flagXPosition)
 
 void EndFlagController::saveObject(FILE* file)
 {
-	fprintf(file, "%c %d \n", identify(), flagXPosition_);q
+	fprintf(file, "%c %d \n", identify(), flagXPosition_);
 }
 
 const char* EndFlagController::loadObject(const char* objectLine)

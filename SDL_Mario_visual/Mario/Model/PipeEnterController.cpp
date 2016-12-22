@@ -85,8 +85,8 @@ const char* PipeEnterController::loadObject(const char* objectLine)
     for(; counter < 7; i++,counter++)
     {
         char value[100] = {'\0'};
-        for(; objectLine[i] != ' '; i++)
-            value[i] = objectLine[i];
+        for(int valueStr = 0; objectLine[i] != ' '; i++, valueStr++)
+            value[valueStr] = objectLine[i];
 		value[i + 1] = '\0';
         if(counter == 0)
             enterPoint_.x = atoi(value);
@@ -101,7 +101,7 @@ const char* PipeEnterController::loadObject(const char* objectLine)
         else if(counter == 5)
             levelLoadMarioPosition_.y = atoi(value);
         else
-            levelLoadPath_ = value;
+            levelLoadPath_ = strCopy(value);
     }
 	erase((char*)objectLine, 0, i);
 

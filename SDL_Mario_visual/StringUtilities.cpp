@@ -38,3 +38,12 @@ char* readLine(char* destination, FILE* from)
 	destination[i] = NULL;
 	return destination;
 }
+
+char* strCopy(char* str)
+{
+	int strSize = size(str);
+	char* copy = new char[strSize+1];
+	for (int i = 0; i < strSize + 1; i++)
+		copy[i] = str[i];
+	return copy;
+}

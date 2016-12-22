@@ -34,7 +34,7 @@ void HardwareController::handle()
     keyboardDisposableAction();
     mouseAction();
 }
-
+ 
 void HardwareController::keyboardConstantAction()
 {
     keyState_ = SDL_GetKeyboardState(NULL);
