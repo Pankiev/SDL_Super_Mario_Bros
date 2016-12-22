@@ -3627,3 +3627,982 @@
 1469817629 source:c:\users\pankiev\desktop\sdl_mario\view\window.cpp
 	"Window.h"
 
+1469389478 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\controller\controller.cpp
+	"Controller.h"
+
+1469204571 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\controller\controller.h
+	<SDL.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+	<SDL_image.h>
+	<iostream>
+	"../View/Window.h"
+	"../View/TextureHolder.h"
+	"../Model/CollisionMap.h"
+	"../View/SdlString.h"
+	"../View/StringFactory.h"
+	"../View/Audio.h"
+	"../Model/MobileObject.h"
+	"Timer.h"
+	"HardwareController.h"
+
+1394937196 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937197 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1394937197 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1429188960 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1394937197 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1394937197 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\close_code.h
+
+1394937196 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1394937196 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1394937197 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937197 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1394937197 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937197 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937197 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937197 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937197 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1394937197 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1394937196 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937197 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1394937196 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937197 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937196 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937197 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937197 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937197 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937197 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1394937197 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376152825 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_mixer.h
+	"SDL_stdinc.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376152943 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1376152742 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\i686-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1469204283 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\view\window.h
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	"Renderer.h"
+
+1469204305 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\view\renderer.h
+	<SDL.h>
+	<iostream>
+	<list>
+	"../Model/Object.h"
+	"SdlString.h"
+
+1469355789 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\model\object.h
+	<SDL.h>
+	<iostream>
+
+1466455757 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\view\sdlstring.h
+	<SDL.h>
+	<SDL_ttf.h>
+	<iostream>
+	"StringFactory.h"
+	"../Model/Object.h"
+
+1466608944 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\view\stringfactory.h
+	<SDL_ttf.h>
+	<iostream>
+
+1470842150 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\view\textureholder.h
+	<SDL.h>
+	<SDL_image.h>
+	<iostream>
+
+1470077132 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\model\collisionmap.h
+	"Object.h"
+
+1470838938 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\view\audio.h
+	<SDL_mixer.h>
+	<iostream>
+
+1470934477 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\model\mobileobject.h
+	"Object.h"
+
+1466772392 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\controller\timer.h
+	<SDL.h>
+
+1466191920 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\controller\hardwarecontroller.h
+	<SDL.h>
+
+1481900331 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\controller\hardwarecontroller.cpp
+	"../Mario/Controller/MarioGame.h"
+	"../Mario/Model/ActiveBlock.h"
+	"../Mario/Model/HiddenUnkownBlock.h"
+	"../Mario/Model/AnimatingUnknownBlock.h"
+	"../Mario/Model/BlockCoin.h"
+	"../Mario/Model/Mushroom1UP.h"
+	"../Mario/Model/GoombasBrown.h"
+	"../Mario/Model/GoombasBlue.h"
+	"../Mario/Model/KoopaGreen.h"
+	"../Mario/Model/KoopaBlue.h"
+	"../Mario/Model/KoopaRed.h"
+	"../Mario/Model/PiranhaPlantGreen.h"
+	"../Mario/Model/PiranhaPlantBlue.h"
+	"../Mario/Model/Browser.h"
+	"../Mario/Model/BrowserFireShot.h"
+	"../Mario/Controller/MarioAnimation.h"
+	"../Mario/Model/MoneyBlock.h"
+	"../Mario/Model/Star.h"
+	"../Mario/Model/MovingPlatformElement.h"
+	"../Mario/Controller/SpecalObjectsFactory.h"
+	"../Mario/Model/PipeEnterController.h"
+	"../Mario/Model/EndFlagController.h"
+
+1481822628 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\controller\mariogame.h
+	<list>
+	"../../Controller/Controller.h"
+	"../Model/Mario.h"
+	"Level1Factory.h"
+	"../View/Interface.h"
+
+1469473794 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\mario.h
+	"Mob.h"
+	"../../Controller/Timer.h"
+
+1470843890 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\mob.h
+	"AbstractMob.h"
+	"../../Controller/Timer.h"
+
+1469374229 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\abstractmob.h
+	"GameBase.h"
+	"../Controller/AnimationSet.h"
+
+1470934016 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\gamebase.h
+	"../../Model/MobileObject.h"
+	<fstream>
+
+1469451495 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\controller\animationset.h
+	<SDL.h>
+
+1467628018 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\controller\level1factory.h
+
+1469476785 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\view\interface.h
+	"../../View/SdlString.h"
+	"../../Model/NewString.h"
+	"InterfaceCoin.h"
+	"../../Controller/Timer.h"
+
+1466861477 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\model\newstring.h
+	"../View/SdlString.h"
+
+1467726080 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\view\interfacecoin.h
+	"../Model/GameBase.h"
+	"../../Model/ManyPicAnimation.h"
+
+1466536418 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\model\manypicanimation.h
+	<vector>
+	"AbstractAnimation.h"
+
+1467921167 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\model\abstractanimation.h
+	"Object.h"
+	"../Controller/Timer.h"
+
+1469221677 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\activeblock.h
+	"Block.h"
+
+1469353047 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\block.h
+	"GameBase.h"
+	"Debris.h"
+	"../../Controller/Timer.h"
+
+1470062204 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\debris.h
+	"AbstractMob.h"
+	"../../Model/AbstractAnimation.h"
+
+1469221724 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\hiddenunkownblock.h
+	"UnknownBlock.h"
+
+1469221694 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\unknownblock.h
+	"ActiveBlock.h"
+	"../../Model/ManyPicAnimation.h"
+	"LevelUpFlower.h"
+
+1467878625 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\levelupflower.h
+	"Mushroom.h"
+	"../../Model/ManyPicAnimation.h"
+
+1469221747 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\mushroom.h
+	"BlockItem.h"
+	"../../Controller/Timer.h"
+
+1469221682 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\blockitem.h
+	"Mob.h"
+
+1469221751 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\animatingunknownblock.h
+	"UnknownBlock.h"
+
+1469221772 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\blockcoin.h
+	"AbstractMob.h"
+	"../../Model/ManyPicAnimation.h"
+	"../../Controller/Timer.h"
+	"Coin.h"
+
+1469351793 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\coin.h
+	"GameBase.h"
+	"../../Model/ManyPicAnimation.h"
+
+1469221776 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\mushroom1up.h
+	"Mushroom.h"
+
+1470742149 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\goombasbrown.h
+	"Goombas.h"
+
+1470742190 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\goombas.h
+	"Mob.h"
+	"../Controller/GoombasAnimation.h"
+
+1470060197 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\controller\goombasanimation.h
+	"AnimationSet.h"
+	"../../Model/ManyPicAnimation.h"
+
+1470742189 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\goombasblue.h
+	"Goombas.h"
+
+1470741828 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\koopagreen.h
+	"Koopa.h"
+
+1470741950 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\koopa.h
+	"Mob.h"
+	"../../Model/ManyPicAnimation.h"
+	"../../Controller/Timer.h"
+
+1470741860 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\koopablue.h
+	"Koopa.h"
+
+1470741758 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\koopared.h
+	"Koopa.h"
+
+1470072651 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\piranhaplantgreen.h
+	"PiranhaPlant.h"
+
+1470084850 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\piranhaplant.h
+	"Mob.h"
+	"../../Model/ManyPicAnimation.h"
+
+1470080773 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\piranhaplantblue.h
+	"PiranhaPlant.h"
+
+1470844384 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\browser.h
+	"Mob.h"
+
+1470844453 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\browserfireshot.h
+	"Mob.h"
+	"../../Model/ManyPicAnimation.h"
+
+1469451710 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\controller\marioanimation.h
+	"AnimationSet.h"
+	"../../Model/ManyPicAnimation.h"
+
+1469822121 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\moneyblock.h
+	"ActiveBlock.h"
+	"../../Model/ManyPicAnimation.h"
+
+1469222039 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\star.h
+	"BlockItem.h"
+	"../../Model/ManyPicAnimation.h"
+
+1470934042 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\movingplatformelement.h
+	"GameBase.h"
+
+1469913744 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\controller\specalobjectsfactory.h
+	"MarioGame.h"
+
+1469363549 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\pipeentercontroller.h
+	"GameBase.h"
+	"../Controller/MarioGame.h"
+	"../../Controller/Timer.h"
+
+1469455584 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\endflagcontroller.h
+	"GameBase.h"
+
+1466927245 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\controller\timer.cpp
+	"Timer.h"
+
+1466614200 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\main.cpp
+	"Mario/Controller/MarioGame.h"
+
+1466605462 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\controller\animationset.cpp
+	"AnimationSet.h"
+
+1470836736 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\controller\browseranimation.cpp
+	"BrowserAnimation.h"
+	"MarioGame.h"
+
+1470836699 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\controller\browseranimation.h
+	"AnimationSet.h"
+	"../../Model/ManyPicAnimation.h"
+
+1470060306 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\controller\goombasanimation.cpp
+	"GoombasAnimation.h"
+	"MarioGame.h"
+
+1470061142 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\controller\goombasblueanimation.cpp
+	"GoombasBlueAnimation.h"
+	"MarioGame.h"
+
+1470061377 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\controller\goombasblueanimation.h
+	"GoombasAnimation.h"
+
+1470060363 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\controller\goombasbrownanimation.cpp
+	"GoombasBrownAnimation.h"
+	"MarioGame.h"
+
+1470060352 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\controller\goombasbrownanimation.h
+	"GoombasAnimation.h"
+
+1470081082 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\controller\koopaanimation.cpp
+	"KoopaAnimation.h"
+
+1470081094 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\controller\koopaanimation.h
+	"AnimationSet.h"
+	"../../Model/ManyPicAnimation.h"
+
+1470082675 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\controller\koopablueanimation.cpp
+	"KoopaBlueAnimation.h"
+	"MarioGame.h"
+
+1470081671 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\controller\koopablueanimation.h
+	"KoopaAnimation.h"
+
+1470081081 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\controller\koopagreenanimation.cpp
+	"KoopaGreenAnimation.h"
+	"MarioGame.h"
+
+1470081061 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\controller\koopagreenanimation.h
+	"KoopaAnimation.h"
+
+1470083011 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\controller\kooparedanimation.cpp
+	"KoopaRedAnimation.h"
+	"MarioGame.h"
+
+1470082973 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\controller\kooparedanimation.h
+	"KoopaAnimation.h"
+
+1467628066 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\controller\level1factory.cpp
+	"Level1Factory.h"
+	"MarioGame.h"
+	"../Model/ActiveBlock.h"
+
+1475786207 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\controller\marioanimation.cpp
+	<cmath>
+	"MarioAnimation.h"
+	"MarioGame.h"
+
+1481823421 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\controller\mariogame.cpp
+	<fstream>
+	<cstdlib>
+	<ctime>
+	"MarioGame.h"
+	"MarioAnimation.h"
+	"../Model/GoombasBrown.h"
+	"../Model/GoombasBlue.h"
+	"../Model/KoopaGreen.h"
+	"../Model/KoopaBlue.h"
+	"../Model/KoopaRed.h"
+	"../Model/PiranhaPlantGreen.h"
+	"../Model/PiranhaPlantBlue.h"
+	"../Model/AnimatingUnknownBlock.h"
+	"../Model/HiddenUnkownBlock.h"
+	"../Model/BlockCoin.h"
+	"../Model/MoneyBlock.h"
+	"../Model/LevelUpFlower.h"
+	"../Model/Star.h"
+	"../Model/EmptyBlock.h"
+	"../Model/Mushroom1UP.h"
+	"../Model/Coin.h"
+	"../Model/PipeEnterController.h"
+	"../Model/EndFlagController.h"
+	"../Model/MovingPlatformElement.h"
+	"../Model/Browser.h"
+	"loadConstants.h"
+
+1469221801 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\emptyblock.h
+	"ActiveBlock.h"
+
+1467621297 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\controller\loadconstants.h
+
+1470934726 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\controller\specalobjectsfactory.cpp
+	"SpecalObjectsFactory.h"
+	"../Model/MovingPlatformElement.h"
+
+1469454235 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\abstractmob.cpp
+	"AbstractMob.h"
+	"../Controller/MarioGame.h"
+	"PointsString.h"
+
+1468247339 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\pointsstring.h
+	"../../Controller/Timer.h"
+	"../../View/StringFactory.h"
+	"String.h"
+
+1469221804 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\string.h
+	"GameBase.h"
+	"../Controller/MarioGame.h"
+
+1470064757 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\activeblock.cpp
+	"ActiveBlock.h"
+	"../Controller/MarioGame.h"
+	"DebrisRed.h"
+	"DebrisBlue.h"
+
+1470062252 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\debrisred.h
+	"Debris.h"
+
+1470062746 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\debrisblue.h
+	"Debris.h"
+
+1468174460 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\animatingunknownblock.cpp
+	"AnimatingUnknownBlock.h"
+	"../Controller/MarioGame.h"
+
+1469981137 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\block.cpp
+	"Block.h"
+	"../Controller/MarioGame.h"
+
+1469221816 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\blockcoin.cpp
+	"BlockCoin.h"
+	"../Controller/MarioGame.h"
+
+1468066077 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\blockitem.cpp
+	"BlockItem.h"
+	"../Controller/MarioGame.h"
+
+1470845712 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\browser.cpp
+	<cstdlib>
+	"Browser.h"
+	"BrowserFireShot.h"
+	"../Controller/MarioGame.h"
+	"../Controller/BrowserAnimation.h"
+
+1470843504 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\browserfireshot.cpp
+	"BrowserFireShot.h"
+	"../Controller/MarioGame.h"
+
+1469351794 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\coin.cpp
+	"Coin.h"
+	"../Controller/MarioGame.h"
+
+1470062558 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\debris.cpp
+	"Debris.h"
+	"../Controller/MarioGame.h"
+
+1470062789 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\debrisblue.cpp
+	"DebrisBlue.h"
+	"../Controller/MarioGame.h"
+
+1470062578 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\debrisred.cpp
+	"DebrisRed.h"
+	"../Controller/MarioGame.h"
+
+1467723130 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\emptyblock.cpp
+	"EmptyBlock.h"
+	"../Controller/MarioGame.h"
+
+1469455626 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\endflagcontroller.cpp
+	<cstdlib>
+	"EndFlagController.h"
+	"../Controller/MarioGame.h"
+
+1470845712 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\fireball.cpp
+	"FireBall.h"
+	"FireWork.h"
+	"../Controller/MarioGame.h"
+
+1470840227 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\fireball.h
+	"Mob.h"
+	"../../Model/ManyPicAnimation.h"
+
+1469221826 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\firework.h
+	"../../Model/ManyPicAnimation.h"
+	"GameBase.h"
+
+1468143634 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\firework.cpp
+	"FireWork.h"
+	"../Controller/MarioGame.h"
+
+1470933339 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\gamebase.cpp
+	<cstdlib>
+	"../Controller/loadConstants.h"
+	"GameBase.h"
+	"../Controller/MarioGame.h"
+
+1470059756 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\goombas.cpp
+	"Goombas.h"
+	"../Controller/GoombasAnimation.h"
+	"../Controller/MarioGame.h"
+
+1470743001 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\goombasblue.cpp
+	"GoombasBlue.h"
+	"../Controller/GoombasBlueAnimation.h"
+	"../Controller/MarioGame.h"
+
+1470060448 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\goombasbrown.cpp
+	"GoombasBrown.h"
+	"../Controller/GoombasBrownAnimation.h"
+
+1470911220 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\hiddenunkownblock.cpp
+	"HiddenUnkownBlock.h"
+	"../Controller/MarioGame.h"
+
+1470084042 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\koopa.cpp
+	"../Controller/MarioGame.h"
+	"../Controller/KoopaAnimation.h"
+	"Koopa.h"
+	"Mario.h"
+
+1470082871 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\koopablue.cpp
+	"KoopaBlue.h"
+	"../Controller/KoopaBlueAnimation.h"
+	"../Controller/MarioGame.h"
+
+1470081402 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\koopagreen.cpp
+	"KoopaGreen.h"
+	"../Controller/KoopaGreenAnimation.h"
+
+1470084054 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\koopared.cpp
+	"KoopaRed.h"
+	"../Controller/KoopaRedAnimation.h"
+	"../Controller/MarioGame.h"
+
+1467879356 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\levelupflower.cpp
+	"LevelUpFlower.h"
+	"../Controller/MarioGame.h"
+
+1469963812 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\manyelementsobject.cpp
+
+1481822845 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\mario.cpp
+	"Mario.h"
+	"../Controller/MarioGame.h"
+	"../Controller/MarioAnimation.h"
+	"ActiveBlock.h"
+	"FireBall.h"
+
+1481901455 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\mob.cpp
+	"Mob.h"
+	"../Controller/MarioGame.h"
+
+1469822229 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\moneyblock.cpp
+	"MoneyBlock.h"
+	"../Controller/MarioGame.h"
+	"BlockCoin.h"
+	"EmptyBlock.h"
+
+1469910667 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\movingplatform.cpp
+	"MovingPlatform.h"
+
+1469910782 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\movingplatform.h
+	"GameBase.h"
+	"MovingPlatformElement.h"
+
+1470934811 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\movingplatformelement.cpp
+	<cstdlib>
+	"MovingPlatformElement.h"
+	"../Controller/MarioGame.h"
+
+1469221837 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\mushroom.cpp
+	"Mushroom.h"
+	"../Controller/MarioGame.h"
+
+1468667781 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\mushroom1up.cpp
+	"Mushroom1UP.h"
+	"../Controller/MarioGame.h"
+	"String.h"
+
+1470132500 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\pipeentercontroller.cpp
+	"PipeEnterController.h"
+	<cstdlib>
+
+1470084955 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\piranhaplant.cpp
+	"PiranhaPlant.h"
+	"../Controller/MarioGame.h"
+
+1470080516 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\piranhaplantblue.cpp
+	"PiranhaPlantBlue.h"
+	"../Controller/MarioGame.h"
+
+1470074271 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\piranhaplantgreen.cpp
+	"PiranhaPlantGreen.h"
+	"../Controller/MarioGame.h"
+
+1468247438 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\pointsstring.cpp
+	<sstream>
+	"PointsString.h"
+
+1469221840 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\star.cpp
+	"Star.h"
+	"../Controller/MarioGame.h"
+
+1468247488 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\string.cpp
+	"String.h"
+
+1468180400 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\model\unknownblock.cpp
+	"UnknownBlock.h"
+	"EmptyBlock.h"
+	"BlockCoin.h"
+	"Star.h"
+	"Mushroom1UP.h"
+	"../Controller/MarioGame.h"
+
+1470080232 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\view\interface.cpp
+	"Interface.h"
+	"../Controller/MarioGame.h"
+	<sstream>
+
+1467727113 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\mario\view\interfacecoin.cpp
+	"InterfaceCoin.h"
+	"../Controller/MarioGame.h"
+
+1467921188 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\model\abstractanimation.cpp
+	"AbstractAnimation.h"
+
+1470845218 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\model\collisionmap.cpp
+	<cmath>
+	"CollisionMap.h"
+
+1466690761 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\model\manypicanimation.cpp
+	"ManyPicAnimation.h"
+
+1470934606 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\model\mobileobject.cpp
+	<cmath>
+	"MobileObject.h"
+	"CollisionMap.h"
+
+1466861499 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\model\newstring.cpp
+	<sstream>
+	"NewString.h"
+
+1469355781 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\model\object.cpp
+	"Object.h"
+
+1466533956 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\model\spritesheetanimation.cpp
+	"SpriteSheetAnimation.h"
+
+1466533777 c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\model\spritesheetanimation.h
+	"AbstractAnimation.h"
+
+1470838945 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\view\audio.cpp
+	"Audio.h"
+
+1469204319 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\view\renderer.cpp
+	"Renderer.h"
+
+1466608531 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\view\sdlstring.cpp
+	"SdlString.h"
+
+1466608869 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\view\stringfactory.cpp
+	"StringFactory.h"
+
+1470842162 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\view\textureholder.cpp
+	"TextureHolder.h"
+
+1469814029 source:c:\users\pankiev\documents\sdl_mario_repo\sdl_mario\view\window.cpp
+	"Window.h"
+

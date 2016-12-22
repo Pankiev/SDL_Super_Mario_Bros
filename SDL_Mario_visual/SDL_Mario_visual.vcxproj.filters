@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Controller">
+      <UniqueIdentifier>{8c54b815-a618-40ce-be3d-b29ec343e472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controller">
+      <UniqueIdentifier>{50b52673-2aa3-4eba-9bb7-bec5d07780f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\View">
+      <UniqueIdentifier>{8114f1fc-6860-475e-bf37-f4f3483cd97d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\View">
+      <UniqueIdentifier>{bf703ab9-d19b-4efc-a3dc-f1e21e5bb0c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model">
+      <UniqueIdentifier>{3461ac50-704a-4735-ba74-99d6e05bf8d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{a1d0c92b-20b9-43ac-85c9-bb59e4511b8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mario">
+      <UniqueIdentifier>{7540a909-d8c9-4cbd-9e1e-f394f5536f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mario\Model">
+      <UniqueIdentifier>{4e055c25-fda0-4fc8-8727-b8ec7079a2d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mario\Controller">
+      <UniqueIdentifier>{f5fa4ca3-4fc4-4d58-945a-96e1e907c364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mario\View">
+      <UniqueIdentifier>{20e6542f-82f9-4637-86b6-130d605b9fe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mario">
+      <UniqueIdentifier>{2118b204-cd05-4b49-b59c-9b46bd4701e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mario\Controller">
+      <UniqueIdentifier>{8c5a54ef-9e99-4bf6-9f41-f5614b244b94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mario\Model">
+      <UniqueIdentifier>{230bb458-4f4c-4c0f-bad9-9530097f7152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mario\View">
+      <UniqueIdentifier>{e8ca9a23-80f8-4704-bb17-15fd956c7cec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\List">
+      <UniqueIdentifier>{d2760156-e08f-458c-bda2-0a8794729aaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\List">
+      <UniqueIdentifier>{b17b518a-4c00-4923-b568-40b2e61aca80}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Controller\Controller.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller\HardwareController.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller\Timer.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="View\Audio.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="View\Renderer.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="View\SdlString.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="View\StringFactory.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="View\TextureHolder.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="View\Window.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Controller\SpecalObjectsFactory.cpp">
+      <Filter>Source Files\Mario\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Controller\MarioGame.cpp">
+      <Filter>Source Files\Mario\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Controller\MarioAnimation.cpp">
+      <Filter>Source Files\Mario\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Controller\Level1Factory.cpp">
+      <Filter>Source Files\Mario\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Controller\KoopaRedAnimation.cpp">
+      <Filter>Source Files\Mario\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Controller\KoopaGreenAnimation.cpp">
+      <Filter>Source Files\Mario\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Controller\KoopaBlueAnimation.cpp">
+      <Filter>Source Files\Mario\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Controller\KoopaAnimation.cpp">
+      <Filter>Source Files\Mario\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Controller\GoombasBrownAnimation.cpp">
+      <Filter>Source Files\Mario\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Controller\GoombasBlueAnimation.cpp">
+      <Filter>Source Files\Mario\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Controller\GoombasAnimation.cpp">
+      <Filter>Source Files\Mario\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Controller\BrowserAnimation.cpp">
+      <Filter>Source Files\Mario\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Controller\AnimationSet.cpp">
+      <Filter>Source Files\Mario\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\AbstractMob.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\ActiveBlock.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\AnimatingUnknownBlock.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\Block.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\BlockCoin.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\BlockItem.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\Browser.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\BrowserFireShot.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\Bullet.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\Coin.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\Debris.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\DebrisBlue.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\DebrisRed.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\EmptyBlock.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\EndFlagController.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\FireBall.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\FireWork.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\GameBase.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\Goombas.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\GoombasBlue.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\GoombasBrown.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\HiddenUnkownBlock.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\Koopa.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\KoopaBlue.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\KoopaGreen.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\KoopaRed.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\LevelUpFlower.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\ManyElementsObject.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\Mario.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\Mob.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\MoneyBlock.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\MovingPlatform.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\MovingPlatformElement.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\Mushroom.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\Mushroom1UP.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\PipeEnterController.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\PiranhaPlant.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\PiranhaPlantBlue.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\PiranhaPlantGreen.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\PointsString.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\Star.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\String.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\Model\UnknownBlock.cpp">
+      <Filter>Source Files\Mario\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\View\InterfaceCoin.cpp">
+      <Filter>Source Files\Mario\View</Filter>
+    </ClCompile>
+    <ClCompile Include="Mario\View\Interface.cpp">
+      <Filter>Source Files\Mario\View</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\SpriteSheetAnimation.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\AbstractAnimation.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\CollisionMap.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\ManyPicAnimation.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\MobileObject.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\NewString.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Model\Object.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Controller\HardwareController.h">
+      <Filter>Header Files\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller\Controller.h">
+      <Filter>Header Files\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller\Timer.h">
+      <Filter>Header Files\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="View\Window.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="View\Audio.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="View\Renderer.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="View\SdlString.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="View\StringFactory.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="View\TextureHolder.h">
+      <Filter>Header Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Controller\AnimationSet.h">
+      <Filter>Header Files\Mario\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Controller\BrowserAnimation.h">
+      <Filter>Header Files\Mario\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Controller\GoombasAnimation.h">
+      <Filter>Header Files\Mario\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Controller\GoombasBlueAnimation.h">
+      <Filter>Header Files\Mario\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Controller\GoombasBrownAnimation.h">
+      <Filter>Header Files\Mario\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Controller\KoopaAnimation.h">
+      <Filter>Header Files\Mario\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Controller\KoopaBlueAnimation.h">
+      <Filter>Header Files\Mario\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Controller\KoopaGreenAnimation.h">
+      <Filter>Header Files\Mario\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Controller\KoopaRedAnimation.h">
+      <Filter>Header Files\Mario\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Controller\Level1Factory.h">
+      <Filter>Header Files\Mario\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Controller\loadConstants.h">
+      <Filter>Header Files\Mario\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Controller\MarioAnimation.h">
+      <Filter>Header Files\Mario\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Controller\MarioGame.h">
+      <Filter>Header Files\Mario\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Controller\SpecalObjectsFactory.h">
+      <Filter>Header Files\Mario\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\UnknownBlock.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\String.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\Star.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\PointsString.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\PiranhaPlantGreen.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\PiranhaPlantBlue.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\PiranhaPlant.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\PipeEnterController.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\Mushroom1UP.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\Mushroom.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\MovingPlatformElement.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\MovingPlatform.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\MoneyBlock.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\Mob.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\Mario.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\ManyElementsObject.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\LevelUpFlower.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\KoopaRed.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\KoopaGreen.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\KoopaBlue.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\Koopa.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\HiddenUnkownBlock.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\GoombasBrown.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\GoombasBlue.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\Goombas.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\GameBase.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\FireWork.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\FireBall.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\EndFlagController.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\EmptyBlock.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\DebrisRed.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\DebrisBlue.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\Debris.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\Coin.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\Bullet.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\BrowserFireShot.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\Browser.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\BlockItem.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\BlockCoin.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\Block.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\AnimatingUnknownBlock.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\ActiveBlock.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\Model\AbstractMob.h">
+      <Filter>Header Files\Mario\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\View\InterfaceCoin.h">
+      <Filter>Header Files\Mario\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Mario\View\Interface.h">
+      <Filter>Header Files\Mario\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\SpriteSheetAnimation.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\AbstractAnimation.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\CollisionMap.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\ManyPicAnimation.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\MobileObject.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\NewString.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Model\Object.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

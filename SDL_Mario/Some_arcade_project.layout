@@ -2,539 +2,9 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
-	<File name="Mario\Model\ManyElementsObject.h" open="0" top="0" tabpos="81" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="142" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\Block.cpp" open="1" top="0" tabpos="53" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="187" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\String.h" open="0" top="0" tabpos="77" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="232" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Controller\SpecalObjectsFactory.cpp" open="1" top="0" tabpos="120" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="395" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="View\StringFactory.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="134" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\Mario.cpp" open="1" top="0" tabpos="23" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="301" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\Block.h" open="1" top="0" tabpos="43" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="214" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\UnknownBlock.cpp" open="0" top="0" tabpos="54" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="433" topLine="24" />
-		</Cursor>
-	</File>
-	<File name="Mario\Controller\SpecalObjectsFactory.h" open="1" top="1" tabpos="121" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="120" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="View\TextureHolder.cpp" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="13545" topLine="151" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\Mario.h" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="479" topLine="16" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\BlockCoin.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1138" topLine="26" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\UnknownBlock.h" open="1" top="0" tabpos="48" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="235" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Controller\GoombasBrownAnimation.cpp" open="1" top="0" tabpos="73" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="210" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="View\TextureHolder.h" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="14731" topLine="195" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\Mob.cpp" open="1" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="424" topLine="9" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\BlockCoin.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="385" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\View\Interface.cpp" open="1" top="0" tabpos="64" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2575" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Controller\BrowserAnimation.h" open="1" top="0" tabpos="107" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="260" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="View\Window.cpp" open="1" top="0" tabpos="33" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="298" topLine="8" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\Mob.h" open="1" top="0" tabpos="21" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="663" topLine="4" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\BlockItem.cpp" open="1" top="0" tabpos="30" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="363" topLine="12" />
-		</Cursor>
-	</File>
-	<File name="Mario\View\Interface.h" open="1" top="0" tabpos="63" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="737" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Controller\Level1Factory.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2774" topLine="72" />
-		</Cursor>
-	</File>
-	<File name="View\Window.h" open="1" top="0" tabpos="34" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="594" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\MoneyBlock.cpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="293" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\BlockItem.h" open="1" top="0" tabpos="46" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="229" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\View\InterfaceCoin.cpp" open="1" top="0" tabpos="66" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="639" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\AbstractMob.cpp" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="551" topLine="20" />
-		</Cursor>
-	</File>
-	<File name="main.cpp" open="0" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="204" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\MoneyBlock.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="242" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\Browser.cpp" open="1" top="0" tabpos="106" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="451" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\View\InterfaceCoin.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="212" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Controller\loadConstants.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="225" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\EmptyBlock.h" open="0" top="0" tabpos="48" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="232" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\MovingPlatform.cpp" open="1" top="0" tabpos="116" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="321" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\Browser.h" open="1" top="0" tabpos="105" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="571" topLine="5" />
-		</Cursor>
-	</File>
-	<File name="Model\AbstractAnimation.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="234" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\ActiveBlock.cpp" open="1" top="0" tabpos="29" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1833" topLine="62" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\EndFlagController.cpp" open="1" top="0" tabpos="60" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1183" topLine="34" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\MovingPlatform.h" open="0" top="0" tabpos="73" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="294" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\BrowserFireShot.cpp" open="1" top="0" tabpos="113" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="726" topLine="9" />
-		</Cursor>
-	</File>
-	<File name="Model\AbstractAnimation.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="126" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Controller\MarioAnimation.cpp" open="0" top="0" tabpos="55" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="0" topLine="144" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\EndFlagController.h" open="1" top="0" tabpos="59" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="435" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\MovingPlatformElement.cpp" open="1" top="0" tabpos="118" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1341" topLine="45" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\BrowserFireShot.h" open="1" top="0" tabpos="112" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="475" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Model\CollisionMap.cpp" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="6731" topLine="209" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\AnimatingUnknownBlock.cpp" open="1" top="0" tabpos="58" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="163" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\FireBall.cpp" open="1" top="0" tabpos="101" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="300" topLine="6" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\MovingPlatformElement.h" open="1" top="0" tabpos="119" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="575" topLine="8" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\Coin.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="251" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Model\CollisionMap.h" open="1" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="368" topLine="10" />
-		</Cursor>
-	</File>
-	<File name="Controller\Controller.cpp" open="1" top="0" tabpos="20" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="6235" topLine="220" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\FireBall.h" open="1" top="0" tabpos="102" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="191" topLine="1" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\Mushroom.cpp" open="1" top="0" tabpos="27" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="478" topLine="6" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\Coin.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="505" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Model\ManyPicAnimation.cpp" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="385" topLine="19" />
-		</Cursor>
-	</File>
-	<File name="Mario\Controller\GoombasBlueAnimation.cpp" open="1" top="0" tabpos="75" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="204" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\FireWork.cpp" open="1" top="0" tabpos="111" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="458" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\Mushroom.h" open="1" top="0" tabpos="47" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="314" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\Debris.cpp" open="1" top="0" tabpos="78" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="482" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Model\ManyPicAnimation.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="132" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Controller\KoopaRedAnimation.h" open="1" top="0" tabpos="99" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="190" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\FireWork.h" open="1" top="0" tabpos="114" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="242" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\Mushroom1UP.cpp" open="1" top="0" tabpos="25" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="386" topLine="0" />
-		</Cursor>
-	</File>
 	<File name="Mario\Controller\Level1Factory.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="346" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\Debris.h" open="1" top="0" tabpos="44" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="342" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Model\MobileObject.cpp" open="1" top="0" tabpos="28" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2177" topLine="67" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\ActiveBlock.h" open="1" top="0" tabpos="45" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="107" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\GameBase.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="3031" topLine="122" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\Mushroom1UP.h" open="1" top="0" tabpos="26" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="261" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Controller\KoopaGreenAnimation.h" open="1" top="0" tabpos="91" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="192" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\DebrisBlue.cpp" open="1" top="0" tabpos="82" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="294" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Model\MobileObject.h" open="1" top="0" tabpos="40" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="622" topLine="2" />
-		</Cursor>
-	</File>
-	<File name="Mario\Controller\GoombasBlueAnimation.h" open="1" top="0" tabpos="74" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="197" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\GameBase.h" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="464" topLine="12" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\PipeEnterController.cpp" open="1" top="0" tabpos="61" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="545" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Controller\HardwareController.h" open="1" top="0" tabpos="52" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="203" topLine="2" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\DebrisBlue.h" open="1" top="0" tabpos="81" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="182" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Model\NewString.cpp" open="1" top="0" tabpos="37" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="223" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Controller\GoombasAnimation.h" open="1" top="0" tabpos="68" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="304" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\Goombas.cpp" open="1" top="0" tabpos="67" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="346" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\PipeEnterController.h" open="1" top="0" tabpos="62" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="989" topLine="10" />
-		</Cursor>
-	</File>
-	<File name="Mario\Controller\MarioGame.cpp" open="1" top="0" tabpos="51" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="6697" topLine="340" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\DebrisRed.cpp" open="1" top="0" tabpos="80" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="66" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Model\NewString.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="87" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Controller\GoombasAnimation.cpp" open="1" top="0" tabpos="69" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="160" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\Goombas.h" open="1" top="0" tabpos="42" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="324" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\PiranhaPlant.cpp" open="1" top="0" tabpos="84" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1383" topLine="54" />
-		</Cursor>
-	</File>
-	<File name="Controller\Timer.cpp" open="1" top="0" tabpos="57" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="351" topLine="13" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\DebrisRed.h" open="1" top="0" tabpos="79" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="184" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Model\Object.cpp" open="1" top="0" tabpos="39" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="564" topLine="23" />
-		</Cursor>
-	</File>
-	<File name="Controller\Controller.h" open="1" top="0" tabpos="24" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="844" topLine="34" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\GoombasBlue.cpp" open="1" top="0" tabpos="77" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="261" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\PiranhaPlant.h" open="1" top="0" tabpos="83" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="608" topLine="15" />
-		</Cursor>
-	</File>
-	<File name="Controller\HardwareController.cpp" open="1" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="8367" topLine="205" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\EmptyBlock.cpp" open="1" top="0" tabpos="31" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="494" topLine="3" />
-		</Cursor>
-	</File>
-	<File name="Model\Object.h" open="1" top="0" tabpos="38" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2153" topLine="19" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\AbstractMob.h" open="1" top="0" tabpos="22" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="972" topLine="12" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\GoombasBlue.h" open="1" top="0" tabpos="76" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="73" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\PiranhaPlantBlue.cpp" open="1" top="0" tabpos="88" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="359" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Controller\KoopaAnimation.h" open="1" top="0" tabpos="90" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="379" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Model\SpriteSheetAnimation.cpp" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="338" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Controller\KoopaRedAnimation.cpp" open="1" top="0" tabpos="100" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="234" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\KoopaBlue.h" open="1" top="0" tabpos="97" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="218" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\GoombasBrown.cpp" open="1" top="0" tabpos="71" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="182" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="Mario\Model\PiranhaPlantBlue.h" open="1" top="0" tabpos="87" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
@@ -542,19 +12,19 @@
 			<Cursor1 position="252" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="Mario\Controller\KoopaBlueAnimation.h" open="1" top="0" tabpos="94" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Mario\Controller\BrowserAnimation.cpp" open="1" top="0" tabpos="108" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="2" topLine="0" />
+			<Cursor1 position="575" topLine="4" />
 		</Cursor>
 	</File>
-	<File name="Model\SpriteSheetAnimation.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+	<File name="Model\NewString.cpp" open="1" top="0" tabpos="37" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="152" topLine="0" />
+			<Cursor1 position="223" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="Mario\Controller\KoopaGreenAnimation.cpp" open="1" top="0" tabpos="96" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+	<File name="Mario\Model\Coin.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="0" topLine="0" />
+			<Cursor1 position="251" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="Mario\Model\KoopaGreen.cpp" open="1" top="0" tabpos="93" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
@@ -562,9 +32,14 @@
 			<Cursor1 position="27" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="Mario\Model\GoombasBrown.h" open="1" top="0" tabpos="70" split="0" active="1" splitpos="0" zoom_1="6" zoom_2="0">
+	<File name="Mario\Model\Goombas.h" open="1" top="0" tabpos="42" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="74" topLine="0" />
+			<Cursor1 position="324" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Controller\MarioAnimation.cpp" open="1" top="1" tabpos="122" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="144" />
 		</Cursor>
 	</File>
 	<File name="Mario\Model\PiranhaPlantGreen.cpp" open="1" top="0" tabpos="86" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
@@ -572,19 +47,19 @@
 			<Cursor1 position="222" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="Mario\Controller\AnimationSet.h" open="1" top="0" tabpos="109" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+	<File name="Controller\Controller.h" open="1" top="0" tabpos="24" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="163" topLine="0" />
+			<Cursor1 position="844" topLine="34" />
 		</Cursor>
 	</File>
-	<File name="View\Audio.cpp" open="1" top="0" tabpos="19" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+	<File name="Model\NewString.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="2378" topLine="30" />
+			<Cursor1 position="87" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="Mario\Controller\KoopaBlueAnimation.cpp" open="1" top="0" tabpos="95" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+	<File name="Mario\Model\Coin.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="696" topLine="0" />
+			<Cursor1 position="505" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="Mario\Model\KoopaGreen.h" open="1" top="0" tabpos="92" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
@@ -592,119 +67,9 @@
 			<Cursor1 position="222" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="Mario\Model\HiddenUnkownBlock.cpp" open="1" top="0" tabpos="117" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+	<File name="Mario\Model\GoombasBlue.cpp" open="1" top="0" tabpos="77" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="633" topLine="19" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\PiranhaPlantGreen.h" open="1" top="0" tabpos="85" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="12" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Controller\Timer.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="232" topLine="1" />
-		</Cursor>
-	</File>
-	<File name="View\Audio.h" open="1" top="0" tabpos="18" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1773" topLine="12" />
-		</Cursor>
-	</File>
-	<File name="Mario\Controller\GoombasBrownAnimation.h" open="1" top="0" tabpos="72" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="118" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\KoopaRed.cpp" open="1" top="0" tabpos="103" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="800" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\HiddenUnkownBlock.h" open="1" top="0" tabpos="49" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="284" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\PointsString.cpp" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="22" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Controller\BrowserAnimation.cpp" open="1" top="0" tabpos="108" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="575" topLine="4" />
-		</Cursor>
-	</File>
-	<File name="View\Renderer.cpp" open="1" top="0" tabpos="35" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="542" topLine="8" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\KoopaRed.h" open="1" top="0" tabpos="104" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="257" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\Koopa.cpp" open="1" top="0" tabpos="54" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="4489" topLine="164" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\PointsString.h" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="213" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Controller\KoopaAnimation.cpp" open="1" top="0" tabpos="89" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="29" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="View\Renderer.h" open="1" top="0" tabpos="36" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="610" topLine="7" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\LevelUpFlower.cpp" open="1" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="507" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\Koopa.h" open="1" top="0" tabpos="32" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="171" topLine="11" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\Star.cpp" open="1" top="0" tabpos="115" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="717" topLine="15" />
-		</Cursor>
-	</File>
-	<File name="Mario\Controller\MarioGame.h" open="1" top="0" tabpos="55" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="938" topLine="20" />
-		</Cursor>
-	</File>
-	<File name="View\SdlString.cpp" open="1" top="0" tabpos="65" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="284" topLine="6" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\LevelUpFlower.h" open="0" top="0" tabpos="23" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="163" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\KoopaBlue.cpp" open="1" top="0" tabpos="98" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="241" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="Mario\Model\Star.h" open="0" top="0" tabpos="25" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="216" topLine="0" />
+			<Cursor1 position="261" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="Mario\Controller\MarioAnimation.h" open="1" top="0" tabpos="56" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
@@ -712,9 +77,119 @@
 			<Cursor1 position="149" topLine="1" />
 		</Cursor>
 	</File>
-	<File name="View\SdlString.h" open="1" top="0" tabpos="41" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+	<File name="Mario\Model\PiranhaPlantGreen.h" open="1" top="0" tabpos="85" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="362" topLine="0" />
+			<Cursor1 position="12" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Model\Object.cpp" open="1" top="0" tabpos="39" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="662" topLine="23" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\Debris.cpp" open="1" top="0" tabpos="78" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="482" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\KoopaRed.cpp" open="1" top="0" tabpos="103" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="800" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\GoombasBlue.h" open="1" top="0" tabpos="76" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="73" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Controller\MarioGame.cpp" open="1" top="0" tabpos="51" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4238" topLine="160" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\PointsString.cpp" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="22" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Model\Object.h" open="1" top="0" tabpos="38" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="267" topLine="40" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\Debris.h" open="1" top="0" tabpos="44" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="342" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\KoopaRed.h" open="1" top="0" tabpos="104" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="257" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\GoombasBrown.cpp" open="1" top="0" tabpos="71" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="182" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Controller\MarioGame.h" open="1" top="0" tabpos="55" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2823" topLine="90" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\PointsString.h" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="213" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Model\SpriteSheetAnimation.cpp" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="338" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\LevelUpFlower.cpp" open="1" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="507" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\GoombasBrown.h" open="1" top="0" tabpos="70" split="0" active="1" splitpos="0" zoom_1="6" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="74" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Controller\SpecalObjectsFactory.cpp" open="1" top="0" tabpos="120" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="284" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\Star.cpp" open="1" top="0" tabpos="115" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="717" topLine="15" />
+		</Cursor>
+	</File>
+	<File name="Model\SpriteSheetAnimation.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="152" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\LevelUpFlower.h" open="0" top="0" tabpos="23" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="163" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Controller\SpecalObjectsFactory.h" open="1" top="0" tabpos="121" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="259" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\Star.h" open="0" top="0" tabpos="25" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="216" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="View\Audio.cpp" open="1" top="0" tabpos="19" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2378" topLine="30" />
 		</Cursor>
 	</File>
 	<File name="Mario\Model\ManyElementsObject.cpp" open="0" top="0" tabpos="82" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -722,9 +197,59 @@
 			<Cursor1 position="0" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="Mario\Model\AnimatingUnknownBlock.h" open="1" top="0" tabpos="50" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
+	<File name="Mario\Controller\loadConstants.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="293" topLine="0" />
+			<Cursor1 position="225" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="View\Audio.h" open="1" top="0" tabpos="18" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1773" topLine="12" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\ManyElementsObject.h" open="0" top="0" tabpos="81" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="142" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="View\Renderer.cpp" open="1" top="0" tabpos="35" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="630" topLine="18" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\Mario.cpp" open="1" top="0" tabpos="23" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5662" topLine="470" />
+		</Cursor>
+	</File>
+	<File name="View\Renderer.h" open="1" top="0" tabpos="36" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="946" topLine="5" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\Mario.h" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="291" topLine="6" />
+		</Cursor>
+	</File>
+	<File name="View\SdlString.cpp" open="1" top="0" tabpos="65" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="284" topLine="6" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\Mob.cpp" open="1" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="531" topLine="15" />
+		</Cursor>
+	</File>
+	<File name="View\SdlString.h" open="1" top="0" tabpos="41" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="362" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\Mob.h" open="1" top="0" tabpos="21" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="663" topLine="4" />
 		</Cursor>
 	</File>
 	<File name="Mario\Model\String.cpp" open="0" top="0" tabpos="78" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
@@ -732,14 +257,489 @@
 			<Cursor1 position="574" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="Mario\Controller\AnimationSet.cpp" open="1" top="0" tabpos="110" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Mario\Model\AbstractMob.cpp" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="37" topLine="0" />
+			<Cursor1 position="2342" topLine="102" />
 		</Cursor>
 	</File>
 	<File name="View\StringFactory.cpp" open="0" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="362" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\MoneyBlock.cpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="363" topLine="9" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\String.h" open="0" top="0" tabpos="77" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="232" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\AbstractMob.h" open="1" top="0" tabpos="22" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="972" topLine="12" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\DebrisBlue.cpp" open="1" top="0" tabpos="82" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="294" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="View\StringFactory.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="134" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\MoneyBlock.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="242" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\UnknownBlock.cpp" open="0" top="0" tabpos="54" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="433" topLine="24" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\ActiveBlock.cpp" open="1" top="0" tabpos="29" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1833" topLine="62" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\DebrisBlue.h" open="1" top="0" tabpos="81" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="182" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="View\TextureHolder.cpp" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="18" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\MovingPlatform.cpp" open="1" top="0" tabpos="116" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="321" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\UnknownBlock.h" open="1" top="0" tabpos="48" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="235" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\ActiveBlock.h" open="1" top="0" tabpos="45" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="107" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\DebrisRed.cpp" open="1" top="0" tabpos="80" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="66" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="View\TextureHolder.h" open="1" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="18949" topLine="99" />
+		</Cursor>
+	</File>
+	<File name="Mario\Controller\GoombasBlueAnimation.h" open="1" top="0" tabpos="74" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="197" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\MovingPlatform.h" open="0" top="0" tabpos="73" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="294" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\View\Interface.cpp" open="1" top="0" tabpos="64" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2575" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\AnimatingUnknownBlock.cpp" open="1" top="0" tabpos="58" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="163" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\DebrisRed.h" open="1" top="0" tabpos="79" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="184" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="View\Window.cpp" open="1" top="0" tabpos="33" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="298" topLine="8" />
+		</Cursor>
+	</File>
+	<File name="Mario\Controller\GoombasBrownAnimation.cpp" open="1" top="0" tabpos="73" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="210" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\MovingPlatformElement.cpp" open="1" top="0" tabpos="118" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1592" topLine="45" />
+		</Cursor>
+	</File>
+	<File name="Mario\Controller\GoombasBlueAnimation.cpp" open="1" top="0" tabpos="75" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="204" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\View\Interface.h" open="1" top="0" tabpos="63" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="737" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\AnimatingUnknownBlock.h" open="1" top="0" tabpos="50" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="293" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\EmptyBlock.cpp" open="1" top="0" tabpos="31" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="494" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="View\Window.h" open="1" top="0" tabpos="34" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="594" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Controller\GoombasBrownAnimation.h" open="1" top="0" tabpos="72" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="118" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\MovingPlatformElement.h" open="1" top="0" tabpos="119" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="575" topLine="8" />
+		</Cursor>
+	</File>
+	<File name="Mario\Controller\GoombasAnimation.h" open="1" top="0" tabpos="68" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="304" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\View\InterfaceCoin.cpp" open="1" top="0" tabpos="66" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="639" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\Block.cpp" open="1" top="0" tabpos="53" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="187" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\EmptyBlock.h" open="0" top="0" tabpos="48" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="232" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="0" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="204" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Controller\KoopaAnimation.cpp" open="1" top="0" tabpos="89" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="29" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\Mushroom.cpp" open="1" top="0" tabpos="27" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="174" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Controller\HardwareController.h" open="1" top="0" tabpos="52" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="203" topLine="2" />
+		</Cursor>
+	</File>
+	<File name="Mario\View\InterfaceCoin.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="212" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\Block.h" open="1" top="0" tabpos="43" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="214" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\EndFlagController.cpp" open="1" top="0" tabpos="60" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1183" topLine="34" />
+		</Cursor>
+	</File>
+	<File name="Mario\Controller\KoopaAnimation.h" open="1" top="0" tabpos="90" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="379" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\Mushroom.h" open="1" top="0" tabpos="47" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="142" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Controller\Controller.cpp" open="1" top="0" tabpos="20" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6235" topLine="220" />
+		</Cursor>
+	</File>
+	<File name="Model\AbstractAnimation.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="234" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\BlockCoin.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="674" topLine="6" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\EndFlagController.h" open="1" top="0" tabpos="59" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="435" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Controller\KoopaBlueAnimation.cpp" open="1" top="0" tabpos="95" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="696" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\Mushroom1UP.cpp" open="1" top="0" tabpos="25" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="386" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Controller\Timer.cpp" open="1" top="0" tabpos="57" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="351" topLine="13" />
+		</Cursor>
+	</File>
+	<File name="Model\AbstractAnimation.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="126" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\BlockCoin.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="385" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\FireBall.cpp" open="1" top="0" tabpos="101" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="300" topLine="6" />
+		</Cursor>
+	</File>
+	<File name="Mario\Controller\KoopaBlueAnimation.h" open="1" top="0" tabpos="94" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\Mushroom1UP.h" open="1" top="0" tabpos="26" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="261" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Controller\HardwareController.cpp" open="1" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5112" topLine="123" />
+		</Cursor>
+	</File>
+	<File name="Model\CollisionMap.cpp" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="6731" topLine="209" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\BlockItem.cpp" open="1" top="0" tabpos="30" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="363" topLine="12" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\HiddenUnkownBlock.cpp" open="1" top="0" tabpos="117" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="252" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\FireBall.h" open="1" top="0" tabpos="102" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="191" topLine="1" />
+		</Cursor>
+	</File>
+	<File name="Mario\Controller\KoopaGreenAnimation.cpp" open="1" top="0" tabpos="96" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="0" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\PipeEnterController.cpp" open="1" top="0" tabpos="61" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="545" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Controller\BrowserAnimation.h" open="1" top="0" tabpos="107" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="260" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Model\CollisionMap.h" open="1" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="161" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\BlockItem.h" open="1" top="0" tabpos="46" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="229" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\HiddenUnkownBlock.h" open="1" top="0" tabpos="49" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="284" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\FireWork.cpp" open="1" top="0" tabpos="111" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="458" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Controller\KoopaGreenAnimation.h" open="1" top="0" tabpos="91" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="192" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\PipeEnterController.h" open="1" top="0" tabpos="62" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="989" topLine="10" />
+		</Cursor>
+	</File>
+	<File name="Mario\Controller\GoombasAnimation.cpp" open="1" top="0" tabpos="69" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="160" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Model\ManyPicAnimation.cpp" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="385" topLine="19" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\Browser.cpp" open="1" top="0" tabpos="106" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="207" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\Koopa.cpp" open="1" top="0" tabpos="54" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3895" topLine="145" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\FireWork.h" open="1" top="0" tabpos="114" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="242" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Controller\KoopaRedAnimation.cpp" open="1" top="0" tabpos="100" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="234" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\PiranhaPlant.cpp" open="1" top="0" tabpos="84" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1383" topLine="54" />
+		</Cursor>
+	</File>
+	<File name="Mario\Controller\AnimationSet.cpp" open="1" top="0" tabpos="110" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="37" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Model\ManyPicAnimation.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="132" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\Browser.h" open="1" top="0" tabpos="105" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="571" topLine="5" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\Koopa.h" open="1" top="0" tabpos="32" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="171" topLine="11" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\GameBase.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="933" topLine="37" />
+		</Cursor>
+	</File>
+	<File name="Mario\Controller\KoopaRedAnimation.h" open="1" top="0" tabpos="99" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="190" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\PiranhaPlant.h" open="1" top="0" tabpos="83" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="608" topLine="15" />
+		</Cursor>
+	</File>
+	<File name="Controller\Timer.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="232" topLine="1" />
+		</Cursor>
+	</File>
+	<File name="Model\MobileObject.cpp" open="1" top="0" tabpos="28" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2150" topLine="52" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\BrowserFireShot.cpp" open="1" top="0" tabpos="113" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="726" topLine="9" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\KoopaBlue.cpp" open="1" top="0" tabpos="98" split="0" active="1" splitpos="0" zoom_1="3" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="241" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\GameBase.h" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1222" topLine="25" />
+		</Cursor>
+	</File>
+	<File name="Mario\Controller\Level1Factory.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2774" topLine="72" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\PiranhaPlantBlue.cpp" open="1" top="0" tabpos="88" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="359" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Controller\AnimationSet.h" open="1" top="0" tabpos="109" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="163" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Model\MobileObject.h" open="1" top="0" tabpos="40" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="364" topLine="5" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\BrowserFireShot.h" open="1" top="0" tabpos="112" split="0" active="1" splitpos="0" zoom_1="4" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="475" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\KoopaBlue.h" open="1" top="0" tabpos="97" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="218" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Mario\Model\Goombas.cpp" open="1" top="0" tabpos="67" split="0" active="1" splitpos="0" zoom_1="5" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="346" topLine="0" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

@@ -392,7 +392,7 @@ void MarioGame::loadCurrentStageType()
     }
 }
 
-void MarioGame::clearActionInactives()//Hardware controller debugger
+void MarioGame::clearActionInactives()//For debugging
 {
     for(std::list<GameBase*>::iterator i = otherObjects_.begin(); i != otherObjects_.end();)
     {
@@ -491,6 +491,23 @@ void MarioGame::nextLevel()
     }
 
     sameLevel();
+}
+
+void MarioGame::onMarioDeath()
+{
+    lives_--;
+    if(lives_ <= 0)
+        gameOver();
+    else
+    {
+        sameLevel();
+        Mario* newMarioChar = new Mario(*this);
+        delete marioChar_;
+        marioChar_ = newMarioChar;
+        newMarioChar->setBothPosition(100, 650);
+    }
+
+
 }
 
 void MarioGame::sameLevel()
