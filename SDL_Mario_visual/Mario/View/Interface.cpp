@@ -38,7 +38,7 @@ void Interface::loadStrings()
 	interface_[6].reloadText(&strFac_, "1-1", FONT_MARIO, 15);
 	interface_[7].reloadText(&strFac_, "x", FONT_MARIO, 15);
 
-	interface_[8].reloadText(&strFac_, "Tak bardzo moj projekt :)", FONT_MARIO, 15);
+	interface_[8].reloadText(&strFac_, "Imie Nazwisko nrIndeksu", FONT_MARIO, 15);
 	interface_[9].reloadText(&strFac_, "Press n-play", FONT_MARIO, 15);
 	interface_[10].reloadText(&strFac_, "Lives", FONT_MARIO, 15);
 

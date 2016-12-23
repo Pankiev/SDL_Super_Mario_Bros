@@ -340,6 +340,7 @@ void MarioGame::addLife()
 {
 	lives_++;
 	playSoundEfx(CHUNKSOUND_LIVES_UP);
+	text_->livesUpdate(lives_);
 }
 
 void MarioGame::loadCollMap(FILE* file)
